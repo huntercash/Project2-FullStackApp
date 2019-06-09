@@ -13,16 +13,16 @@ app = Flask(__name__)
 # app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/.sqlite"
 app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
 # ^ This is to turn off caching on static files for development.. 
-db = SQLAlchemy(app)
+# db = SQLAlchemy(app)
 
 # reflect an existing database into a new model
-Base = automap_base()
+# Base = automap_base()
 # reflect the tables
-Base.prepare(db.engine, reflect=True)
+# Base.prepare(db.engine, reflect=True)
 
 # Save references to each table
-Samples_Metadata = Base.classes.sample_metadata
-Samples = Base.classes.samples
+# Samples_Metadata = Base.classes.sample_metadata
+# Samples = Base.classes.samples
 
 # Set up Home index Route
 
@@ -32,6 +32,7 @@ def index():
     return render_template("index.html")
 
 # API DATA GOES HERE
+
 
 # Run Server
 if __name__ == '__main__':
