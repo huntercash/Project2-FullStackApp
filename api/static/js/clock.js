@@ -5,7 +5,7 @@ var startAmount = 1460000000000;
 // get todays date
 var t1 = new Date();
 // day data was pulled
-var t2 = new Date(2019, 06, 12, 0, 0, 0, 0);
+var t2 = new Date(2017, 01, 01, 0, 0, 0, 0);
 // subtract the seconds in difference
 var dif = t1.getTime() - t2.getTime();
 
@@ -26,7 +26,7 @@ document.getElementById("studentDebtClock").innerHTML = `$ ${numberWithCommas(de
 var getDebt = setInterval(function() {
     var startAmount = 1460000000000;
     var t1 = new Date();
-    var t2 = new Date(2019, 06, 12, 0, 0, 0, 0);
+    var t2 = new Date(2017, 01, 01, 0, 0, 0, 0);;
     var dif = t1.getTime() - t2.getTime();
 
 
