@@ -75,7 +75,7 @@ def names():
                          Institutions.website,
                          Institutions.city,
                          Institutions.latitude,
-                         Institutions.longitude)
+                         Institutions.longitude,)
     inst_list = []
     for unit_id, street, institution_name, state, zipcode, website, city, latitude, longitude in data:
         inst_dict = {}

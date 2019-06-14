@@ -10,7 +10,7 @@ var t2 = new Date(2017, 01, 01, 0, 0, 0, 0);
 var dif = t1.getTime() - t2.getTime();
 
 // divide it by 1000
-var Seconds_from_T1_to_T2 = dif / 1000;
+var Seconds_from_T1_to_T2 = dif / 10000;
 // get absolute value 
 var Seconds_Between_Dates = Math.abs(Seconds_from_T1_to_T2);
 currentDebt = startAmount + (Seconds_Between_Dates * 2853.88);
@@ -30,7 +30,7 @@ var getDebt = setInterval(function() {
     var dif = t1.getTime() - t2.getTime();
 
 
-    var Seconds_from_T1_to_T2 = dif / 1000;
+    var Seconds_from_T1_to_T2 = dif / 10000;
     var Seconds_Between_Dates = Math.abs(Seconds_from_T1_to_T2);
     currentDebt = startAmount + (Seconds_Between_Dates * 2853.88);
     function numberWithCommas(x) {
