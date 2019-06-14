@@ -14,6 +14,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'static','db','studentloans.sqlite')
+engine = create_engine('sqlite:///' + os.path.join(basedir, 'static','db','studentloans.sqlite')+ "?check_same_thread=False")
 
 #################################################
 # Database Setup
@@ -34,6 +35,8 @@ Base.prepare(db.engine, reflect=True)
 # Save references to each table
 Institutions = Base.classes.institutions
 
+# Create our session (link) from Python to the DB
+session = Session(engine)
 # Set up Home index Route
 
 @app.route("/")
@@ -42,40 +45,54 @@ def index():
     return render_template("index.html")
 
 # API DATA GOES HERE
-
-# @app.route("/api/institutions")
-# def names():
-#     """Return a list of institutions names."""
-
-#     # Use Pandas to perform the sql query
-#     inst = db.session.query(Institutions).statement
-#     df = pd.read_sql_query(inst, db.session.bind)
-
-#     # Return a list of the column names (sample names)
-#     return jsonify(df.columns)
+#################################################
+# Flask Routes
+#################################################
 
 
+@app.route("/api")
+def welcome():
+    """List all available api routes."""
+    return (
+        f"<center>"
+        f"<b>Available Routes:</b><br/>"
+        f"/api/institutions<br/>"
+        f"</center>"
+    )
 
+#################################################
+# Institutions
+#################################################
 
-@app.route("/institutions/<int_id>")
-def institutions(int_id):
-    """Return `'UnitID', 'institution_name', 'street', 'city', 'state', 'zipcode', 'website', 'longitude', 'latitude'`."""
-    instns = db.session.query(Institutions).statement
-    df = pd.read_sql_query(instns, db.session.bind)
+@app.route("/api/institutions")
+def names():
+    """Return a list of institutions names."""
+    data = session.query(Institutions.UnitID,
+                         Institutions.street,
+                         Institutions.institution_name,
+                         Institutions.state,
+                         Institutions.zipcode,
+                         Institutions.website,
+                         Institutions.city,
+                         Institutions.latitude,
+                         Institutions.longitude)
+    inst_list = []
+    for unit_id, street, institution_name, state, zipcode, website, city, latitude, longitude in data:
+        inst_dict = {}
+        inst_dict['unit_id'] = unit_id
+        inst_dict['institution_name'] = institution_name
+        inst_dict['street'] = street
+        inst_dict['state'] = state
+        inst_dict['zipcode'] = zipcode
+        inst_dict['website'] = website
+        inst_dict['city'] = city
+        inst_dict['latitude'] = latitude
+        inst_dict['longitude'] = longitude
 
-    # Filter the data based on the sample number and
-    # only keep rows with values above 1
-    institution_data = df, ['UnitID', 'institution_name', 'street', 'city', 'state', 'zipcode', 'website', 'longitude', 'latitude']
-    # Format the data to send as json
-    data = {
-        'unit_id': institution_data.UnitID.values.tolist(),
-        'institution_name': institution_data.institution_name.values.tolist(),
-        'street': institution_data.street.values.tolist(), 
-        # "otu_ids": sample_data.otu_id.values.tolist(),
-        # "sample_values": sample_data[sample].values.tolist(),
-        # "otu_labels": sample_data.otu_label.tolist(),
-    }
-    return jsonify(data)
+        inst_list.append(inst_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(inst_list)
 
 
 
