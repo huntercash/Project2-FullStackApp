@@ -1,5 +1,5 @@
 // Creating map object
-var myMap = L.map("map-id", {
+var myMap = L.map("map", {
   center: [39.50, -98.35],
   zoom: 7
 });
@@ -13,7 +13,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(myMap);
 
 // Link to GeoJSON
-var APILink = "/static/js/loans_by_state.geojson"
+var APILink = "static/js/loans_by_state.geojson"
 
 var geojson;
 

@@ -1,0 +1,719 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.6807365,32.601011199999995 ]
+    },
+    "properties": {
+    "State":"AL",
+    "City":"Alabama",
+    "total_seeking_aid":44731,
+    "number_awarded_loans":18369,
+    "Amount_loans_awarded":111179169
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -158.7750198,61.3025006 ]
+    },
+    "properties": {
+    "State":"AK",
+    "City":"Alaska",
+    "total_seeking_aid":2660,
+    "number_awarded_loans":913,
+    "Amount_loans_awarded":4708727
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.930907,34.1682185 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "City":"Arizona",
+    "total_seeking_aid":59396,
+    "number_awarded_loans":26869,
+    "Amount_loans_awarded":183729219
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.13137840000002,34.7519275 ]
+    },
+    "properties": {
+    "State":"AR",
+    "City":"Arkansas",
+    "total_seeking_aid":25042,
+    "number_awarded_loans":11096,
+    "Amount_loans_awarded":61725825
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.2704153,37.2718745 ]
+    },
+    "properties": {
+    "State":"CA",
+    "City":"California",
+    "total_seeking_aid":281331,
+    "number_awarded_loans":76512,
+    "Amount_loans_awarded":444826446
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.55056699999999,38.9979339 ]
+    },
+    "properties": {
+    "State":"CO",
+    "City":"Colorado",
+    "total_seeking_aid":38379,
+    "number_awarded_loans":18355,
+    "Amount_loans_awarded":107874162
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.75750699999999,41.518783500000005 ]
+    },
+    "properties": {
+    "State":"CT",
+    "City":"Connecticut",
+    "total_seeking_aid":26669,
+    "number_awarded_loans":12156,
+    "Amount_loans_awarded":68333956
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.41892059999999,39.145251 ]
+    },
+    "properties": {
+    "State":"DE",
+    "City":"Delaware",
+    "total_seeking_aid":8139,
+    "number_awarded_loans":3922,
+    "Amount_loans_awarded":21863311
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0145666,38.899348700000004 ]
+    },
+    "properties": {
+    "State":"DC",
+    "City":"District of Columbia",
+    "total_seeking_aid":9588,
+    "number_awarded_loans":4653,
+    "Amount_loans_awarded":27051814
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.8330166,27.9757279 ]
+    },
+    "properties": {
+    "State":"FL",
+    "City":"Florida",
+    "total_seeking_aid":125104,
+    "number_awarded_loans":51090,
+    "Amount_loans_awarded":312587079
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.22297569999999,32.6781248 ]
+    },
+    "properties": {
+    "State":"GA",
+    "City":"Georgia",
+    "total_seeking_aid":69407,
+    "number_awarded_loans":33685,
+    "Amount_loans_awarded":187885417
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.505,20.46 ]
+    },
+    "properties": {
+    "State":"HI",
+    "City":"Hawaii",
+    "total_seeking_aid":6980,
+    "number_awarded_loans":1846,
+    "Amount_loans_awarded":9590167
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.1424303,45.4945756 ]
+    },
+    "properties": {
+    "State":"ID",
+    "City":"Idaho",
+    "total_seeking_aid":10764,
+    "number_awarded_loans":4694,
+    "Amount_loans_awarded":24176353
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.504139,39.739318 ]
+    },
+    "properties": {
+    "State":"IL",
+    "City":"Illinois",
+    "total_seeking_aid":82402,
+    "number_awarded_loans":35627,
+    "Amount_loans_awarded":198502446
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.441277,39.7662195 ]
+    },
+    "properties": {
+    "State":"IN",
+    "City":"Indiana",
+    "total_seeking_aid":56550,
+    "number_awarded_loans":27893,
+    "Amount_loans_awarded":161449741
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.389798,41.9383166 ]
+    },
+    "properties": {
+    "State":"IA",
+    "City":"Iowa",
+    "total_seeking_aid":32940,
+    "number_awarded_loans":18733,
+    "Amount_loans_awarded":103569724
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.32007790000002,38.4987789 ]
+    },
+    "properties": {
+    "State":"KS",
+    "City":"Kansas",
+    "total_seeking_aid":27937,
+    "number_awarded_loans":13328,
+    "Amount_loans_awarded":75070353
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.76823990000001,37.8222935 ]
+    },
+    "properties": {
+    "State":"KY",
+    "City":"Kentucky",
+    "total_seeking_aid":33343,
+    "number_awarded_loans":16357,
+    "Amount_loans_awarded":89348707
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.42990970000001,30.9733766 ]
+    },
+    "properties": {
+    "State":"LA",
+    "City":"Louisiana",
+    "total_seeking_aid":36958,
+    "number_awarded_loans":17714,
+    "Amount_loans_awarded":98464887
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.0148656,45.2185133 ]
+    },
+    "properties": {
+    "State":"ME",
+    "City":"Maine",
+    "total_seeking_aid":10073,
+    "number_awarded_loans":6082,
+    "Amount_loans_awarded":33620822
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.2684162,38.806352399999994 ]
+    },
+    "properties": {
+    "State":"MD",
+    "City":"Maryland",
+    "total_seeking_aid":35316,
+    "number_awarded_loans":14428,
+    "Amount_loans_awarded":84397026
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.718067,42.062939799999995 ]
+    },
+    "properties": {
+    "State":"MA",
+    "City":"Massachusetts",
+    "total_seeking_aid":65741,
+    "number_awarded_loans":33575,
+    "Amount_loans_awarded":182636002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.41580490000001,44.9435598 ]
+    },
+    "properties": {
+    "State":"MI",
+    "City":"Michigan",
+    "total_seeking_aid":69505,
+    "number_awarded_loans":34310,
+    "Amount_loans_awarded":185474063
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.3655146,46.4418595 ]
+    },
+    "properties": {
+    "State":"MN",
+    "City":"Minnesota",
+    "total_seeking_aid":38242,
+    "number_awarded_loans":21485,
+    "Amount_loans_awarded":120323201
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.8772196,32.5851062 ]
+    },
+    "properties": {
+    "State":"MS",
+    "City":"Mississippi",
+    "total_seeking_aid":29168,
+    "number_awarded_loans":11129,
+    "Amount_loans_awarded":57968272
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.437099,38.3046615 ]
+    },
+    "properties": {
+    "State":"MO",
+    "City":"Missouri",
+    "total_seeking_aid":48595,
+    "number_awarded_loans":22764,
+    "Amount_loans_awarded":124622557
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.04478300000001,46.6797995 ]
+    },
+    "properties": {
+    "State":"MT",
+    "City":"Montana",
+    "total_seeking_aid":7729,
+    "number_awarded_loans":3742,
+    "Amount_loans_awarded":21167031
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.680902,41.5008195 ]
+    },
+    "properties": {
+    "State":"NE",
+    "City":"Nebraska",
+    "total_seeking_aid":16304,
+    "number_awarded_loans":8402,
+    "Amount_loans_awarded":42911638
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0230604,38.502032 ]
+    },
+    "properties": {
+    "State":"NV",
+    "City":"Nevada",
+    "total_seeking_aid":14996,
+    "number_awarded_loans":6360,
+    "Amount_loans_awarded":38027569
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.57992309999999,44.00123060000001 ]
+    },
+    "properties": {
+    "State":"NH",
+    "City":"New Hampshire",
+    "total_seeking_aid":13219,
+    "number_awarded_loans":8495,
+    "Amount_loans_awarded":48259449
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.7311156,40.1430058 ]
+    },
+    "properties": {
+    "State":"NJ",
+    "City":"New Jersey",
+    "total_seeking_aid":57445,
+    "number_awarded_loans":22223,
+    "Amount_loans_awarded":124507984
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.02606850000001,34.1662325 ]
+    },
+    "properties": {
+    "State":"NM",
+    "City":"New Mexico",
+    "total_seeking_aid":15670,
+    "number_awarded_loans":4901,
+    "Amount_loans_awarded":27311746
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97968,40.7056258 ]
+    },
+    "properties": {
+    "State":"NY",
+    "City":"New York",
+    "total_seeking_aid":177623,
+    "number_awarded_loans":74866,
+    "Amount_loans_awarded":412606069
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.8912675,35.2145629 ]
+    },
+    "properties": {
+    "State":"NC",
+    "City":"North Carolina",
+    "total_seeking_aid":72014,
+    "number_awarded_loans":32160,
+    "Amount_loans_awarded":190003296
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.3022655,47.467881899999995 ]
+    },
+    "properties": {
+    "State":"ND",
+    "City":"North Dakota",
+    "total_seeking_aid":8318,
+    "number_awarded_loans":4692,
+    "Amount_loans_awarded":26059268
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.6692525,40.1903624 ]
+    },
+    "properties": {
+    "State":"OH",
+    "City":"Ohio",
+    "total_seeking_aid":88479,
+    "number_awarded_loans":51744,
+    "Amount_loans_awarded":293740028
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.71655849999999,35.309765399999996 ]
+    },
+    "properties": {
+    "State":"OK",
+    "City":"Oklahoma",
+    "total_seeking_aid":32541,
+    "number_awarded_loans":14078,
+    "Amount_loans_awarded":81850783
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.5380993,44.1419049 ]
+    },
+    "properties": {
+    "State":"OR",
+    "City":"Oregon",
+    "total_seeking_aid":24518,
+    "number_awarded_loans":11686,
+    "Amount_loans_awarded":64723508
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.6046984,40.99459279999999 ]
+    },
+    "properties": {
+    "State":"PA",
+    "City":"Pennsylvania",
+    "total_seeking_aid":115234,
+    "number_awarded_loans":72984,
+    "Amount_loans_awarded":423229663
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5064508,41.5827282 ]
+    },
+    "properties": {
+    "State":"RI",
+    "City":"Rhode Island",
+    "total_seeking_aid":13601,
+    "number_awarded_loans":8157,
+    "Amount_loans_awarded":45989585
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.9470381,33.62505 ]
+    },
+    "properties": {
+    "State":"SC",
+    "City":"South Carolina",
+    "total_seeking_aid":39386,
+    "number_awarded_loans":19857,
+    "Amount_loans_awarded":113335892
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.24716409999999,44.2126995 ]
+    },
+    "properties": {
+    "State":"SD",
+    "City":"South Dakota",
+    "total_seeking_aid":7780,
+    "number_awarded_loans":5236,
+    "Amount_loans_awarded":29577196
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.97859890000001,35.830521000000005 ]
+    },
+    "properties": {
+    "State":"TN",
+    "City":"Tennessee",
+    "total_seeking_aid":54277,
+    "number_awarded_loans":21317,
+    "Amount_loans_awarded":118408740
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.0768425,31.1693363 ]
+    },
+    "properties": {
+    "State":"TX",
+    "City":"Texas",
+    "total_seeking_aid":183043,
+    "number_awarded_loans":75080,
+    "Amount_loans_awarded":440347187
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.547028,39.4997605 ]
+    },
+    "properties": {
+    "State":"UT",
+    "City":"Utah",
+    "total_seeking_aid":25932,
+    "number_awarded_loans":7996,
+    "Amount_loans_awarded":41991022
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.4477828,43.8717545 ]
+    },
+    "properties": {
+    "State":"VT",
+    "City":"Vermont",
+    "total_seeking_aid":6596,
+    "number_awarded_loans":3955,
+    "Amount_loans_awarded":22310313
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.4587861,38.0033855 ]
+    },
+    "properties": {
+    "State":"VA",
+    "City":"Virginia",
+    "total_seeking_aid":67195,
+    "number_awarded_loans":29369,
+    "Amount_loans_awarded":178202824
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0145665,38.899348700000004 ]
+    },
+    "properties": {
+    "State":"WA",
+    "City":"Washington",
+    "total_seeking_aid":43628,
+    "number_awarded_loans":16496,
+    "Amount_loans_awarded":97441879
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.1816905,38.920170500000005 ]
+    },
+    "properties": {
+    "State":"WV",
+    "City":"West Virginia",
+    "total_seeking_aid":16646,
+    "number_awarded_loans":9155,
+    "Amount_loans_awarded":55562776
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.82670490000001,44.7862968 ]
+    },
+    "properties": {
+    "State":"WI",
+    "City":"Wisconsin",
+    "total_seeking_aid":43268,
+    "number_awarded_loans":23831,
+    "Amount_loans_awarded":128857270
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.5545669,43.000325 ]
+    },
+    "properties": {
+    "State":"WY",
+    "City":"Wyoming",
+    "total_seeking_aid":4517,
+    "number_awarded_loans":1514,
+    "Amount_loans_awarded":7916626
+    }
+  }
+]
+}
