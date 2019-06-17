@@ -81,6 +81,6 @@ function makeplot() {
       }
     }
 
-    Plotly.newPlot('plot', traces,layout);
+    Plotly.newPlot('plot', traces, layout);
   };
 makeplot();
