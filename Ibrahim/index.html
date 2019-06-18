@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Student Loan Dashboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+    <!-- Plotly script -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      
+    
+      <nav class="nav justify-content-end">
+        <a class="nav-link active" href="#">Active link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#">Disabled link</a>
+      </nav>
+      <div class="jumbotron">
+          <h1 class="display-3">US Student Loan Debt Crisis</h1>
+          <p class="lead">Blah blah blah blah blah</p>
+          <hr class="my-2">
+          <p>More info</p>
+          <p class="lead">
+              <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">I'm empty inside</a>
+          </p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card-deck">
+
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem; max-height: 12rem">
+              <!-- <div class="card-header">Header</div> -->
+              <div class="card-body">
+                <h1 class="card-title">$35K</h1>
+                <p class="card-text">Average student loan debt per borrower</p>
+              </div>
+            </div>
+
+            <!-- <div class="card text-white bg-primary mb-3" style="max-width: 18rem; max-height: 12rem"> -->
+              <!-- <div class="card-header">Header</div> -->
+              <!-- <div class="card-body"> -->
+                <!-- <h1 class="card-title">$1.4 trillion</h1> -->
+                <!-- <p class="card-text">Total student loan debt</p> -->
+              <!-- </div> -->
+            <!-- </div> -->
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem; max-height: 12rem">
+              <!-- <div class="card-header">Header</div> -->
+              <div class="card-body">
+                <h1 class="card-title">43M</h1>
+                <p class="card-text">Total Number of Recipients</p>
+              </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem; max-height: 12rem">
+              <!-- <div class="card-header">Header</div> -->
+              <div class="card-body">
+                <h1 class="card-title">$55K</h1>
+                <p class="card-text">Highest Average Student Loan Debt, Washington, D.C</p>
+              </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem; max-height: 12rem">
+              <!-- <div class="card-header">Header</div> -->
+              <div class="card-body">
+                <h1 class="card-title">$28K</h1>
+                <p class="card-text">Lowest Average Student Loan Debt, South Dakota</p>
+              </div>
+            </div>
+
+          </div>
+          
+        </div> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+              <div id="plot1"></div> 
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div id="plot2"></div> 
+        </div>
+
+        <div class="col-sm-6">
+          <div id="table"></div> 
+        </div>
+      </div>
+    </div>
+
+    <script src="js/plots.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
