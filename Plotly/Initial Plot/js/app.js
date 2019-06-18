@@ -64,6 +64,7 @@ function makeplot() {
 
     var layout = {
       title: 'Student Loans by Age',
+      barmode: 'stack',
       xaxis: {tickfont: {
           size: 14,
           color: '#000000'
