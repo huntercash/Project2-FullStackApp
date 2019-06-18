@@ -5,7 +5,7 @@ function makeplot() {
   
   function processData(allRows) {
   
-    console.log(allRows);
+    // console.log(allRows);
     var year = [], a = [], b = [], c = [], d = [], e = [];
   
     for (var i=0; i < allRows.length; i++) {
@@ -64,6 +64,7 @@ function makeplot() {
 
     var layout = {
       title: 'Student Loans by Age',
+      barmode: 'stack',
       xaxis: {tickfont: {
           size: 14,
           color: '#000000'
