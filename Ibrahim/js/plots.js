@@ -57,7 +57,7 @@ d3.csv("clean_data/avg_sl_debt_by_state.csv", function(error, avg_sl_debt_by_sta
 // get the data
 d3.csv("clean_data/us_debt_bal_by_type.csv", function(error, us_debt_bal_by_type) {
   if (error) throw error;
-      console.log(us_debt_bal_by_type);
+      // console.log(us_debt_bal_by_type);
 
   var loanType = []
   var loanSize = []
@@ -67,7 +67,7 @@ d3.csv("clean_data/us_debt_bal_by_type.csv", function(error, us_debt_bal_by_type
     loanSize.push(row['Amount (in trillions)'])
     loanType.push(row['Loan Type'])
   })
-  console.log(loanSize)
+
   var data = [{
     values: loanSize,
     labels: loanType,
@@ -79,8 +79,8 @@ d3.csv("clean_data/us_debt_bal_by_type.csv", function(error, us_debt_bal_by_type
 
   var layout = {
     title: "US Loan Size by Type (in trillions)",
-    heigth: 900,
-    width: 1000
+    heigth: 400,
+    width: 600
   }
 
   Plotly.newPlot('plot2', data, layout, {responsive: true});
@@ -88,6 +88,59 @@ d3.csv("clean_data/us_debt_bal_by_type.csv", function(error, us_debt_bal_by_type
 });
 
 
+
+//plot 3
+
+// get the data
+d3.csv("clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_snapshot) {
+  if (error) throw error;
+      console.log(stu_loan_debt_snapshot);
+      
+  var details = []
+  var amount = []
+
+  stu_loan_debt_snapshot.forEach(function(row) {
+    console.log(row['Amount'])
+    details.push(row['Details'])
+    amount.push(row['Amount'])
+  })
+
+
+
+  var values = [details, amount]
+  
+  var data = [{
+    type: 'table',
+    header: {
+      values: [["<b>DETAILS</b>"], ["<b>AMOUNT</b>"]],
+      align: ["left", "center"],
+      line: {width: 1, color: '#506784'},
+      fill: {color: '#119DFF'},
+      font: {family: "Arial", size: 12, color: "white"}
+    },
+    cells: {
+      values: values,
+      align: ["left", "center"],
+      line: {color: "#506784", width: 1},
+     fill: {color: ['#25FEFD', 'white']},
+      font: {family: "Arial", size: 11, color: ["#506784"]}
+    }
+  }]
+  
+  Plotly.plot('table', data);
+});
+
+
+//plot 4
+
+// get the data
+d3.csv("clean_data/yearly_portfolio_summary.csv", function(error, yearly_portfolio_summary) {
+  if (error) throw error;
+      console.log(yearly_portfolio_summary);
+
+  
+
+});
 
 
 
