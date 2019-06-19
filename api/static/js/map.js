@@ -40,14 +40,14 @@ d3.json(APILink, function(data) {
       weight: 1,
       fillOpacity: 0.8
     },
-
+   
     // Binding a pop-up to each layer
     onEachFeature: function(feature, layer) {
       layer.bindPopup("<h3> State: " + feature.properties.State + "</h3><hr>" + "<h3>Total Student Loan Awarded: " +
         "$" + feature.properties.Amount_loans_awarded + "</h3>");
     }
   }).addTo(myMap);
-
+  console.log(geojson)
   // Set up the legend
   var legend = L.control({ position: "bottomright" });
   legend.onAdd = function() {
