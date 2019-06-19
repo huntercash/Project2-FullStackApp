@@ -1,10 +1,5 @@
-
-
 // get the data
-d3.csv("/static/js/clean_data/avg_sl_debt_by_state.csv", function(error, avg_sl_debt_by_state) {
-  if (error) throw error;
-  // console.log(avg_sl_debt_by_state);
-
+d3.csv("/static/js/clean_data/avg_sl_debt_by_state.csv").then(function(avg_sl_debt_by_state) {
   var debt_2018_arr = []
   var debt_2019_arr = []
   var percentage_chg_arr = []
@@ -55,9 +50,7 @@ d3.csv("/static/js/clean_data/avg_sl_debt_by_state.csv", function(error, avg_sl_
 //plot 2
 
 // get the data
-d3.csv("/static/js/clean_data/us_debt_bal_by_type.csv", function(error, us_debt_bal_by_type) {
-  if (error) throw error;
-      // console.log(us_debt_bal_by_type);
+d3.csv("/static/js/clean_data/us_debt_bal_by_type.csv").then(function(us_debt_bal_by_type) {
 
   var loanType = []
   var loanSize = []
@@ -92,9 +85,8 @@ d3.csv("/static/js/clean_data/us_debt_bal_by_type.csv", function(error, us_debt_
 //plot 3
 
 // get the data
-d3.csv("/static/js/clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_snapshot) {
-  if (error) throw error;
-      console.log(stu_loan_debt_snapshot);
+d3.csv("/static/js/clean_data/stu_loan_debt_snapshot.csv").then(function(stu_loan_debt_snapshot) {
+
       
   var details = []
   var amount = []
@@ -128,18 +120,6 @@ d3.csv("/static/js/clean_data/stu_loan_debt_snapshot.csv", function(error, stu_l
   }]
   
   Plotly.plot('table', data);
-});
-
-
-//plot 4
-
-// get the data
-d3.csv("/static/js/clean_data/yearly_portfolio_summary.csv", function(error, yearly_portfolio_summary) {
-  if (error) throw error;
-      console.log(yearly_portfolio_summary);
-
-  
-
 });
 
 

@@ -44,6 +44,11 @@ def index():
     """Return the homepage."""
     return render_template("index.html")
 
+@app.route("/tabledata")
+def tabledata():
+    """Returns the JS Table Template"""
+    return render_template("tabledata.html")
+
 # API DATA GOES HERE
 #################################################
 # Flask Routes
@@ -64,7 +69,7 @@ def welcome():
 # Institutions
 #################################################
 
-@app.route("/api/institutions")
+@app.route("/api/institutions.json")
 def names():
     """Return a list of institutions names."""
     data = session.query(Institutions.UnitID,
