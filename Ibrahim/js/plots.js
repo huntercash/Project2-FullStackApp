@@ -137,10 +137,98 @@ d3.csv("clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_sn
 d3.csv("clean_data/yearly_portfolio_summary.csv", function(error, yearly_portfolio_summary) {
   if (error) throw error;
       console.log(yearly_portfolio_summary);
+      var years = [], directLoans = [], perkinsLoans = [], ffels  = [], totalLoans = []
+      var dlRecipients = [], perkinsRecipients = [], ffelRecipients = [], totalRecipients = []
+
+      yearly_portfolio_summary.forEach(function(row){
+
+        row['Direct Loans'] = +row['Direct Loans']
+        row['FFEL'] = +row['FFEL']
+        row['Perkins'] = +row['Perkins']
+        row[' Total loans'] = +row['Total loans']
+        row['DL Recipients'] = +row['DL Recipients']
+        row['FFEl Recipients'] = +row['FFEl Recipients']
+        row['Perkins Recipients'] = +row['Perkins Recipients']
+        row['Total Recipients'] = +row['Total Recipients']
+        
+
+        years.push(year = row['Year'])
+        directLoans.push(dl = row['Direct Loans'])
+        ffels.push(ffel = row['FFEL'])
+        perkinsLoans.push(perkins = row['Perkins'])
+        totalLoans.push(totalLoan = row[' Total loans'])
+        dlRecipients.push(row['DL Recipients'])
+        perkinsRecipients.push(row['FFEl Recipients'])
+        ffelRecipients.push(row['FFEl Recipients'])
+        totalRecipients.push(row['Total Recipients'])
+      })
+      console.log(totalLoans)
+
+
+      
+
 
   
+  var trace1 = {
+    x: years,
+    y: directLoans,
+    type: 'line'
+  };
 
+  var trace2 = {
+    x: years,
+    y: perkinsLoans,
+    type: 'line'
+  };
+  var trace3 = {
+    x: years,
+    y: ffels,
+    type: 'line'
+  };
+  var trace4 = {
+    x: years,
+    y: totalLoans,
+    type: 'line'
+  };
+
+  var data = [trace1, trace2, trace3, trace4];
+
+  Plotly.newPlot('plot3', data);
+
+
+  var trace1 = {
+    x: years,
+    y: dlRecipients,
+    type: 'line'
+  };
+
+  var trace2 = {
+    x: years,
+    y: perkinsRecipients,
+    type: 'line'
+  };
+  var trace3 = {
+    x: years,
+    y: ffelRecipients,
+    type: 'line'
+  };
+  var trace4 = {
+    x: years,
+    y: totalRecipients,
+    type: 'line'
+  };
+
+  var data = [trace1, trace2, trace3, trace4];
+
+  Plotly.newPlot('plot4', data);
+  
 });
 
 
+// DL Recipients       
 
+// FFEl Recipients       
+
+// Perkins Recipients    
+
+// Total Recipients      
