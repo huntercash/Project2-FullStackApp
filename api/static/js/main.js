@@ -1,10 +1,16 @@
-const inst = d3.json("http://127.0.0.1:5000/api/institutions").then(function(d) {
+var tbody = d3.select("tbody");
+
+const collegeTable = d3.json("api/institutions.json").then(function(d) {
     d.institution_name = d.institution_name,    
     d.street = d.street,
-    d.latitude = +d.latitude,
-    d.longitude = +d.longitude,
     d.state = d.state,
-    d.website =d.website,
-    d.zipcode = +d.zipcode    
-// console.log(d);
+    d.website = d.website,
+    d.zipcode = +d.zipcode
+
+    for (x = 0; x < d.length; x++) {
+       var row = tbody.append("tr");
+        Object.entries(d[x]).forEach(([key, value]) =>
+        row.append("td").text(value));
+    }
 });
+
