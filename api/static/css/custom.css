@@ -13,11 +13,6 @@ html {
     background-attachment: fixed;
 }
 
-.header p {
-}
-
 p {
-    font-size: 80px;
     font-family: montserrat;
-    color: white;
 }

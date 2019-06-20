@@ -1,11 +1,11 @@
 function makeplot() {
-    Plotly.d3.csv("/static/js/age_student_debt.csv", function(data){ processData(data) } );
+    Plotly.d3.csv("Data/age_student_debt.csv", function(data){ processData(data) } );
   
   };
   
   function processData(allRows) {
   
-    // console.log(allRows);
+    console.log(allRows);
     var year = [], a = [], b = [], c = [], d = [], e = [];
   
     for (var i=0; i < allRows.length; i++) {
@@ -82,6 +82,6 @@ function makeplot() {
       }
     }
 
-    Plotly.newPlot('plot', traces, layout);
+    Plotly.newPlot('plot', traces,layout);
   };
 makeplot();

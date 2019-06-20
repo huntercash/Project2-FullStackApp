@@ -14,26 +14,96 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
-<body>
-  <div class="container-fluid">
-    <div class="row header">
-      <div class="col-12">
-          <p>Total Student Debt</p>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <p id="studentDebtClock" class="studentdebtnumbers"></p>
+   <body>
+      <nav class="nav justify-content-end">
+          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link" href="/tabledata">Compare Schools</a>
+          <a class="nav-link" href="#">School Map</a>
+    </nav>
+      <div class="container-fluid">
+        
+      
+
+        <div class="jumbotron">
+            <h1 class="display-3">US Student Loan Debt Crisis</h1>
+            <p class="lead">Total Student Debt</p>
+            <hr class="my-2">
+            <!-- <p id="studentDebtClock" class="studentdebtnumbers"></p> -->
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h1 id="studentDebtClock" class="studentdebtnumbers card-title"></h1>
+                <p class="card-text">Average student loan debt per borrower</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="card-deck">
+              <div class="col-md-3 col-12">
+                <div class="card text-white bg-primary">
+                  <div class="card-body">
+                    <h1 class="card-title">$35K</h1>
+                    <p class="card-text">Average student loan debt per borrower</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+              <div class="card text-white bg-primary">
+                <div class="card-body">
+                  <h1 class="card-title">43M</h1>
+                  <p class="card-text">Total Number of Recipients</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-12">
+              <div class="card text-white bg-primary">
+                <div class="card-body">
+                  <h1 class="card-title">$55K</h1>
+                  <p class="card-text">Highest Average Student Loan Debt, Washington, D.C</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-12">
+              <div class="card text-white bg-primary">
+                <div class="card-body">
+                  <h1 class="card-title">$28K</h1>
+                  <p class="card-text">Lowest Average Student Loan Debt, South Dakota</p>
+                </div>
+              </div>
+            </div>
+  
+            </div>
+            
+          </div> 
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-12">
+                <div id="plot"></div> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+                <div id="plot1"></div> 
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-sm-6">
+            <div id="plot2"></div> 
+          </div>
+  
+          <div class="col-sm-6">
+            <div id="table"></div> 
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div id="plot"></div>
-        </div>
-      </div>
-    </div>
 
 </body>
 <footer>
@@ -43,6 +113,7 @@
   <script src="../static/js/clock.js"></script>
   <script src="../static/js/main.js"></script>
   <script src="../static/js/plotly.js"></script>
+  <script src="../static/js/plots.js"></script>
 </footer>
 
 </html>

@@ -41,5 +41,5 @@ var getDebt = setInterval(function() {
 
 var debtNum = currentDebt.toFixed(2);
 document.getElementById("studentDebtClock")
-    .innerHTML = `${numberWithCommas(debtNum)}`;
+    .innerHTML = `$${numberWithCommas(debtNum)}`;
 }, seconds * 1000);
