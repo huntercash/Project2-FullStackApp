@@ -94,13 +94,13 @@ d3.csv("clean_data/us_debt_bal_by_type.csv", function(error, us_debt_bal_by_type
 // get the data
 d3.csv("clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_snapshot) {
   if (error) throw error;
-      console.log(stu_loan_debt_snapshot);
+      // console.log(stu_loan_debt_snapshot);
       
   var details = []
   var amount = []
 
   stu_loan_debt_snapshot.forEach(function(row) {
-    console.log(row['Amount'])
+    // console.log(row['Amount'])
     details.push(row['Details'])
     amount.push(row['Amount'])
   })
@@ -136,11 +136,186 @@ d3.csv("clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_sn
 // get the data
 d3.csv("clean_data/yearly_portfolio_summary.csv", function(error, yearly_portfolio_summary) {
   if (error) throw error;
-      console.log(yearly_portfolio_summary);
+      // console.log(yearly_portfolio_summary);
+      var years = [], directLoans = [], perkinsLoans = [], ffels  = [], totalLoans = []
+      var dlRecipients = [], perkinsRecipients = [], ffelRecipients = [], totalRecipients = []
+
+      yearly_portfolio_summary.forEach(function(row){
+
+        row['Direct Loans'] = +row['Direct Loans']
+        row['FFEL'] = +row['FFEL']
+        row['Perkins'] = +row['Perkins']
+        row[' Total loans'] = +row['Total loans']
+        row['DL Recipients'] = +row['DL Recipients']
+        row['FFEl Recipients'] = +row['FFEl Recipients']
+        row['Perkins Recipients'] = +row['Perkins Recipients']
+        row['Total Recipients'] = +row['Total Recipients']
+        
+
+        years.push(year = row['Year'])
+        directLoans.push(dl = row['Direct Loans'])
+        ffels.push(ffel = row['FFEL'])
+        perkinsLoans.push(perkins = row['Perkins'])
+        totalLoans.push(totalLoan = row[' Total loans'])
+        dlRecipients.push(row['DL Recipients'])
+        perkinsRecipients.push(row['FFEl Recipients'])
+        ffelRecipients.push(row['FFEl Recipients'])
+        totalRecipients.push(row['Total Recipients'])
+      })
+      // console.log(totalLoans)
+
+
+      
+
 
   
+  var trace1 = {
+    x: years,
+    y: directLoans,
+    type: 'line'
+  };
 
+  var trace2 = {
+    x: years,
+    y: perkinsLoans,
+    type: 'line'
+  };
+  var trace3 = {
+    x: years,
+    y: ffels,
+    type: 'line'
+  };
+  var trace4 = {
+    x: years,
+    y: totalLoans,
+    type: 'line'
+  };
+
+  var data = [trace1, trace2, trace3, trace4];
+
+  Plotly.newPlot('plot3', data);
+
+
+  var trace1 = {
+    x: years,
+    y: dlRecipients,
+    type: 'line'
+  };
+
+  var trace2 = {
+    x: years,
+    y: perkinsRecipients,
+    type: 'line'
+  };
+  var trace3 = {
+    x: years,
+    y: ffelRecipients,
+    type: 'line'
+  };
+  var trace4 = {
+    x: years,
+    y: totalRecipients,
+    type: 'line'
+  };
+
+  var data = [trace1, trace2, trace3, trace4];
+
+  Plotly.newPlot('plot4', data);
+  
 });
 
+d3.csv("clean_data/dl_status.csv", function(error, dl_status) {
+  if (error) throw error;
+
+  console.log(dl_status[0])
+
+  var years = [], inSchs = [], graces = [], forbears = [], defers = [], cummuls = [], repays = [], others = []
+
+  dl_status.forEach(function(row){
+
+    row['In-School'] = +row['In-School']
+    row['Grace'] = +row['Grace']
+    console.log(row['Repayment'] = +row['Repayment'])
+    row['Deferment'] = +row['Deferment']
+    row['Forbearance'] = +row['Forbearance']
+    row['Cumulative in Default'] = +row['Cumulative in Default']
+    row['Other'] = +row['Other']
+
+    years.push(row['Year'])
+    inSchs.push(row['In-School'])
+    graces.push(row['Grace'])
+    repays.push(row['Repayment'])
+    forbears.push(row['Forbearance'])
+    defers.push(row['Deferment'])
+    cummuls.push(row['Cumulative in Default'])
+    others.push(row['Other'])
 
 
+  })
+
+  console.log(repays)
+
+  var trace1 = {
+    x: years,
+    y: inSchs,
+    mode: 'lines',
+    name: 'In-School'
+  };
+  
+  var trace2 = {
+    x: years,
+    y: graces,
+    mode: 'lines',
+    name: 'Grace'
+  };
+  
+  var trace3 = {
+    x: years,
+    y: repays,
+    mode: 'lines',
+    name: 'Repayment'
+  };
+
+  var trace4 = {
+    x: years,
+    y: forbears,
+    mode: 'lines',
+    name: 'Forbearance'
+  };
+
+  var trace5 = {
+    x: years,
+    y: defers,
+    mode: 'lines',
+    name: 'Deferment'
+  };
+
+  var trace6 = {
+    x: years,
+    y: others,
+    mode: 'lines',
+    name: 'Others'
+  };
+
+  var trace7 = {
+    x: years,
+    y: cummuls,
+    mode: 'lines',
+    name: 'Cummulative in Default'
+  };
+  
+  var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7];
+  
+  var layout = {
+    title: 'Loan Portfolio by Loan Status ',
+    xaxis: {
+      title: 'Year'
+    },
+    yaxis: {
+      title: 'Amount (in billions)'
+    }
+  };
+  
+  Plotly.newPlot('plot5', data, layout);
+
+});
