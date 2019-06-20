@@ -122,7 +122,28 @@ def studentdebtincome():
     # Return a list of the column names (sample names)
     return jsonify(Student_Debt_Income_list)
 
+#################################################
+# Chris college_worth_it
+#################################################
 
+@app.route("/api/college_worth_it.json")
+def collegeworthit():
+    """Return a list of institutions names."""
+    data = session.query(college_worth_it.educational_attainment,
+                         college_worth_it.unemployment_rate,
+                         college_worth_it.median_pay)
+    college_worth_it_list = []
+    for educational_attainment, unemployment_rate, median_pay in data:
+        college_worth_it_dict = {}
+        college_worth_it_dict['educational_attainment'] = educational_attainment
+        college_worth_it_dict['unemployment_rate'] = unemployment_rate
+        college_worth_it_dict['median_pay'] = median_pay
+
+
+        college_worth_it_list.append(college_worth_it_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(college_worth_it_list)
 
 # Run Server
 if __name__ == '__main__':
