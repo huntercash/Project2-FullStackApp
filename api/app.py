@@ -35,6 +35,7 @@ Base.prepare(db.engine, reflect=True)
 # Save references to each table
 Institutions = Base.classes.inst_price
 Student_Debt_Income = Base.classes.Student_Debt_Income
+college_worth_it = Base.classes.college_worth_it
 # Create our session (link) from Python to the DB
 session = Session(engine)
 # Set up Home index Route
@@ -63,6 +64,7 @@ def welcome():
         f"<b>Available Routes:</b><br/>"
         f'<a href="/api/institutions.json">/api/institutions.json</a><br/>'
         f'<a href="/api/Student_Debt_Income.json">/api/Student_Debt_Income.json</a><br/>'
+        f'<a href="/api/college_worth_it.json">/api/college_worth_it.json</a><br/>'
         f"</center>"
     )
 
