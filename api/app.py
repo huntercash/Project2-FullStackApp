@@ -33,7 +33,7 @@ Base = automap_base()
 Base.prepare(db.engine, reflect=True)
 
 # Save references to each table
-Institutions = Base.classes.institutions
+Institutions = Base.classes.inst_price
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
@@ -61,7 +61,7 @@ def welcome():
     return (
         f"<center>"
         f"<b>Available Routes:</b><br/>"
-        f"/api/institutions<br/>"
+        f'<a href="/api/institutions.json">/api/institutions</a><br/>'
         f"</center>"
     )
 
@@ -72,27 +72,24 @@ def welcome():
 @app.route("/api/institutions.json")
 def names():
     """Return a list of institutions names."""
-    data = session.query(Institutions.UnitID,
-                         Institutions.street,
+    data = session.query(Institutions.street,
                          Institutions.institution_name,
                          Institutions.state,
                          Institutions.zipcode,
                          Institutions.website,
                          Institutions.city,
-                         Institutions.latitude,
-                         Institutions.longitude,)
+                         Institutions.tuition)
     inst_list = []
-    for unit_id, street, institution_name, state, zipcode, website, city, latitude, longitude in data:
+    for street, institution_name, state, zipcode, website, city, tuition in data:
         inst_dict = {}
-        inst_dict['unit_id'] = unit_id
-        inst_dict['institution_name'] = institution_name
         inst_dict['street'] = street
+        inst_dict['institution_name'] = institution_name
         inst_dict['state'] = state
         inst_dict['zipcode'] = zipcode
         inst_dict['website'] = website
         inst_dict['city'] = city
-        inst_dict['latitude'] = latitude
-        inst_dict['longitude'] = longitude
+        inst_dict['tuition'] = tuition
+
 
         inst_list.append(inst_dict)
 
