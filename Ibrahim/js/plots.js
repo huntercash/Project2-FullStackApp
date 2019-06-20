@@ -105,8 +105,6 @@ d3.csv("clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_sn
     amount.push(row['Amount'])
   })
 
-
-
   var values = [details, amount]
   
   var data = [{
@@ -127,7 +125,7 @@ d3.csv("clean_data/stu_loan_debt_snapshot.csv", function(error, stu_loan_debt_sn
     }
   }]
   
-  Plotly.plot('table', data);
+  Plotly.plot('table', data, {responsive: true});
 });
 
 
@@ -158,69 +156,92 @@ d3.csv("clean_data/yearly_portfolio_summary.csv", function(error, yearly_portfol
         perkinsLoans.push(perkins = row['Perkins'])
         totalLoans.push(totalLoan = row[' Total loans'])
         dlRecipients.push(row['DL Recipients'])
-        perkinsRecipients.push(row['FFEl Recipients'])
+        perkinsRecipients.push(row['Perkins Recipients'])
         ffelRecipients.push(row['FFEl Recipients'])
         totalRecipients.push(row['Total Recipients'])
       })
-      // console.log(totalLoans)
+      console.log(perkinsRecipients)
 
-
-      
-
-
-  
   var trace1 = {
     x: years,
     y: directLoans,
-    type: 'line'
+    type: 'line',
+    name: 'Direct Loans'
   };
 
   var trace2 = {
     x: years,
     y: perkinsLoans,
-    type: 'line'
+    type: 'line',
+    name: 'Perkins'
   };
   var trace3 = {
     x: years,
     y: ffels,
-    type: 'line'
+    type: 'line',
+    name:'FFEL'
   };
   var trace4 = {
     x: years,
     y: totalLoans,
-    type: 'line'
+    type: 'line',
+    name: 'Total Loans'
   };
 
   var data = [trace1, trace2, trace3, trace4];
 
-  Plotly.newPlot('plot3', data);
+  var layout = {
+    title: 'Loans Outsanding by Loan Types',
+    xaxis: {
+      title: 'Year'
+    },
+    yaxis: {
+      title: 'Amount (in billions)'
+    }
+  };
+
+  Plotly.newPlot('plot3', data, layout, {responsive: true});
 
 
   var trace1 = {
     x: years,
     y: dlRecipients,
-    type: 'line'
+    type: 'line',
+    name: 'Direct Loan'
   };
 
   var trace2 = {
     x: years,
     y: perkinsRecipients,
-    type: 'line'
+    type: 'line',
+    name: 'Perkins'
   };
   var trace3 = {
     x: years,
     y: ffelRecipients,
-    type: 'line'
+    type: 'line',
+    name: 'FFEL'
   };
   var trace4 = {
     x: years,
     y: totalRecipients,
-    type: 'line'
+    type: 'line',
+    name: 'Total'
   };
 
   var data = [trace1, trace2, trace3, trace4];
 
-  Plotly.newPlot('plot4', data);
+  var layout = {
+    title: 'Number of Recipeints by Loan Types',
+    xaxis: {
+      title: 'Year'
+    },
+    yaxis: {
+      title: 'Amount (in millions)'
+    }
+  };
+
+  Plotly.newPlot('plot4', data, layout, {responsive: true});
   
 });
 
@@ -253,7 +274,7 @@ d3.csv("clean_data/dl_status.csv", function(error, dl_status) {
 
   })
 
-  console.log(repays)
+  // console.log(repays)
 
   var trace1 = {
     x: years,
@@ -307,7 +328,7 @@ d3.csv("clean_data/dl_status.csv", function(error, dl_status) {
   var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7];
   
   var layout = {
-    title: 'Loan Portfolio by Loan Status ',
+    title: 'Direct Loan Portfolio by Loan Status ',
     xaxis: {
       title: 'Year'
     },
@@ -316,6 +337,6 @@ d3.csv("clean_data/dl_status.csv", function(error, dl_status) {
     }
   };
   
-  Plotly.newPlot('plot5', data, layout);
+  Plotly.newPlot('plot5', data, layout, {responsive: true});
 
 });
