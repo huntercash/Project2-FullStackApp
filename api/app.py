@@ -34,7 +34,7 @@ Base.prepare(db.engine, reflect=True)
 
 # Save references to each table
 Institutions = Base.classes.inst_price
-
+Student_Debt_Income = Base.classes.Student_Debt_Income
 # Create our session (link) from Python to the DB
 session = Session(engine)
 # Set up Home index Route
@@ -61,7 +61,8 @@ def welcome():
     return (
         f"<center>"
         f"<b>Available Routes:</b><br/>"
-        f'<a href="/api/institutions.json">/api/institutions</a><br/>'
+        f'<a href="/api/institutions.json">/api/institutions.json</a><br/>'
+        f'<a href="/api/Student_Debt_Income.json">/api/Student_Debt_Income.json</a><br/>'
         f"</center>"
     )
 
@@ -95,6 +96,31 @@ def names():
 
     # Return a list of the column names (sample names)
     return jsonify(inst_list)
+
+#################################################
+# Chris Student_Debt_Income
+#################################################
+
+@app.route("/api/Student_Debt_Income.json")
+def studentdebtincome():
+    """Return a list of institutions names."""
+    data = session.query(Student_Debt_Income.subject,
+                         Student_Debt_Income.student_borrowing,
+                         Student_Debt_Income.male_pay,
+                         Student_Debt_Income.female_pay)
+    Student_Debt_Income_list = []
+    for subject, student_borrowing, male_pay, female_pay in data:
+        Student_Debt_Income_dict = {}
+        Student_Debt_Income_dict['subject'] = subject
+        Student_Debt_Income_dict['student_borrowing'] = student_borrowing
+        Student_Debt_Income_dict['male_pay'] = male_pay
+        Student_Debt_Income_dict['female_pay'] = female_pay
+
+
+        Student_Debt_Income_list.append(Student_Debt_Income_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(Student_Debt_Income_list)
 
 
 
