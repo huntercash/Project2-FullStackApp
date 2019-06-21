@@ -1,4 +1,4 @@
-function makeplot() {
+function makeplot3() {
     Plotly.d3.json("/api/college_worth_it.json", function(data){ processData(data) } );
   
   };
@@ -20,7 +20,7 @@ function makeplot() {
   
   function makePlotly(educational_attainment, unemployment_rate, median_pay){
   
-    var plotDiv = document.getElementById("plot");
+    var plotDiv = document.getElementById("plot-3");
   
     var trace1 = {
       type: "bar",
@@ -102,6 +102,6 @@ function makeplot() {
       }
     }
   
-    Plotly.newPlot('plot', traces,layout);
+    Plotly.newPlot(plotDiv, traces,layout);
   };
-  makeplot();
+  makeplot3();
