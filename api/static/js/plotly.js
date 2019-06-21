@@ -61,7 +61,11 @@ function makeplot1() {
     var traces = [trace1, trace2, trace3, trace4, trace5];
 
     var layout = {
-      title: 'Student Loans by Age',
+      title: {
+        text: 'Student Loans by Age',
+        font: {
+            size: 24
+        }},
       barmode: 'stack',
       xaxis: {tickfont: {
           size: 14,
@@ -133,7 +137,11 @@ function makePlotlyTwo(year, a, b, c){
   var traces = [trace1, trace2, trace3];
 
   var layout = {
-    title: '2017/2018 Average Student Loan vs Income vs Age',
+    title: {
+      text: '2017/2018 Average Student Loan vs Bachelor Degree Income vs Age',
+      font: {
+          size: 24
+      }},
     xaxis: {tickfont: {
         size: 14,
         color: '#000000'
