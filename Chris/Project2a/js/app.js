@@ -1,5 +1,7 @@
+// Converted from reading csv to reading json after sqlite db created
+
 function makeplot() {
-    Plotly.d3.csv("Data/age_student_debt.csv", function(data){ processData(data) } );
+    Plotly.d3.json("/api/age_student_debt.json", function(data){ processData(data) } );
   
   };
   
@@ -10,12 +12,12 @@ function makeplot() {
   
     for (var i=0; i < allRows.length; i++) {
       row = allRows[i];
-      year.push( row['Year'] );
-      a.push( row['Under_30'] );
-      b.push( row['30-39'] );
-      c.push( row['40-49'] );
-      d.push( row['50-59'] );
-      e.push( row['60+'] );
+      year.push( row['year'] );
+      a.push( row['under_30'] );
+      b.push( row['from_30_to_39'] );
+      c.push( row['from_40_to_49'] );
+      d.push( row['from_50_to_59'] );
+      e.push( row['Over_60'] );
     }
     
     makePlotly( year, a, b, c, d, e);

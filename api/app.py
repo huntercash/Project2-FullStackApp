@@ -35,6 +35,8 @@ Base.prepare(db.engine, reflect=True)
 # Save references to each table
 Institutions = Base.classes.inst_price
 Student_Debt_Income = Base.classes.Student_Debt_Income
+college_worth_it = Base.classes.college_worth_it
+age_student_debt = Base.classes.age_student_debt
 # Create our session (link) from Python to the DB
 session = Session(engine)
 # Set up Home index Route
@@ -63,6 +65,8 @@ def welcome():
         f"<b>Available Routes:</b><br/>"
         f'<a href="/api/institutions.json">/api/institutions.json</a><br/>'
         f'<a href="/api/Student_Debt_Income.json">/api/Student_Debt_Income.json</a><br/>'
+        f'<a href="/api/college_worth_it.json">/api/college_worth_it.json</a><br/>'
+        f'<a href="/api/age_student_debt.json">/api/age_student_debt.json</a><br/>'
         f"</center>"
     )
 
@@ -103,7 +107,7 @@ def names():
 
 @app.route("/api/Student_Debt_Income.json")
 def studentdebtincome():
-    """Return a list of institutions names."""
+    """Return a list."""
     data = session.query(Student_Debt_Income.subject,
                          Student_Debt_Income.student_borrowing,
                          Student_Debt_Income.male_pay,
@@ -122,7 +126,57 @@ def studentdebtincome():
     # Return a list of the column names (sample names)
     return jsonify(Student_Debt_Income_list)
 
+#################################################
+# Chris college_worth_it
+#################################################
 
+@app.route("/api/college_worth_it.json")
+def collegeworthit():
+    """Return a list."""
+    data = session.query(college_worth_it.educational_attainment,
+                         college_worth_it.unemployment_rate,
+                         college_worth_it.median_pay)
+    college_worth_it_list = []
+    for educational_attainment, unemployment_rate, median_pay in data:
+        college_worth_it_dict = {}
+        college_worth_it_dict['educational_attainment'] = educational_attainment
+        college_worth_it_dict['unemployment_rate'] = unemployment_rate
+        college_worth_it_dict['median_pay'] = median_pay
+
+
+        college_worth_it_list.append(college_worth_it_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(college_worth_it_list)
+
+#################################################
+# Chris college_worth_it
+#################################################
+
+@app.route("/api/age_student_debt.json")
+def agestudentdebt():
+    """Return a list."""
+    data = session.query(age_student_debt.year,
+                         age_student_debt.under_30,
+                         age_student_debt.from_30_to_39,
+                         age_student_debt.from_40_to_49,
+                         age_student_debt.from_50_to_59,
+                         age_student_debt.Over_60)
+    age_student_debt_list = []
+    for year, under_30, from_30_to_39, from_40_to_49, from_50_to_59, Over_60 in data:
+        age_student_debt_dict = {}
+        age_student_debt_dict['year'] = year
+        age_student_debt_dict['under_30'] = under_30
+        age_student_debt_dict['from_30_to_39'] = from_30_to_39
+        age_student_debt_dict['from_40_to_49'] = from_40_to_49
+        age_student_debt_dict['from_50_to_59'] = from_50_to_59
+        age_student_debt_dict['Over_60'] = Over_60
+
+
+        age_student_debt_list.append(age_student_debt_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(age_student_debt_list)
 
 # Run Server
 if __name__ == '__main__':
