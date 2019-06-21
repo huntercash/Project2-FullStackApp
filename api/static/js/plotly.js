@@ -2,9 +2,7 @@ function makeplot1() {
     Plotly.d3.json("/api/age_student_debt.json", function(data){ processData(data) } );
   
   function processData(allRows) {
-  
-    // console.log(allRows);
-    var year = [], a = [], b = [], c = [], d = [], e = [];
+      var year = [], a = [], b = [], c = [], d = [], e = [];
   
     for (var i=0; i < allRows.length; i++) {
       row = allRows[i];
@@ -94,8 +92,6 @@ function makeplot2() {
   Plotly.d3.json("api/Student_Debt_Income.json", function(data){ processData(data) } );
 
 function processData(allRows) {
-
-  console.log(allRows);
   var year = [], a = [], b = [], c = [];
 
   for (var i=0; i < allRows.length; i++) {
@@ -168,8 +164,6 @@ function makeplot3() {
   Plotly.d3.json("/api/college_worth_it.json", function(data){ processData(data) } );
 
 function processData(allRows) {
-
-  console.log(allRows);
   var educational_attainment = [], unemployment_rate = [], median_pay = [];
 
   for (var i=0; i < allRows.length; i++) {
@@ -178,7 +172,6 @@ function processData(allRows) {
     unemployment_rate.push( row['unemployment_rate'] );
     median_pay.push( row['median_pay'] );
   }
-  // console.log(educational_attainment);
   makePlotly( educational_attainment, unemployment_rate, median_pay);
 }
 
