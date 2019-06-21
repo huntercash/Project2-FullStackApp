@@ -80,7 +80,7 @@ function makeplot1() {
       }
     }
 
-    Plotly.newPlot(plotDiv, traces, layout);
+    Plotly.newPlot(plotDiv, traces, layout, {responsive: true});
   };
 };
 makeplot1();
@@ -151,7 +151,7 @@ function makePlotlyTwo(year, a, b, c){
     }
   }
 
-  Plotly.newPlot(plotDiv, traces,layout);
+  Plotly.newPlot(plotDiv, traces,layout, {responsive: true});
 };
 };
 makeplot2();
@@ -200,9 +200,9 @@ function makePlotly(educational_attainment, unemployment_rate, median_pay){
   var traces = [trace1, trace2];
 
   var layout = {
-    autosize: false,
-    width: 1000,
-    height: 600,
+    // autosize: false,
+    // width: 1000,
+    // height: 600,
     legend: {
       xanchor: "center",
       orientation: "h",
@@ -258,7 +258,7 @@ function makePlotly(educational_attainment, unemployment_rate, median_pay){
     }
   }
 
-  Plotly.newPlot(plotDiv, traces,layout);
+  Plotly.newPlot(plotDiv, traces,layout, {responsive: true});
 };
 };
 makeplot3();
