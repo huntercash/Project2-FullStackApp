@@ -37,6 +37,7 @@ Institutions = Base.classes.inst_price
 Student_Debt_Income = Base.classes.Student_Debt_Income
 college_worth_it = Base.classes.college_worth_it
 age_student_debt = Base.classes.age_student_debt
+val_roi = Base.classes.val_roi
 # Create our session (link) from Python to the DB
 session = Session(engine)
 # Set up Home index Route
@@ -56,6 +57,11 @@ def map():
     """Returns the JS map Template"""
     return render_template("map.html")
 
+@app.route("/table2")
+def table2():
+    """Returns the JS Table Template"""
+    return render_template("table2.html")
+
 # API DATA GOES HERE
 #################################################
 # Flask Routes
@@ -72,6 +78,7 @@ def welcome():
         f'<a href="/api/Student_Debt_Income.json">/api/Student_Debt_Income.json</a><br/>'
         f'<a href="/api/college_worth_it.json">/api/college_worth_it.json</a><br/>'
         f'<a href="/api/age_student_debt.json">/api/age_student_debt.json</a><br/>'
+         f'<a href="/api/val_roi.json">/api/val_roi.json</a><br/>'
         f"</center>"
     )
 
@@ -182,6 +189,33 @@ def agestudentdebt():
 
     # Return a list of the column names (sample names)
     return jsonify(age_student_debt_list)
+
+#################################################
+# Chris ROI
+#################################################
+
+@app.route("/api/val_roi.json")
+def name2():
+    """Return a list."""
+    data = session.query(val_roi.rank,
+                         val_roi.school_name,
+                         val_roi.net_roi_20_year,
+                         val_roi.total_4_year_cost_usd,
+                         val_roi.typical_years_to_graduate)
+    val_roi_list = []
+
+    for rank, school_name, net_roi_20_year, total_4_year_cost_usd, typical_years_to_graduate in data:
+        val_roi_dict = {}
+        val_roi_dict['rank'] = rank
+        val_roi_dict['school_name'] = school_name
+        val_roi_dict['net_roi_20_year'] = net_roi_20_year
+        val_roi_dict['total_4_year_cost_usd'] = total_4_year_cost_usd
+        val_roi_dict['typical_years_to_graduate'] = typical_years_to_graduate
+
+        val_roi_list.append(val_roi_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(val_roi_list)
 
 # Run Server
 if __name__ == '__main__':
