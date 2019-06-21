@@ -35,41 +35,39 @@ d3.json(url, function (new_data) {
   }).addTo(myMap);
 
 
-  // path to data from DB
+  // path to data from DB or url for total data
   var loansURL = "../static/js/clean_data/loans_by_state.json";
-  // var avgURL = "/income";
-
-  // console.log(new_data)
 
   // getting data from RESTfull API for total student loan
   d3.json(loansURL, function (loans_data) {
-    console.log(loans_data)
+    // console.log(loans_data)
 
     // adding total student loan info into geoJson object
     for (i = 0; i < new_data.features.length; i++) {
       Object.entries(loans_data).forEach(([key, value]) => {
         if (value.City == new_data.features[i].properties.name) {
           new_data.features[i].properties.labelrank = value.Amount_loans_awarded;
-          console.log(new_data.features[i].properties.labelrank)
+          // console.log(new_data.features[i].properties.labelrank)
         }
       })
     }
     
 
 
-    // // getting data from RESTfull API for income
+    // // getting data from API of json file
 
-    var avgURL = "static/js/loans_by_state.json"
+    var avgURL = "../static/js/clean_data/avg_sl_debt_by_state.json"
+   
 
     d3.json(avgURL, function (avg_data) {
 
      // adding total student loan info into geoJson object
     for (i = 0; i < new_data.features.length; i++) {
-      Object.entries(loans_data).forEach(([key, value]) => {
-        if (value.City == new_data.features[i].properties.name) {
-          new_data.features[i].properties.name_len = value.avg_loan;
-          // console.log(value.City)
-          // console.log(value.avg_loan)
+      Object.entries(avg_data).forEach(([key, value]) => {
+        if (value.State == new_data.features[i].properties.name) {
+          new_data.features[i].properties.name_len = value.avg_2019;
+          // console.log(value.State)
+          // console.log(value.avg_2019)
           // console.log(new_data.features[i].properties.name_len)
         }
       })
@@ -96,10 +94,6 @@ d3.json(url, function (new_data) {
           weight: 1,
           fillOpacity: 0.8
         },
-
-        // onEachFeature: function (feature, layer) {
-        //   layer.bindPopup(feature.properties.name+ '<bh>' + '<br>' + feature.properties.labelrank)
-        // }
 
        onEachFeature(feature, layer) {
           layer.on({
@@ -181,9 +175,6 @@ d3.json(url, function (new_data) {
           weight: 1,
           fillOpacity: 0.8
         },
-        // onEachFeature: function (feature, layer) {
-        //   layer.bindPopup(feature.properties.name + '<bh>' +  '<br>' + feature.properties.name_len)
-        // }
 
         onEachFeature(feature, layer) {
           layer.on({
@@ -255,10 +246,10 @@ d3.json(url, function (new_data) {
             "Average Student Loan": geojson_avg
           };
 
-
+          
           // Pass our map layers into our layer control
           // Add the layer control to the map
-          L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(myMap);
+          L.control.layers(baseMaps, overlayMaps, { collapsed: true}).addTo(myMap);
           
       
       
