@@ -1,6 +1,4 @@
-//DEBT BAL BY TYPE PLOT (plot2)
-
-// get the data
+// plot 2, us debt bal by type
 d3.csv("/static/csv/us_debt_bal_by_type.csv").then(function(us_debt_bal_by_type) {
   var loanType = []
   var loanSize = []
@@ -181,164 +179,162 @@ d3.csv("/static/csv/yearly_portfolio_summary.csv").then(function(yearly_portfoli
 
 
 // plot 5 dl_status.csv
-// d3.csv("clean_data/dl_status.csv", function(error, dl_status) {
-//   if (error) throw error;
-//   var years = [], inSchs = [], graces = [], forbears = [], defers = [], cummuls = [], repays = [], others = []
+d3.csv("/static/csv/dl_status.csv").then(function(dl_status) {
+  var years = [], inSchs = [], graces = [], forbears = [], defers = [], cummuls = [], repays = [], others = []
 
-//   dl_status.forEach(function(row){
+  dl_status.forEach(function(row){
 
-//     row['In-School'] = +row['In-School']
-//     row['Grace'] = +row['Grace']
-//     row['Repayment'] = +row['Repayment']
-//     row['Deferment'] = +row['Deferment']
-//     row['Forbearance'] = +row['Forbearance']
-//     row['Cumulative in Default'] = +row['Cumulative in Default']
-//     row['Other'] = +row['Other']
+    row['In-School'] = +row['In-School']
+    row['Grace'] = +row['Grace']
+    row['Repayment'] = +row['Repayment']
+    row['Deferment'] = +row['Deferment']
+    row['Forbearance'] = +row['Forbearance']
+    row['Cumulative in Default'] = +row['Cumulative in Default']
+    row['Other'] = +row['Other']
 
-//     years.push(row['Year'])
-//     inSchs.push(row['In-School'])
-//     graces.push(row['Grace'])
-//     repays.push(row['Repayment'])
-//     forbears.push(row['Forbearance'])
-//     defers.push(row['Deferment'])
-//     cummuls.push(row['Cumulative in Default'])
-//     others.push(row['Other'])
+    years.push(row['Year'])
+    inSchs.push(row['In-School'])
+    graces.push(row['Grace'])
+    repays.push(row['Repayment'])
+    forbears.push(row['Forbearance'])
+    defers.push(row['Deferment'])
+    cummuls.push(row['Cumulative in Default'])
+    others.push(row['Other'])
 
 
-//   })
+  })
 
-//   var trace1 = {
-//     x: years,
-//     y: inSchs,
-//     mode: 'lines',
-//     name: 'In-School'
-//   };
+  var trace1 = {
+    x: years,
+    y: inSchs,
+    mode: 'lines',
+    name: 'In-School'
+  };
   
-//   var trace2 = {
-//     x: years,
-//     y: graces,
-//     mode: 'lines',
-//     name: 'Grace'
-//   };
+  var trace2 = {
+    x: years,
+    y: graces,
+    mode: 'lines',
+    name: 'Grace'
+  };
   
-//   var trace3 = {
-//     x: years,
-//     y: repays,
-//     mode: 'lines',
-//     name: 'Repayment'
-//   };
+  var trace3 = {
+    x: years,
+    y: repays,
+    mode: 'lines',
+    name: 'Repayment'
+  };
 
-//   var trace4 = {
-//     x: years,
-//     y: forbears,
-//     mode: 'lines',
-//     name: 'Forbearance'
-//   };
+  var trace4 = {
+    x: years,
+    y: forbears,
+    mode: 'lines',
+    name: 'Forbearance'
+  };
 
-//   var trace5 = {
-//     x: years,
-//     y: defers,
-//     mode: 'lines',
-//     name: 'Deferment'
-//   };
+  var trace5 = {
+    x: years,
+    y: defers,
+    mode: 'lines',
+    name: 'Deferment'
+  };
 
-//   var trace6 = {
-//     x: years,
-//     y: others,
-//     mode: 'lines',
-//     name: 'Others'
-//   };
+  var trace6 = {
+    x: years,
+    y: others,
+    mode: 'lines',
+    name: 'Others'
+  };
 
-//   var trace7 = {
-//     x: years,
-//     y: cummuls,
-//     mode: 'lines',
-//     name: 'Cummulative in Default'
-//   };
+  var trace7 = {
+    x: years,
+    y: cummuls,
+    mode: 'lines',
+    name: 'Cummulative in Default'
+  };
   
-//   var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7];
+  var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7];
   
-//   var layout = {
-//     title: 'Direct Loan Portfolio by Loan Status ',
-//     xaxis: {
-//       title: 'Year'
-//     },
-//     yaxis: {
-//       title: 'Amount (in billions)'
-//     }
-//   };
+  var layout = {
+    title: 'Direct Loan Portfolio by Loan Status ',
+    xaxis: {
+      title: 'Year'
+    },
+    yaxis: {
+      title: 'Amount (in billions)'
+    }
+  };
   
-//   Plotly.newPlot('plot5', data, layout, {responsive: true});
+  Plotly.newPlot('dl_status', data, layout, {responsive: true});
 
-// });
+});
 
 
-// // Plot 6
+// Plot 6
 
-// d3.csv("clean_data/serious_deliquency.csv", function(error, serious_deliquency) {
-//   if (error) throw error;
-//   var years = [], gen18 = [], gen30 = [], gen40 = [], gen50 = [], all = []
+d3.csv("/static/csv/serious_deliquency.csv").then(function(serious_deliquency) {
+  var years = [], gen18 = [], gen30 = [], gen40 = [], gen50 = [], all = []
 
-//   serious_deliquency.forEach(function(row){
+  serious_deliquency.forEach(function(row){
 
-//     gen18.push(row["18-29"] = +row["18-29"])
-//     gen30.push(row["30-39"] = +row["30-39"])
-//     gen40.push(row["40-49"] = +row["40-49"])
-//     gen50.push(row["50+"] = +row["50+"])
-//     years.push(row['Year'])
+    gen18.push(row["18-29"] = +row["18-29"])
+    gen30.push(row["30-39"] = +row["30-39"])
+    gen40.push(row["40-49"] = +row["40-49"])
+    gen50.push(row["50+"] = +row["50+"])
+    years.push(row['Year'])
     
-//   })
+  })
 
-//   var trace1 = {
-//     x: years,
-//     y: gen18,
-//     mode: 'lines',
-//     name: '18-29'
-//   };
+  var trace1 = {
+    x: years,
+    y: gen18,
+    mode: 'lines',
+    name: '18-29'
+  };
   
-//   var trace2 = {
-//     x: years,
-//     y: gen30,
-//     mode: 'lines',
-//     name: '30-39'
-//   };
+  var trace2 = {
+    x: years,
+    y: gen30,
+    mode: 'lines',
+    name: '30-39'
+  };
   
-//   var trace3 = {
-//     x: years,
-//     y: gen40,
-//     mode: 'lines',
-//     name: '40-49'
-//   };
+  var trace3 = {
+    x: years,
+    y: gen40,
+    mode: 'lines',
+    name: '40-49'
+  };
 
-//   var trace4 = {
-//     x: years,
-//     y: gen50,
-//     mode: 'lines',
-//     name: '50+'
-//   };
+  var trace4 = {
+    x: years,
+    y: gen50,
+    mode: 'lines',
+    name: '50+'
+  };
 
-//   var trace5 = {
-//     x: years,
-//     y: all,
-//     mode: 'lines',
-//     name: 'Total'
-//   };
+  var trace5 = {
+    x: years,
+    y: all,
+    mode: 'lines',
+    name: 'Total'
+  };
 
   
-//   var data = [trace1, trace2, trace3, trace4, trace5];
+  var data = [trace1, trace2, trace3, trace4, trace5];
   
-//   var layout = {
-//     title: 'Loans By Age Group',
-//     xaxis: {
-//       title: 'Year'
-//     },
-//     yaxis: {
-//       title: 'Amount (in billions)'
-//     }
-//   };
+  var layout = {
+    title: 'Loans By Age Group',
+    xaxis: {
+      title: 'Year'
+    },
+    yaxis: {
+      title: 'Amount (in billions)'
+    }
+  };
   
-//   Plotly.newPlot('plot6', data, layout);
-// });
+  Plotly.newPlot('serious_deliquency', data, layout);
+});
 
 
 
