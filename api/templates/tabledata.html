@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>Find Your University!</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
   <link rel="stylesheet" href="../static/css/custom.css">
@@ -16,50 +16,47 @@
 </head>
 
 <body>
-    <nav class="nav justify-content-end">
-        <a class="nav-link" href="/">Home</a>
-        <a class="nav-link active" href="/tabledata">Compare Schools</a>
-        <a class="nav-link" href="/schoolmap">School Map</a>
-        <a class="nav-link" href="/api">API</a>
-    </nav>
-    <div class="container-fluid">
+  <nav class="nav justify-content-end bg-dark heading">
+    <a class="nav-link active text-white" href="/">Home</a>
+    <a class="nav-link text-white" href="/tabledata">Compare Schools</a>
+    <a class="nav-link text-white" href="/schoolmap">School Map</a>
+    <a class="nav-link text-white" href="/api">API</a>
+  </nav>
+    <div class="container">
         <div class="hero text-center">
             <h1>Find Your University!</h1>
         </div> 
         <div class="row">
           <div class="col-2">
-              <input type="text" id="search" placeholder="  live search"></input>
+            <p>Refreshes as you type!</p>
+            <p>to reset filter, remove words</p>
+            <input type="text" id="search" placeholder="  live search"></input>
           </div>
             <div class="col-10">
-                    <div id="table-area" class="">
-                            <table id="universities-table" class="table table-striped">
-                              <thead>
-                                <tr>
-                                  <th class="table-head">City</th>
-                                  <th class="table-head">School Name</th>
-                                  <th class="table-head">State</th>
-                                  <th class="table-head">Street</th>
-                                  <th class="table-head">Tuition($USD)</th>
-                                  <th class="table-head">Website</th>
-                                  <th class="table-head">Zipcode</th>
-                                </tr>
-                              </thead>
-                              <tbody></tbody>
-                            </table>
-                          </div>
-
+              <div id="table-area" class="">
+                  <table id="universities-table" class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th class="table-head">City</th>
+                          <th class="table-head">School Name</th>
+                          <th class="table-head">State</th>
+                          <th class="table-head">Street</th>
+                          <th class="table-head">Tuition($USD)</th>
+                          <th class="table-head">Website</th>
+                          <th class="table-head">Zipcode</th>
+                        </tr>
+                      </thead>
+                    <tbody></tbody>
+                  </table>
+              </div>
             </div>
-           
-
             </div>
         </div>       
     </div>
 </body>
 <footer>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="../static/js/main.js"></script>
- 
 </footer>
 
 </html>
