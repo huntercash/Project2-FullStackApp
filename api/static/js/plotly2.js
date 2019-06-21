@@ -1,4 +1,4 @@
-function makeplot() {
+function makeplot2() {
     Plotly.d3.json("api/Student_Debt_Income.json", function(data){ processData(data) } );
   
   };
@@ -16,12 +16,12 @@ function makeplot() {
       c.push( row['female_pay'] );
     }
     
-    makePlotly( year, a, b, c);
+    makePlotlyTwo( year, a, b, c);
   }
   
-  function makePlotly( year, a, b, c){
+  function makePlotlyTwo(year, a, b, c){
 
-    var plotDiv = document.getElementById("plot");
+    var plotDiv = document.getElementById("plot-2");
 
     var trace1 = {
       type: "bar",
@@ -65,6 +65,6 @@ function makeplot() {
       }
     }
 
-    Plotly.newPlot('plot', traces,layout);
+    Plotly.newPlot(plotDiv, traces,layout);
   };
-makeplot();
+makeplot2();
