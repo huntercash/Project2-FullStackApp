@@ -212,8 +212,10 @@ function makePlotly(educational_attainment, unemployment_rate, median_pay){
     // width: 1000,
     // height: 600,
     legend: {
-      xanchor: "center",
-      orientation: "h",
+      xanchor: "right",
+      orientation: "v",
+      x: 0,
+      y: 600
     },
     title: {
       text: 'Is College Worth it',
