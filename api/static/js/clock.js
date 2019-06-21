@@ -1,6 +1,6 @@
 // Update the Clock every .1 second.. 
 var seconds = 0.1;
-// 6/12/2019 1.46 trillion
+// 6/12/2017 1.46 trillion
 var startAmount = 1460000000000;
 // get todays date
 var t1 = new Date();

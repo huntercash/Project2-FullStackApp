@@ -2,7 +2,6 @@
 
 // get the data
 d3.csv("/static/csv/us_debt_bal_by_type.csv").then(function(us_debt_bal_by_type) {
-
   var loanType = []
   var loanSize = []
 
@@ -28,7 +27,6 @@ d3.csv("/static/csv/us_debt_bal_by_type.csv").then(function(us_debt_bal_by_type)
   }
 
   Plotly.newPlot('us_debt_bal_by_type', data, layout, {responsive: true});
-
 });
 
 

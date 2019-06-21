@@ -57,7 +57,7 @@ def map():
     """Returns the JS map Template"""
     return render_template("map.html")
 
-@app.route("/table2")
+@app.route("/university_roi")
 def table2():
     """Returns the JS Table Template"""
     return render_template("table2.html")
