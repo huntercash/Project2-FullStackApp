@@ -51,6 +51,11 @@ def tabledata():
     """Returns the JS Table Template"""
     return render_template("tabledata.html")
 
+@app.route("/schoolmap")
+def map():
+    """Returns the JS map Template"""
+    return render_template("map.html")
+
 # API DATA GOES HERE
 #################################################
 # Flask Routes

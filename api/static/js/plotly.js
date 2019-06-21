@@ -61,7 +61,11 @@ function makeplot1() {
     var traces = [trace1, trace2, trace3, trace4, trace5];
 
     var layout = {
-      title: 'Student Loans by Age',
+      title: {
+        text: 'Student Loans by Age',
+        font: {
+            size: 24
+        }},
       barmode: 'stack',
       xaxis: {tickfont: {
           size: 14,
@@ -80,7 +84,7 @@ function makeplot1() {
       }
     }
 
-    Plotly.newPlot(plotDiv, traces, layout);
+    Plotly.newPlot(plotDiv, traces, layout, {responsive: true});
   };
 };
 makeplot1();
@@ -133,7 +137,11 @@ function makePlotlyTwo(year, a, b, c){
   var traces = [trace1, trace2, trace3];
 
   var layout = {
-    title: '2017/2018 Average Student Loan vs Income vs Age',
+    title: {
+      text: '2017/2018 Average Student Loan vs Bachelor Degree Income vs Age',
+      font: {
+          size: 24
+      }},
     xaxis: {tickfont: {
         size: 14,
         color: '#000000'
@@ -151,7 +159,7 @@ function makePlotlyTwo(year, a, b, c){
     }
   }
 
-  Plotly.newPlot(plotDiv, traces,layout);
+  Plotly.newPlot(plotDiv, traces,layout, {responsive: true});
 };
 };
 makeplot2();
@@ -200,12 +208,14 @@ function makePlotly(educational_attainment, unemployment_rate, median_pay){
   var traces = [trace1, trace2];
 
   var layout = {
-    autosize: false,
-    width: 1000,
-    height: 600,
+    // autosize: false,
+    // width: 1000,
+    // height: 600,
     legend: {
-      xanchor: "center",
-      orientation: "h",
+      xanchor: "right",
+      orientation: "v",
+      x: 0,
+      y: 600
     },
     title: {
       text: 'Is College Worth it',
@@ -258,7 +268,7 @@ function makePlotly(educational_attainment, unemployment_rate, median_pay){
     }
   }
 
-  Plotly.newPlot(plotDiv, traces,layout);
+  Plotly.newPlot(plotDiv, traces,layout, {responsive: true});
 };
 };
 makeplot3();

@@ -3,8 +3,6 @@
 function makeplot() {
     Plotly.d3.json("/api/age_student_debt.json", function(data){ processData(data) } );
   
-  };
-  
   function processData(allRows) {
   
     console.log(allRows);
@@ -86,4 +84,5 @@ function makeplot() {
 
     Plotly.newPlot('plot', traces,layout);
   };
+};
 makeplot();

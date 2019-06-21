@@ -27,6 +27,7 @@ html {
 .total_info h4 {
   margin: 0 0 5px;
   color: #777;
+  font-size: 15px;
 }
 
 .avg_info {
@@ -41,6 +42,7 @@ html {
 .avg_info h4 {
   margin: 0 0 5px;
   color: #777;
+  font-size: 15px;
 }
 
 /* CSS from the Leaflet-Choropleth documentation */
@@ -80,3 +82,4 @@ html {
 h1 {
   text-align: center;
 }
+

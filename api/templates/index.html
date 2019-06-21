@@ -15,27 +15,27 @@
 </head>
 
    <body>
-      <nav class="nav justify-content-end">
-          <a class="nav-link active" href="/">Home</a>
-          <a class="nav-link" href="/tabledata">Compare Schools</a>
-          <a class="nav-link" href="map.html">School Map</a>
+      <nav class="nav justify-content-end bg-dark heading">
+          <a class="nav-link active text-white" href="/">Home</a>
+          <a class="nav-link text-white" href="/tabledata">Compare Schools</a>
+          <a class="nav-link text-white" href="/schoolmap">School Map</a>
     </nav>
       <div class="container-fluid">
         
       
 
-        <div class="jumbotron">
-            <h1 class="display-3">US Student Loan Debt Crisis</h1>
-            <p class="lead">Total Student Debt</p>
+        <div class="jumbotron bg-info text-white heading">
+            <h1 class="display-3 text-center">US Student Loan Debt Crisis</h1>
+            <p class="lead text-center">Drowning in debt?????</p>
             <hr class="my-2">
             <!-- <p id="studentDebtClock" class="studentdebtnumbers"></p> -->
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="card text-white bg-primary">
+            <div class="card text-white bg-secondary" style="max-width: 25;">
               <div class="card-body">
-                <h1 id="studentDebtClock" class="studentdebtnumbers card-title"></h1>
-                <p class="card-text">Average student loan debt per borrower</p>
+                <h1 id="studentDebtClock" class="studentdebtnumbers card-title text-center"></h1>
+                <p class="card-text text-center">Current Total student debt</p>
               </div>
             </div>
           </div>
@@ -45,34 +45,34 @@
         <div class="row">
             <div class="card-deck">
               <div class="col-md-3 col-12">
-                <div class="card text-white bg-primary">
-                  <div class="card-body">
-                    <h1 class="card-title">$35K</h1>
-                    <p class="card-text">Average student loan debt per borrower</p>
+                <div class="card border-warning mb-3">
+                  <div class="card-body text-info">
+                    <h1 class="card-title text-center">$35K</h1>
+                    <p class="card-text text-center">Average Student Loan Debt per Borrower</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-3 col-12">
-              <div class="card text-white bg-primary">
-                <div class="card-body">
-                  <h1 class="card-title">43M</h1>
-                  <p class="card-text">Total Number of Recipients</p>
+                <div class="card border-warning mb-3">
+                  <div class="card-body text-info">
+                  <h1 class="card-title text-center">43M</h1>
+                  <p class="card-text text-center">Total Number of Student Loan Recipients</p>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-12">
-              <div class="card text-white bg-primary">
-                <div class="card-body">
-                  <h1 class="card-title">$55K</h1>
-                  <p class="card-text">Highest Average Student Loan Debt, Washington, D.C</p>
+              <div class="card border-warning mb-3">
+                <div class="card-body text-info">
+                  <h1 class="card-title text-center">$55K</h1>
+                  <p class="card-text text-center">Highest Average Student Loan Debt, Washington, D.C</p>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-12">
-              <div class="card text-white bg-primary">
-                <div class="card-body">
-                  <h1 class="card-title">$28K</h1>
-                  <p class="card-text">Lowest Average Student Loan Debt, South Dakota</p>
+              <div class="card border-warning mb-3">
+                <div class="card-body text-info">
+                  <h1 class="card-title text-center">$28K</h1>
+                  <p class="card-text text-center">Lowest Average Student Loan Debt, South Dakota</p>
                 </div>
               </div>
             </div>
@@ -80,6 +80,7 @@
             </div>
             
           </div> 
+
         </div>
 
 
@@ -124,7 +125,9 @@
       </div>
 
 </body>
-<footer>
+
+
+<footer class="footer mt-auto py-3">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="../static/js/awesomplete.min.js"></script>
@@ -132,5 +135,23 @@
   <script src="../static/js/plotly.js"></script>
   <script src="../static/js/plots.js"></script>
 </footer>
+
+
+<footer class="footer mt-auto py-3 bg-secondary">
+    <div class="container">
+            <a class="btn btn-outline-info btn-lg btn-block" href="https://github.com/huntercash/Project2-FullStackApp" role="button">View Github</a>
+  
+    </div>
+
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="../static/js/awesomplete.min.js"></script>
+    <script src="../static/js/clock.js"></script>
+    <script src="../static/js/plotly.js"></script>
+    <script src="../static/js/plots.js"></script>
+  </footer>
+
 
 </html>

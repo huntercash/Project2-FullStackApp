@@ -1,0 +1,1871 @@
+﻿INTEGER,Rank ,School Name ,20 Year Net ROI,Total 4 Year Cost (USD),Graduation Rate (%),Typical Years to Graduate
+1,1,United States Merchant Marine Academy(Service Academy),1094000,34900,76,4
+2,2,United States Military Academy(Service Academy),1041000,0,86,4
+3,3,Massachusetts Institute of Technology(Private),1015000,249000,93,4
+4,4,United States Naval Academy(Service Academy),1004000,0,86,4
+5,5,SUNY Maritime College(In-State),1003000,95300,57,5
+6,6,Harvey Mudd College(Private),978000,272000,93,4
+7,7,SUNY Maritime College(Out-of-State),964000,134000,57,5
+8,8,Colorado School of Mines(In-State),909000,126000,77,4
+9,9,United States Air Force Academy(Service Academy),905000,0,83,4
+10,10,California Institute of Technology(Private),887000,250000,94,4
+11,11,Albany College of Pharmacy and Health Sciences(Private),870000,178000,71,6
+12,12,Georgia Institute of Technology-Main Campus(In-State),856000,101000,86,5
+13,13,Colorado School of Mines(Out-of-State),840000,195000,77,4
+14,14,The California Maritime Academy(In-State),837000,87700,62,4
+15,15,Stevens Institute of Technology(Private),832000,250000,83,5
+16,16,Stanford University(Private),811000,255000,94,4
+17,17,Webb Institute(Private),801000,257000,83,4
+18,18,Princeton University(Private),797000,240000,97,4
+19,19,Babson College(Private),793000,254000,91,4
+20,19,The California Maritime Academy(Out-of-State),793000,132000,62,4
+21,21,Massachusetts Maritime Academy(In-State),783000,92200,76,4
+22,22,Georgia Institute of Technology-Main Campus(Out-of-State),777000,180000,86,5
+23,22,Worcester Polytechnic Institute(Private),777000,242000,86,4
+24,24,Kettering University(Private),766000,215000,53,5
+25,25,Harvard University(Private),760000,254000,97,4
+26,26,University of California-Berkeley(In-State),759000,139000,92,4
+27,27,Missouri University of Science and Technology(In-State),753000,87300,64,5
+28,28,Rose-Hulman Institute of Technology(Private),751000,239000,82,4
+29,29,University of Pennsylvania(Private),739000,262000,95,4
+30,30,Massachusetts Maritime Academy(Out-of-State),721000,155000,76,4
+31,31,Maine Maritime Academy(In-State),718000,103000,62,4
+32,32,United States Coast Guard Academy(Service Academy),714000,0,87,4
+33,33,Dartmouth College(Private),707000,265000,97,4
+34,34,Carnegie Mellon University(Private),705000,260000,90,4
+35,35,New Jersey Institute of Technology(In-State),704000,135000,61,5
+36,36,Rensselaer Polytechnic Institute(Private),703000,260000,83,4
+37,37,California Polytechnic State University-San Luis Obispo(In-State),699000,100000,80,5
+38,38,New Mexico Institute of Mining and Technology(In-State),692000,79100,49,5
+39,39,Missouri University of Science and Technology(Out-of-State),691000,149000,64,5
+40,40,Yale University(Private),689000,261000,98,4
+41,41,Virginia Military Institute(In-State),680000,111000,78,6
+42,42,Lehigh University(Private),679000,240000,89,4
+43,43,Maine Maritime Academy(Out-of-State),670000,152000,62,4
+44,44,University of California-Berkeley(Out-of-State),662000,236000,92,4
+45,45,California Polytechnic State University-San Luis Obispo(Out-of-State),654000,145000,80,5
+46,46,Columbia University in the City of New York(Private),653000,272000,94,4
+47,47,Capitol Technology University(Private),651000,144000,51,5
+48,48,Rice University(Private),650000,229000,93,4
+49,49,Michigan Technological University(In-State),649000,109000,67,5
+50,49,New Jersey Institute of Technology(Out-of-State),649000,190000,61,5
+51,51,Cornell University(Private),646000,258000,94,4
+52,52,New Mexico Institute of Mining and Technology(Out-of-State),643000,128000,49,5
+53,53,University of California-San Diego(In-State),642000,125000,87,4
+54,54,Duke University(Private),641000,262000,95,4
+55,55,Santa Clara University(Private),640000,251000,89,4
+56,56,South Dakota School of Mines and Technology(In-State),635000,93500,48,5
+57,57,Montana Tech of the University of Montana(In-State),634000,77400,46,5
+58,58,University of Virginia-Main Campus(In-State),633000,114000,94,4
+59,59,Cooper Union for the Advancement of Science and Art(Private),632000,247000,87,4
+60,60,Clarkson University(Private),626000,244000,71,4
+61,61,South Dakota School of Mines and Technology(Out-of-State),621000,108000,48,5
+62,62,Georgetown University(Private),619000,263000,94,4
+63,63,Brown University(Private),616000,257000,96,4
+64,64,Washington and Lee University(Private),614000,243000,92,4
+65,65,Milwaukee School of Engineering(Private),611000,193000,64,4
+66,66,University of Washington-Bothell Campus(In-State),609000,109000,67,5
+67,67,Claremont McKenna College(Private),604000,262000,93,4
+68,68,Bentley University(Private),598000,240000,89,4
+69,69,San Jose State University(In-State),597000,102000,62,5
+70,69,Virginia Polytechnic Institute and State University(In-State),597000,103000,84,4
+71,69,Yeshiva University(Private),597000,228000,82,4
+72,72,Brigham Young University-Provo(Private),595000,71100,83,6
+73,73,Manhattan College(Private),591000,221000,71,4
+74,74,SUNY at Binghamton(In-State),590000,95600,83,4
+75,74,Virginia Military Institute(Out-of-State),590000,201000,78,6
+76,76,Michigan Technological University(Out-of-State),586000,172000,67,5
+77,77,University of Illinois at Urbana-Champaign(In-State),585000,118000,85,4
+78,78,MCPHS University(Private),583000,196000,78,4
+79,78,Montana Tech of the University of Montana(Out-of-State),583000,129000,46,5
+80,80,Villanova University(Private),581000,248000,90,4
+81,81,Illinois Institute of Technology(Private),577000,236000,71,5
+82,81,University of Maryland-College Park(In-State),577000,99300,86,4
+83,83,Texas A & M University-College Station(In-State),575000,97100,80,5
+84,84,University of Massachusetts-Lowell(In-State),573000,108000,56,5
+85,85,Oregon Institute of Technology(In-State),572000,90000,47,5
+86,86,University of Notre Dame(Private),571000,254000,95,4
+87,87,Case Western Reserve University(Private),568000,242000,82,4
+88,88,Bucknell University(Private),566000,257000,88,4
+89,89,University of Michigan-Ann Arbor(In-State),559000,110000,91,4
+90,89,Williams College(Private),559000,261000,94,4
+91,91,Purdue University-Main Campus(In-State),557000,92300,76,5
+92,92,University of California-Los Angeles(In-State),556000,133000,91,4
+93,93,University of Washington-Seattle Campus(In-State),555000,107000,84,4
+94,94,Johns Hopkins University(Private),552000,258000,92,4
+95,94,San Jose State University(Out-of-State),552000,147000,62,5
+96,96,California State Polytechnic University-Pomona(In-State),551000,98300,69,5
+97,97,Embry-Riddle Aeronautical University-Daytona Beach(Private),549000,194000,55,5
+98,98,George Mason University(In-State),545000,106000,70,4
+99,99,University of California-San Diego(Out-of-State),544000,223000,87,4
+100,100,Lafayette College(Private),543000,251000,89,4
+101,101,Rutgers University-New Brunswick(In-State),542000,121000,80,4
+102,102,SUNY at Binghamton(Out-of-State),540000,146000,83,4
+103,103,The University of Texas at Austin(In-State),539000,104000,81,4
+104,104,Colgate University(Private),538000,255000,90,4
+105,105,Lawrence Technological University(Private),537000,180000,54,5
+106,106,Wentworth Institute of Technology(Private),535000,200000,65,4
+107,107,Wabash College(Private),534000,201000,72,4
+108,108,Virginia Polytechnic Institute and State University(Out-of-State),531000,168000,84,4
+109,109,Embry-Riddle Aeronautical University-Prescott(Private),529000,192000,63,5
+110,109,Hamilton College(Private),529000,251000,92,4
+111,111,CUNY Bernard M Baruch College(In-State),527000,116000,66,5
+112,111,University of Alaska Fairbanks(In-State),527000,70500,25,5
+113,113,University of Illinois at Urbana-Champaign(Out-of-State),525000,178000,85,4
+114,114,University of Washington-Bothell Campus(Out-of-State),522000,196000,67,5
+115,115,Boston College(Private),519000,257000,93,4
+116,116,University of Alabama in Huntsville(In-State),518000,96200,49,5
+117,116,University of Virginia-Main Campus(Out-of-State),518000,229000,94,4
+118,118,College of William and Mary(In-State),516000,129000,91,4
+119,119,Union College (New York)(Private),514000,253000,87,4
+120,120,Fairfield University(Private),513000,243000,82,4
+121,121,University of California-Irvine(In-State),512000,127000,87,4
+122,121,University of Massachusetts-Lowell(Out-of-State),512000,169000,56,5
+123,123,Florida Institute of Technology(Private),510000,223000,58,4
+124,123,The University of Texas at Dallas(In-State),510000,102000,67,4
+125,125,Oregon Institute of Technology(Out-of-State),509000,153000,47,5
+126,125,Touro College(Private),509000,126000,45,4
+127,127,California State Polytechnic University-Pomona(Out-of-State),506000,143000,69,5
+128,128,University of California-Santa Barbara(In-State),505000,139000,82,4
+129,129,Texas A & M University-College Station(Out-of-State),502000,169000,80,5
+130,130,Swarthmore College(Private),501000,254000,94,4
+131,130,University of Maryland-Baltimore County(In-State),501000,103000,64,5
+132,132,Rutgers University-Newark(In-State),500000,122000,66,5
+133,133,CUNY Bernard M Baruch College(Out-of-State),499000,144000,66,5
+134,134,Drexel University(Private),497000,267000,70,5
+135,135,Vanderbilt University(Private),496000,252000,92,4
+136,136,Stony Brook University(In-State),495000,93300,72,4
+137,136,University of Maryland-College Park(Out-of-State),495000,182000,86,4
+138,138,James Madison University(In-State),493000,96200,82,4
+139,138,University of California-Davis(In-State),493000,136000,85,5
+140,138,West Virginia University Institute of Technology(In-State),493000,74700,21,5
+141,141,University of Delaware(In-State),488000,106000,81,4
+142,142,Loyola University Maryland(Private),486000,244000,83,4
+143,143,Miami University-Oxford(In-State),485000,119000,78,4
+144,144,Purdue University-Main Campus(Out-of-State),482000,168000,76,5
+145,144,Rutgers University-New Brunswick(Out-of-State),482000,181000,80,4
+146,146,Northwestern University(Private),481000,267000,94,4
+147,146,University of Alaska Fairbanks(Out-of-State),481000,116000,25,5
+148,148,Bryant University(Private),480000,225000,77,4
+149,148,University of Connecticut(In-State),480000,115000,82,4
+150,150,University of Houston(In-State),479000,94000,51,5
+151,151,California State University-East Bay(In-State),477000,93500,48,5
+152,152,Wake Forest University(Private),476000,254000,88,4
+153,153,George Washington University(Private),475000,257000,84,4
+154,153,The College of New Jersey(In-State),475000,127000,87,4
+155,156,University of Southern California(Private),472000,264000,92,4
+156,157,University of Alabama in Huntsville(Out-of-State),471000,143000,49,5
+157,158,Brigham Young University-Idaho(Private),468000,48200,56,6
+158,158,University of Washington-Seattle Campus(Out-of-State),468000,194000,84,4
+159,160,George Mason University(Out-of-State),465000,187000,70,4
+160,160,North Carolina State University at Raleigh(In-State),465000,90600,77,5
+161,160,Tufts University(Private),465000,258000,92,4
+162,163,Clemson University(In-State),461000,114000,81,4
+163,163,University of Richmond(Private),461000,242000,88,4
+164,163,Washington University in St Louis(Private),461000,266000,94,4
+165,166,University of San Francisco(Private),460000,244000,72,4
+166,167,New York University(Private),459000,268000,85,4
+167,167,Seattle University(Private),459000,222000,75,4
+168,169,University of California-Los Angeles(Out-of-State),458000,230000,91,4
+169,170,Farmingdale State College(In-State),457000,92400,49,5
+170,170,The University of Texas at Arlington(In-State),457000,91900,48,5
+171,172,California State University-Chico(In-State),455000,92100,69,5
+172,172,West Virginia University Institute of Technology(Out-of-State),455000,112000,21,5
+173,174,Northeastern University(Private),454000,247000,86,5
+174,175,Rochester Institute of Technology(Private),453000,201000,66,5
+175,176,Emory University(Private),452000,249000,91,4
+176,177,University of Colorado Boulder(In-State),451000,120000,70,4
+177,177,University of Maryland-Baltimore County(Out-of-State),451000,153000,64,5
+178,177,University of Wisconsin-Platteville(In-State),451000,73300,54,5
+179,180,Citadel Military College of South Carolina(In-State),449000,107000,69,4
+180,180,College of the Holy Cross(Private),449000,243000,92,4
+181,180,University of Minnesota-Twin Cities(In-State),449000,104000,78,4
+182,183,Texas Tech University(In-State),446000,89700,60,5
+183,184,Pennsylvania State University-Main Campus(In-State),445000,139000,86,4
+184,184,The University of Texas at Dallas(Out-of-State),445000,167000,67,4
+185,186,Saint Mary's College of California(Private),444000,242000,73,4
+186,186,Weber State University(In-State),444000,74400,32,5
+187,188,University of Michigan-Ann Arbor(Out-of-State),443000,226000,91,4
+188,189,Felician University(Private),442000,189000,41,5
+189,189,Washington Adventist University(Private),442000,131000,38,5
+190,191,Rutgers University-Newark(Out-of-State),440000,182000,66,5
+191,191,The University of Texas at Austin(Out-of-State),440000,203000,81,4
+192,193,Ottawa University-Ottawa(Private),438000,156000,31,4
+193,193,Stony Brook University(Out-of-State),438000,151000,72,4
+194,196,LeTourneau University(Private),436000,163000,53,4
+195,197,Iowa State University(In-State),435000,77200,74,5
+196,197,University of Houston(Out-of-State),435000,137000,51,5
+197,197,University of Utah(In-State),435000,89300,65,5
+198,200,Mount Carmel College of Nursing(Private),434000,94500,73,4
+199,200,University of Massachusetts-Amherst(In-State),434000,110000,76,4
+200,202,California State University-East Bay(Out-of-State),433000,138000,48,5
+201,202,James Madison University(Out-of-State),433000,156000,82,4
+202,204,The College of New Jersey(Out-of-State),432000,170000,87,4
+203,205,University of Arizona(In-State),431000,103000,60,4
+204,206,University of Florida(In-State),430000,81600,87,4
+205,207,College of William and Mary(Out-of-State),428000,217000,91,4
+206,208,CUNY Queens College(In-State),424000,107000,60,5
+207,208,University of Oklahoma-Norman Campus(In-State),424000,99900,68,5
+208,210,San Francisco State University(In-State),423000,97900,53,5
+209,210,University of Wisconsin-Madison(In-State),423000,98200,85,4
+210,212,Louisiana State University and Agricultural & Mechanical College(In-State),422000,102000,68,5
+211,213,Boston University(Private),421000,259000,87,4
+212,213,New York Institute of Technology(Private),421000,207000,44,5
+213,215,Pace University-New York(Private),420000,242000,59,4
+214,215,University of Wisconsin-Platteville(Out-of-State),420000,104000,54,5
+215,217,Haverford College(Private),419000,262000,90,4
+216,217,Miami University-Oxford(Out-of-State),419000,185000,78,4
+217,217,University of Illinois at Chicago(In-State),419000,118000,58,5
+218,220,Farmingdale State College(Out-of-State),418000,131000,49,5
+219,220,University of Cincinnati-Main Campus(In-State),418000,111000,67,5
+220,220,University of Minnesota-Twin Cities(Out-of-State),418000,136000,78,4
+221,223,Michigan State University(In-State),417000,103000,78,4
+222,223,University of the Pacific(Private),417000,239000,68,4
+223,225,The University of Texas at Arlington(Out-of-State),416000,133000,48,5
+224,226,Gonzaga University(Private),415000,208000,84,5
+225,226,University of California-Irvine(Out-of-State),415000,224000,87,4
+226,228,Baptist Memorial College of Health Sciences(Private),413000,88700,72,4
+227,228,North Dakota State University-Main Campus(In-State),413000,80400,55,5
+228,228,University of Delaware(Out-of-State),413000,180000,81,4
+229,231,Pennsylvania State University-Penn State Erie-Behrend College(In-State),412000,127000,63,4
+230,231,San Diego State University(In-State),412000,105000,73,5
+231,233,California State University-Chico(Out-of-State),411000,137000,69,5
+232,233,Marquette University(Private),411000,204000,81,4
+233,235,Texas Tech University(Out-of-State),410000,126000,60,5
+234,235,Utah State University(In-State),410000,74000,47,5
+235,235,Washington State University(In-State),410000,111000,67,5
+236,238,California State University-Sacramento(In-State),409000,95700,49,5
+237,238,Weber State University(Out-of-State),409000,110000,32,5
+238,240,Oregon State University(In-State),408000,101000,63,5
+239,240,University of California-Santa Barbara(Out-of-State),408000,236000,82,4
+240,242,Amherst College(Private),406000,261000,93,4
+241,242,Arizona State University-Tempe(In-State),406000,100000,67,4
+242,244,Saint Johns University(Private),405000,205000,79,4
+243,245,University of Mary Washington(In-State),404000,101000,72,4
+244,246,Brandeis University(Private),402000,258000,90,4
+245,246,Molloy College(Private),402000,185000,76,5
+246,246,North Carolina State University at Raleigh(Out-of-State),402000,153000,77,5
+247,249,California State University-Fresno(In-State),401000,80800,57,5
+248,249,California State University-Long Beach(In-State),401000,91400,69,5
+249,249,Prairie View A & M University(In-State),401000,83300,31,5
+250,252,Hofstra University(Private),400000,229000,64,4
+251,252,Lamar University(In-State),400000,85700,33,5
+252,254,Grove City College(Private),399000,105000,81,4
+253,255,University of Alaska Anchorage(In-State),397000,87800,24,5
+254,255,University of Connecticut(Out-of-State),397000,197000,82,4
+255,257,CUNY Queens College(Out-of-State),396000,135000,60,5
+256,257,Regis University(Private),396000,191000,68,4
+257,257,University of California-Davis(Out-of-State),396000,233000,85,5
+258,257,University of Chicago(Private),396000,275000,94,4
+259,261,Indiana Institute of Technology(Private),394000,152000,33,5
+260,261,University of Dayton(Private),394000,211000,75,4
+261,261,University of Iowa(In-State),394000,84400,72,4
+262,261,University of the Sciences(Private),394000,223000,70,4
+263,265,California State University-Northridge(In-State),392000,85400,50,5
+264,265,Louisiana Tech University(In-State),392000,76400,52,4
+265,267,Pennsylvania State University-Main Campus(Out-of-State),391000,193000,86,4
+266,267,University of Rhode Island(In-State),391000,111000,63,4
+267,269,American University(Private),389000,239000,81,4
+268,269,Catholic University of America(Private),389000,233000,70,4
+269,269,Loyola Marymount University(Private),389000,239000,83,4
+270,272,University at Buffalo(In-State),388000,99400,74,4
+271,273,Clemson University(Out-of-State),387000,188000,81,4
+272,274,California State University-Fullerton(In-State),385000,100000,62,5
+273,274,SUNY at Albany(In-State),385000,94700,66,4
+274,274,Vaughn College of Aeronautics and Technology(Private),385000,176000,39,4
+275,274,West Virginia University(In-State),385000,80500,57,5
+276,278,College of Staten Island CUNY(In-State),384000,115000,31,4
+277,278,Fordham University(Private),384000,266000,80,4
+278,278,Iowa State University(Out-of-State),384000,129000,74,5
+279,281,Pennsylvania State University-Penn State Erie-Behrend College(Out-of-State),382000,157000,63,4
+280,281,University of Rochester(Private),382000,258000,85,5
+281,283,Menlo College(Private),381000,223000,53,4
+282,284,San Francisco State University(Out-of-State),379000,143000,53,5
+283,285,University of Missouri-Columbia(In-State),377000,96600,68,5
+284,286,Auburn University(In-State),376000,115000,75,5
+285,286,University of Pittsburgh-Pittsburgh Campus(In-State),376000,130000,81,4
+286,288,University of Washington-Tacoma Campus(In-State),375000,109000,60,4
+287,289,New Mexico State University-Main Campus(In-State),374000,75600,45,5
+288,289,Ohio State University-Main Campus(In-State),374000,103000,84,4
+289,289,University of Arkansas(In-State),374000,93100,64,4
+290,289,University of California-Riverside(In-State),374000,133000,73,5
+291,289,University of Kansas(In-State),374000,95700,63,4
+292,289,University of North Carolina at Chapel Hill(In-State),374000,98900,91,4
+293,295,Stonehill College(Private),373000,220000,80,4
+294,296,Iona College(Private),372000,207000,68,4
+295,297,University of Oklahoma-Norman Campus(Out-of-State),371000,153000,68,5
+296,298,Alaska Pacific University(Private),370000,139000,48,4
+297,298,DePaul University(Private),370000,207000,73,4
+298,298,University of Massachusetts-Amherst(Out-of-State),370000,174000,76,4
+299,301,Citadel Military College of South Carolina(Out-of-State),369000,187000,69,4
+300,301,Montana State University(In-State),369000,79800,53,5
+301,301,Tennessee Technological University(In-State),369000,96900,51,5
+302,301,University of Georgia(In-State),369000,96100,85,4
+303,301,University of Illinois at Chicago(Out-of-State),369000,169000,58,5
+304,306,Indiana University-Bloomington(In-State),368000,97600,76,4
+305,306,North Dakota State University-Main Campus(Out-of-State),368000,125000,55,5
+306,306,Syracuse University(Private),368000,241000,82,4
+307,306,University of Idaho(In-State),368000,80200,56,5
+308,310,San Diego State University(Out-of-State),367000,150000,73,5
+309,310,University of California-Santa Cruz(In-State),367000,138000,77,4
+310,312,Bowdoin College(Private),366000,251000,94,4
+311,312,Central Connecticut State University(In-State),366000,97300,54,5
+312,312,Pomona College(Private),366000,255000,97,4
+313,312,University of Utah(Out-of-State),366000,159000,65,5
+314,316,California State University-Sacramento(Out-of-State),365000,140000,49,5
+315,317,Colorado State University-Fort Collins(In-State),364000,95300,67,5
+316,317,Gettysburg College(Private),364000,246000,87,4
+317,317,Lamar University(Out-of-State),364000,122000,33,5
+318,320,Nebraska Methodist College of Nursing & Allied Health(Private),363000,111000,59,4
+319,320,Pennsylvania State University-Penn State Harrisburg(In-State),363000,127000,63,5
+320,320,University of Nevada-Reno(In-State),363000,91500,54,5
+321,320,University of Redlands(Private),363000,247000,74,4
+322,324,CUNY City College(In-State),362000,111000,47,5
+323,324,Thomas More College(Private),362000,157000,51,4
+324,324,University of North Carolina at Charlotte(In-State),362000,82300,57,5
+325,327,California College of the Arts(Private),361000,237000,60,4
+326,327,Fairleigh Dickinson University-College at Florham(Private),361000,223000,53,4
+327,327,University of North Dakota(In-State),361000,82700,55,5
+328,327,Utah State University(Out-of-State),361000,123000,47,5
+329,331,Texas A & M University-Kingsville(In-State),360000,86100,29,5
+330,331,University of Colorado Boulder(Out-of-State),360000,210000,70,4
+331,331,University of Wyoming(In-State),360000,75600,55,5
+332,334,University of Nebraska-Lincoln(In-State),359000,92700,67,5
+333,335,Central Washington University(In-State),358000,90500,52,5
+334,335,Middlebury College(Private),358000,250000,93,4
+335,337,California State University-Fresno(Out-of-State),357000,125000,57,5
+336,337,Sonoma State University(In-State),357000,96800,61,5
+337,337,University of Cincinnati-Main Campus(Out-of-State),357000,172000,67,5
+338,337,University of St Thomas (Minnesota)(Private),357000,203000,76,4
+339,337,University of Wisconsin-Eau Claire(In-State),357000,77200,68,5
+340,342,California State University-Long Beach(Out-of-State),356000,136000,69,5
+341,342,College of Staten Island CUNY(Out-of-State),356000,143000,31,4
+342,342,Seton Hall University(Private),356000,211000,64,4
+343,342,Washington State University(Out-of-State),356000,165000,67,5
+344,346,Prairie View A & M University(Out-of-State),355000,129000,31,5
+345,347,University of San Diego(Private),354000,243000,78,4
+346,348,Bates College(Private),353000,255000,88,4
+347,348,SUNY Polytechnic Institute(In-State),353000,93900,44,4
+348,348,St John's University-New York(Private),353000,230000,58,5
+349,348,Tulane University of Louisiana(Private),353000,256000,83,4
+350,348,University of Tulsa(Private),353000,217000,73,4
+351,353,Louisiana State University and Agricultural & Mechanical College(Out-of-State),352000,172000,68,5
+352,353,Trinity University(Private),352000,207000,77,4
+353,353,University of Alaska Anchorage(Out-of-State),352000,133000,24,5
+354,356,California State University-Stanislaus(In-State),351000,82600,57,5
+355,356,University of Arizona(Out-of-State),351000,183000,60,4
+356,356,University of Massachusetts-Dartmouth(In-State),351000,107000,48,5
+357,356,Western Washington University(In-State),351000,91800,69,5
+358,360,Providence College(Private),350000,240000,83,4
+359,360,University of Houston-Victoria(In-State),350000,75800,18,5
+360,362,Kansas State University(In-State),349000,89900,63,5
+361,362,Oklahoma State University-Main Campus(In-State),349000,89000,63,5
+362,362,University of Mary Washington(Out-of-State),349000,156000,72,4
+363,362,University of Wisconsin-Madison(Out-of-State),349000,172000,85,4
+364,366,Franklin and Marshall College(Private),348000,258000,87,4
+365,367,California State University-Northridge(Out-of-State),347000,130000,50,5
+366,368,Arizona State University-Tempe(Out-of-State),346000,160000,67,4
+367,368,Montclair State University(In-State),346000,115000,65,5
+368,370,Western Connecticut State University(In-State),345000,97600,46,5
+369,371,CUNY Hunter College(In-State),344000,83900,53,5
+370,371,La Salle University(Private),344000,219000,65,4
+371,371,Lake Forest College(Private),344000,218000,70,4
+372,371,Oakland University(In-State),344000,91700,47,5
+373,376,Bradley University(Private),343000,176000,74,4
+374,376,Pepperdine University(Private),343000,259000,87,4
+375,376,University of New Hampshire-Main Campus(In-State),343000,125000,78,4
+376,376,University of Vermont(In-State),343000,122000,74,4
+377,380,SUNY College at Old Westbury(In-State),342000,87100,43,5
+378,381,Southern Methodist University(Private),341000,262000,79,4
+379,382,California State University-Fullerton(Out-of-State),340000,145000,62,5
+380,382,University of Florida(Out-of-State),340000,171000,87,4
+381,384,Bowie State University(In-State),339000,84300,37,5
+382,384,Colby College(Private),339000,249000,89,4
+383,384,Florida International University(In-State),339000,92800,56,5
+384,387,Oregon State University(Out-of-State),338000,170000,63,5
+385,387,Wagner College(Private),338000,229000,67,4
+386,389,Saint Joseph's University(Private),337000,231000,80,4
+387,390,Northern Illinois University(In-State),336000,115000,47,5
+388,390,The University of Texas at El Paso(In-State),336000,86000,39,5
+389,390,Trinity College(Private),336000,262000,85,4
+390,393,California State University-San Marcos(In-State),335000,96300,52,5
+391,393,Ramapo College of New Jersey(In-State),335000,119000,73,4
+392,393,Rockhurst University(Private),335000,193000,72,4
+393,393,SUNY at Albany(Out-of-State),335000,145000,66,4
+394,393,University of Nevada-Las Vegas(In-State),335000,89700,41,5
+395,398,CUNY City College(Out-of-State),334000,138000,47,5
+396,398,Eastern Nazarene College(Private),334000,165000,46,4
+397,398,Marist College(Private),334000,202000,83,4
+398,398,University of Pittsburgh-Pittsburgh Campus(Out-of-State),334000,172000,81,4
+399,402,Notre Dame de Namur University(Private),333000,204000,50,4
+400,402,Pennsylvania State University-Penn State Harrisburg(Out-of-State),333000,157000,63,5
+401,404,DePauw University(Private),332000,229000,85,4
+402,404,Ferris State University(In-State),332000,89600,43,5
+403,404,Louisiana Tech University(Out-of-State),332000,136000,52,4
+404,407,Oglethorpe University(Private),331000,196000,47,4
+405,407,Sacred Heart University(Private),331000,220000,60,4
+406,407,West Virginia University(Out-of-State),331000,135000,57,5
+407,410,SUNY College of Technology at Alfred(In-State),330000,95200,48,4
+408,410,University at Buffalo(Out-of-State),330000,157000,74,4
+409,412,Western New England University(Private),329000,200000,62,4
+410,413,California State University-Los Angeles(In-State),328000,93100,46,6
+411,413,Laguna College of Art and Design(Private),328000,181000,46,5
+412,413,Michigan State University(Out-of-State),328000,193000,78,4
+413,413,Old Dominion University(In-State),328000,94000,51,5
+414,413,University of Rhode Island(Out-of-State),328000,174000,63,4
+415,418,Towson University(In-State),327000,96900,71,5
+416,418,University of Scranton(Private),327000,229000,79,4
+417,418,University of Wisconsin-Eau Claire(Out-of-State),327000,107000,68,5
+418,418,Walla Walla University(Private),327000,148000,54,5
+419,422,North Carolina A & T State University(In-State),325000,70000,43,5
+420,422,Vermont Technical College(In-State),325000,102000,48,4
+421,424,Cardinal Stritch University(Private),324000,162000,46,5
+422,424,Hampden-Sydney College(Private),324000,223000,66,4
+423,424,Ohio University-Main Campus(In-State),324000,102000,64,4
+424,427,Texas Christian University(Private),323000,223000,77,4
+425,427,University of Arkansas(Out-of-State),323000,144000,64,4
+426,427,University of Minnesota-Duluth(In-State),323000,94700,59,5
+427,427,University of Toledo(In-State),323000,98100,43,5
+428,431,California State University-Dominguez Hills(In-State),322000,90000,42,6
+429,431,University of Hartford(Private),322000,201000,58,4
+430,431,University of New Orleans(In-State),322000,85700,36,5
+431,434,University of St Thomas (Texas)(Private),321000,173000,60,5
+432,435,New Mexico State University-Main Campus(Out-of-State),320000,129000,45,5
+433,435,Saint Cloud State University(In-State),320000,77700,45,6
+434,435,Wayne State University(In-State),320000,97900,39,5
+435,438,Concordia University-Saint Paul(Private),319000,130000,52,4
+436,438,Dallas Baptist University(Private),319000,144000,59,4
+437,438,Rutgers University-Camden(In-State),319000,119000,59,5
+438,438,University of South Florida-Main Campus(In-State),319000,84200,67,4
+439,438,University of Wyoming(Out-of-State),319000,117000,55,5
+440,443,University of North Dakota(Out-of-State),318000,126000,55,5
+441,443,University of Wisconsin-Stout(In-State),318000,76600,54,5
+442,445,Central Connecticut State University(Out-of-State),317000,146000,54,5
+443,445,Purdue University-Calumet Campus(In-State),317000,86500,32,5
+444,447,CUNY Hunter College(Out-of-State),316000,111000,53,5
+445,447,McNeese State University(In-State),316000,77100,42,5
+446,447,Midwestern State University(In-State),316000,75000,41,5
+447,447,SUNY College at Geneseo(In-State),316000,92000,81,4
+448,447,University of Iowa(Out-of-State),316000,163000,72,4
+449,447,University of Missouri-Kansas City(In-State),316000,98200,49,5
+450,453,Benedictine University(Private),315000,162000,51,4
+451,453,University of Missouri-Columbia(Out-of-State),315000,158000,68,5
+452,455,Florida State University(In-State),314000,87800,80,4
+453,455,Framingham State University(In-State),314000,94800,55,5
+454,455,Idaho State University(In-State),314000,83500,29,5
+455,455,SUNY Polytechnic Institute(Out-of-State),314000,133000,44,4
+456,459,Florida Atlantic University(In-State),313000,88400,50,5
+457,459,Merrimack College(Private),313000,210000,73,4
+458,459,Sonoma State University(Out-of-State),313000,141000,61,5
+459,459,Temple University(In-State),313000,125000,71,5
+460,459,Texas A & M University-Kingsville(Out-of-State),313000,134000,29,5
+461,459,University of Idaho(Out-of-State),313000,136000,56,5
+462,465,Montclair State University(Out-of-State),312000,149000,65,5
+463,465,University of Kansas(Out-of-State),312000,158000,63,4
+464,467,Indiana University-Purdue University-Indianapolis(In-State),311000,88200,46,5
+465,468,California State University-San Bernardino(In-State),310000,84500,55,5
+466,468,University of Kentucky(In-State),310000,104000,64,5
+467,468,University of North Carolina at Charlotte(Out-of-State),310000,134000,57,5
+468,471,Minnesota State University-Mankato(In-State),309000,74900,51,6
+469,471,Montana State University(Out-of-State),309000,140000,53,5
+470,473,Midwestern State University(Out-of-State),308000,82800,41,5
+471,473,Tennessee Technological University(Out-of-State),308000,158000,51,5
+472,473,Texas State University(In-State),308000,83300,54,5
+473,473,Tuskegee University(Private),308000,140000,46,4
+474,477,Auburn University(Out-of-State),307000,184000,75,5
+475,477,California State University-Bakersfield(In-State),307000,93100,43,5
+476,477,Central Washington University(Out-of-State),307000,141000,52,5
+477,477,Ferris State University(Out-of-State),307000,115000,43,5
+478,477,Gwynedd Mercy University(Private),307000,177000,51,4
+479,477,University of Minnesota-Duluth(Out-of-State),307000,110000,59,5
+480,477,University of Nevada-Reno(Out-of-State),307000,147000,54,5
+481,484,California State University-Stanislaus(Out-of-State),306000,127000,57,5
+482,484,Ohio State University-Main Campus(Out-of-State),306000,170000,84,4
+483,484,Saint Martin's University(Private),306000,186000,55,4
+484,484,Texas A & M University-Corpus Christi(In-State),306000,82400,35,5
+485,484,The University of Alabama(In-State),306000,111000,69,5
+486,484,University of Central Florida(In-State),306000,86200,69,5
+487,490,Quinnipiac University(Private),305000,234000,78,4
+488,490,Stevenson University(Private),305000,186000,53,4
+489,490,Texas Woman's University(In-State),305000,74500,38,5
+490,490,University of Houston-Victoria(Out-of-State),305000,121000,18,5
+491,494,SUNY College of Technology at Alfred(Out-of-State),304000,122000,48,4
+492,494,The University of Texas of the Permian Basin(In-State),304000,72500,34,5
+493,494,Wayland Baptist University(Private),304000,102000,24,5
+494,497,SUNY College at Old Westbury(Out-of-State),303000,126000,43,5
+495,497,Saint Peter's University(Private),303000,201000,54,4
+496,497,University of Nebraska-Lincoln(Out-of-State),303000,149000,67,5
+497,497,Western Michigan University(In-State),303000,93000,53,5
+498,497,Western Washington University(Out-of-State),303000,140000,69,5
+499,502,Southern Illinois University-Edwardsville(In-State),302000,93500,48,5
+500,502,University of Colorado Colorado Springs(In-State),302000,91000,47,5
+501,502,University of Wisconsin-Milwaukee(In-State),302000,91600,40,5
+502,502,Wellesley College(Private),302000,250000,91,4
+503,506,Aquinas College (Tennessee)(Private),301000,140000,21,4
+504,506,Dakota State University(In-State),301000,76600,39,5
+505,508,Howard University(Private),300000,169000,61,5
+506,508,Ramapo College of New Jersey(Out-of-State),300000,154000,73,4
+507,508,Southwestern College(Private),300000,156000,38,4
+508,511,Baker College(Private),299000,82000,15,5
+509,511,Connecticut College(Private),299000,256000,84,4
+510,511,Northern Illinois University(Out-of-State),299000,152000,47,5
+511,511,Portland State University(In-State),299000,94700,48,5
+512,511,University of Akron Main Campus(In-State),299000,99000,38,5
+513,511,University of North Texas(In-State),299000,86400,52,5
+514,517,California Lutheran University(Private),298000,221000,73,4
+515,517,Colorado State University-Fort Collins(Out-of-State),298000,162000,67,5
+516,517,University of Massachusetts-Dartmouth(Out-of-State),298000,160000,48,5
+517,517,William Paterson University of New Jersey(In-State),298000,112000,51,5
+518,521,Albertus Magnus College(Private),297000,198000,53,4
+519,521,Bowie State University(Out-of-State),297000,126000,37,5
+520,521,Salisbury University(In-State),297000,94400,69,4
+521,524,Oklahoma State University-Main Campus(Out-of-State),296000,141000,63,5
+522,524,Rowan University(In-State),296000,113000,71,4
+523,524,St Mary's College of Maryland(In-State),296000,116000,73,4
+524,524,University of Georgia(Out-of-State),296000,169000,85,4
+525,524,Western Connecticut State University(Out-of-State),296000,146000,46,5
+526,529,Dominican College of Blauvelt(Private),295000,167000,43,4
+527,529,Wright State University-Main Campus(In-State),295000,92000,36,5
+528,531,Kansas State University(Out-of-State),294000,145000,63,5
+529,531,University of Oregon(In-State),294000,99700,72,4
+530,531,Wesleyan University(Private),294000,260000,91,4
+531,534,Mississippi State University(In-State),293000,90800,60,5
+532,534,Oakland University(Out-of-State),293000,143000,47,5
+533,534,Pacific Union College(Private),293000,164000,50,5
+534,537,Adelphi University(Private),292000,202000,68,4
+535,537,Norwich University(Private),292000,208000,58,4
+536,539,California State University-San Marcos(Out-of-State),291000,141000,52,5
+537,539,Dakota State University(Out-of-State),291000,86500,39,5
+538,539,LIU Brooklyn(Private),291000,209000,33,5
+539,539,Saint Louis University(Private),291000,220000,74,4
+540,539,University of New Mexico-Main Campus(In-State),291000,82800,44,5
+541,539,Westminster College (Utah)(Private),291000,176000,62,4
+542,545,Florida International University(Out-of-State),290000,142000,56,5
+543,545,Framingham State University(Out-of-State),290000,119000,55,5
+544,545,University of Louisiana at Monroe(In-State),290000,75500,43,5
+545,545,University of New Hampshire-Main Campus(Out-of-State),290000,178000,78,4
+546,549,Denison University(Private),289000,239000,80,4
+547,549,Drake University(Private),289000,189000,78,4
+548,549,Duquesne University(Private),289000,190000,79,4
+549,549,Regent University(Private),289000,116000,30,5
+550,553,Boise State University(In-State),288000,80500,39,5
+551,553,College of Saint Elizabeth(Private),288000,196000,50,4
+552,553,Saint Cloud State University(Out-of-State),288000,109000,45,6
+553,553,The University of Texas at El Paso(Out-of-State),288000,134000,39,5
+554,553,Trine University(Private),288000,187000,56,4
+555,553,University of Washington-Tacoma Campus(Out-of-State),288000,196000,60,4
+556,553,Wichita State University(In-State),288000,83100,46,5
+557,560,Holy Family University(Private),287000,178000,60,4
+558,560,Nichols College(Private),287000,193000,41,4
+559,560,Ohio University-Main Campus(Out-of-State),287000,139000,64,4
+560,560,Saint Anselm College(Private),287000,211000,72,4
+561,560,University of Portland(Private),287000,226000,82,4
+562,560,University of Wisconsin-Stout(Out-of-State),287000,108000,54,5
+563,566,Illinois State University(In-State),286000,109000,72,4
+564,566,University of North Florida(In-State),286000,84000,54,5
+565,566,University of Toledo(Out-of-State),286000,135000,43,5
+566,569,Southern Illinois University-Carbondale(In-State),285000,106000,44,5
+567,569,The University of Texas of the Permian Basin(Out-of-State),285000,91600,34,5
+568,571,Assumption College(Private),284000,199000,74,4
+569,571,Dominican University of California(Private),284000,242000,72,4
+570,571,Fitchburg State University(In-State),284000,87100,54,5
+571,571,Kean University(In-State),284000,112000,50,5
+572,571,Ohio Northern University(Private),284000,182000,78,4
+573,571,University of Nebraska at Omaha(In-State),284000,80300,45,6
+574,571,Widener University-Main Campus(Private),284000,228000,57,4
+575,578,California State University-Los Angeles(Out-of-State),283000,138000,46,6
+576,578,University of Maine(In-State),283000,94200,59,5
+577,580,Alderson Broaddus University(Private),282000,140000,49,4
+578,580,California State University-Monterey Bay(In-State),282000,80700,55,5
+579,580,Purdue University-Calumet Campus(Out-of-State),282000,121000,32,5
+580,580,Rivier University(Private),282000,177000,59,4
+581,580,The University of Texas at San Antonio(In-State),282000,85500,35,5
+582,585,Morehouse College(Private),281000,191000,50,4
+583,586,Georgia State University(In-State),280000,103000,53,5
+584,586,Marymount University(Private),280000,177000,52,4
+585,586,Rosemont College(Private),280000,176000,48,4
+586,586,Towson University(Out-of-State),280000,144000,71,5
+587,586,University of Nevada-Las Vegas(Out-of-State),280000,145000,41,5
+588,586,Vermont Technical College(Out-of-State),280000,147000,48,4
+589,586,Worcester State University(In-State),280000,95900,56,5
+590,593,Muhlenberg College(Private),279000,234000,83,4
+591,593,University of New Haven(Private),279000,210000,57,4
+592,593,University of St Francis(Private),279000,168000,63,4
+593,596,La Sierra University(Private),278000,172000,52,5
+594,596,Minnesota State University-Mankato(Out-of-State),278000,105000,51,6
+595,596,New Jersey City University(In-State),278000,111000,31,5
+596,596,The University of Tennessee-Knoxville(In-State),278000,117000,69,5
+597,600,California State University-Dominguez Hills(Out-of-State),277000,135000,42,6
+598,600,SUNY College at Geneseo(Out-of-State),277000,131000,81,4
+599,600,University of California-Riverside(Out-of-State),277000,230000,73,5
+600,600,University of North Carolina at Chapel Hill(Out-of-State),277000,196000,91,4
+601,604,Clayton State University(In-State),276000,75800,32,5
+602,604,Indiana University-Bloomington(Out-of-State),276000,190000,76,4
+603,604,Mount Saint Mary College(Private),276000,177000,54,4
+604,604,Sam Houston State University(In-State),276000,82500,51,5
+605,604,The University of Texas at Tyler(In-State),276000,84100,39,5
+606,604,University of South Florida-Main Campus(Out-of-State),276000,128000,67,4
+607,610,Augusta University(In-State),275000,82500,26,5
+608,610,Immaculata University(Private),275000,206000,67,4
+609,610,North Carolina A & T State University(Out-of-State),275000,119000,43,5
+610,610,Northern Kentucky University(In-State),275000,82900,38,5
+611,615,Barry University(Private),274000,182000,31,5
+612,615,Saint Mary's University of Minnesota(Private),274000,167000,61,4
+613,615,York College Pennsylvania(Private),274000,125000,61,5
+614,618,Notre Dame of Maryland University(Private),273000,189000,50,4
+615,618,Warner Pacific College(Private),273000,134000,41,4
+616,620,Temple University(Out-of-State),272000,166000,71,5
+617,620,Westmont College(Private),272000,226000,77,4
+618,622,McNeese State University(Out-of-State),271000,121000,42,5
+619,622,Mount Saint Mary's University(Private),271000,214000,59,4
+620,622,Oklahoma Christian University(Private),271000,125000,49,4
+621,622,University of Missouri-Kansas City(Out-of-State),271000,143000,49,5
+622,626,Texas A & M University-Corpus Christi(Out-of-State),270000,119000,35,5
+623,626,University of California-Santa Cruz(Out-of-State),270000,235000,77,4
+624,626,University of South Alabama(In-State),270000,80600,38,5
+625,629,Creighton University(Private),269000,200000,79,4
+626,629,University of Denver(Private),269000,236000,79,4
+627,631,Baker University(Private),268000,163000,55,4
+628,631,Baylor University(Private),268000,224000,74,4
+629,631,Cedarville University(Private),268000,145000,72,4
+630,631,University of New Orleans(Out-of-State),268000,139000,36,5
+631,635,Butler University(Private),267000,208000,74,4
+632,635,Furman University(Private),267000,240000,84,4
+633,635,Wayne State University(Out-of-State),267000,151000,39,5
+634,635,William Paterson University of New Jersey(Out-of-State),267000,143000,51,5
+635,639,Concordia University-Texas(Private),266000,164000,35,4
+636,639,North Central College(Private),266000,190000,69,4
+637,639,Texas State University(Out-of-State),266000,125000,54,5
+638,642,Austin College(Private),265000,198000,73,4
+639,642,California State University-San Bernardino(Out-of-State),265000,129000,55,5
+640,642,Elizabethtown College(Private),265000,212000,74,4
+641,642,Simmons College(Private),265000,219000,74,4
+642,642,Southern Utah University(In-State),265000,78200,49,5
+643,642,Southwestern Oklahoma State University(In-State),265000,74100,28,5
+644,642,University of Akron Main Campus(Out-of-State),265000,133000,38,5
+645,642,University of Miami(Private),265000,250000,82,4
+646,650,Colorado Christian University(Private),264000,163000,53,4
+647,650,Goldey-Beacom College(Private),264000,146000,68,5
+648,650,Rowan University(Out-of-State),264000,145000,71,4
+649,650,Salisbury University(Out-of-State),264000,128000,69,4
+650,650,Texas Woman's University(Out-of-State),264000,115000,38,5
+651,655,Brigham Young University-Hawaii(Private),263000,66200,54,6
+652,655,Florida Atlantic University(Out-of-State),263000,138000,50,5
+653,655,Nova Southeastern University(Private),263000,180000,50,4
+654,655,Pacific Lutheran University(Private),263000,204000,71,4
+655,655,University of North Texas(Out-of-State),263000,123000,52,5
+656,655,University of Puget Sound(Private),263000,235000,80,4
+657,661,California State University-Bakersfield(Out-of-State),262000,138000,43,5
+658,661,Christian Brothers University(Private),262000,163000,51,5
+659,661,Hawaii Pacific University(Private),262000,154000,42,5
+660,661,Hobart William Smith Colleges(Private),262000,254000,77,4
+661,661,Old Dominion University(Out-of-State),262000,160000,51,5
+662,661,Presentation College(Private),262000,124000,40,4
+663,661,University of Wisconsin-Milwaukee(Out-of-State),262000,132000,40,5
+664,661,University of Wisconsin-Whitewater(In-State),262000,70400,57,5
+665,661,Wright State University-Main Campus(Out-of-State),262000,125000,36,5
+666,670,Dominican University(Private),261000,168000,62,4
+667,670,Idaho State University(Out-of-State),261000,136000,29,5
+668,670,John Carroll University(Private),261000,204000,76,4
+669,670,Manhattanville College(Private),261000,212000,48,4
+670,670,Monmouth University(Private),261000,198000,70,4
+671,670,Rutgers University-Camden(Out-of-State),261000,176000,59,5
+672,670,Truman State University(In-State),261000,81500,72,4
+673,670,University of Louisiana at Lafayette(In-State),261000,84700,45,5
+674,678,Cleveland State University(In-State),260000,103000,41,5
+675,678,Fitchburg State University(Out-of-State),260000,111000,54,5
+676,678,University of Colorado Colorado Springs(Out-of-State),260000,133000,47,5
+677,678,University of Wisconsin-La Crosse(In-State),260000,71400,68,5
+678,682,Barnard College(Private),259000,259000,91,4
+679,682,Westminster College (Missouri)(Private),259000,147000,64,4
+680,684,Kean University(Out-of-State),258000,138000,50,5
+681,684,North Carolina Wesleyan College(Private),258000,158000,21,5
+682,684,Saint Leo University(Private),258000,143000,40,4
+683,684,University of Kentucky(Out-of-State),258000,155000,64,5
+684,684,University of La Verne(Private),258000,220000,66,4
+685,689,Virginia Commonwealth University(In-State),257000,118000,62,5
+686,689,West Chester University of Pennsylvania(In-State),257000,104000,70,4
+687,689,Youngstown State University(In-State),257000,86300,30,5
+688,692,Chapman University(Private),256000,253000,79,4
+689,692,Florida Gulf Coast University(In-State),256000,79800,46,5
+690,692,Newman University(Private),256000,147000,51,4
+691,692,Southern Illinois University-Edwardsville(Out-of-State),256000,139000,48,5
+692,692,Worcester State University(Out-of-State),256000,120000,56,5
+693,692,Youngstown State University(Out-of-State),256000,87300,30,5
+694,698,D'Youville College(Private),255000,157000,45,5
+695,698,Ithaca College(Private),255000,232000,75,4
+696,698,University of Vermont(Out-of-State),255000,210000,74,4
+697,698,Wichita State University(Out-of-State),255000,116000,46,5
+698,702,Northern Arizona University(In-State),254000,99400,53,4
+699,702,The New School(Private),254000,256000,68,4
+700,702,University of Hawaii at Manoa(In-State),254000,107000,58,5
+701,702,Winona State University(In-State),254000,84900,59,6
+702,706,College of Mount Saint Vincent(Private),253000,172000,55,4
+703,706,Florida State University(Out-of-State),253000,148000,80,4
+704,706,Morgan State University(In-State),253000,93500,32,5
+705,709,Elon University(Private),252000,184000,82,4
+706,709,Illinois State University(Out-of-State),252000,143000,72,4
+707,711,Cabrini University(Private),251000,182000,60,4
+708,711,Carleton College(Private),251000,254000,92,4
+709,711,Illinois Wesleyan University(Private),251000,214000,81,4
+710,711,Mid-America Christian University(Private),251000,113000,33,5
+711,711,Ursinus College(Private),251000,248000,78,4
+712,716,Jacksonville University(Private),250000,192000,42,4
+713,716,Massachusetts College of Art and Design(In-State),250000,112000,72,4
+714,718,Pennsylvania College of Technology(In-State),249000,124000,46,5
+715,718,Texas A & M University-Commerce(In-State),249000,72800,43,5
+716,718,University of Louisville(In-State),249000,98400,53,5
+717,718,University of Missouri-St Louis(In-State),249000,94300,53,5
+718,718,Valparaiso University(Private),249000,194000,66,4
+719,723,Bloomsburg University of Pennsylvania(In-State),248000,90800,62,5
+720,723,SUNY College of Environmental Science and Forestry(In-State),248000,101000,75,4
+721,723,Siena College(Private),248000,199000,75,4
+722,723,Taylor University(Private),248000,166000,76,4
+723,727,Clarkson College(Private),247000,108000,46,4
+724,727,Hartwick College(Private),247000,213000,60,4
+725,727,Pratt Institute-Main(Private),247000,246000,70,4
+726,730,Cleveland State University(Out-of-State),246000,117000,41,5
+727,730,Mississippi State University(Out-of-State),246000,138000,60,5
+728,730,Northwest University(Private),246000,154000,56,4
+729,730,University of Mississippi(In-State),246000,92100,60,5
+730,734,Emmanuel College (Massachusetts)(Private),245000,213000,67,4
+731,734,Frostburg State University(In-State),245000,81500,47,5
+732,734,Otis College of Art and Design(Private),245000,233000,60,4
+733,734,Shippensburg University of Pennsylvania(In-State),245000,102000,56,4
+734,734,Texas A & M International University(In-State),245000,72900,41,5
+735,734,The University of Alabama(Out-of-State),245000,173000,69,5
+736,734,Western Michigan University(Out-of-State),245000,151000,53,5
+737,742,New Jersey City University(Out-of-State),244000,145000,31,5
+738,742,Rider University(Private),244000,219000,66,4
+739,742,The University of Texas at San Antonio(Out-of-State),244000,123000,35,5
+740,745,Moravian College(Private),243000,210000,69,4
+741,745,Southern University and A & M College(In-State),243000,80700,29,5
+742,745,University of Louisiana at Monroe(Out-of-State),243000,122000,43,5
+743,748,Alabama A & M University(In-State),242000,88500,27,5
+744,748,Christopher Newport University(In-State),242000,109000,75,4
+745,748,Eastern Michigan University(In-State),242000,88400,41,5
+746,748,Hampton University(Private),242000,145000,55,4
+747,748,Point Loma Nazarene University(Private),242000,186000,71,4
+748,748,University of Central Florida(Out-of-State),242000,151000,69,5
+749,748,University of South Alabama(Out-of-State),242000,108000,38,5
+750,748,West Texas A & M University(In-State),242000,80000,44,5
+751,756,Eastern Connecticut State University(In-State),241000,101000,54,4
+752,756,Northern Kentucky University(Out-of-State),241000,117000,38,5
+753,756,Roger Williams University(Private),241000,201000,64,4
+754,759,Bridgewater State University(In-State),240000,95700,59,5
+755,759,St Francis College(Private),240000,173000,52,5
+756,759,Tarleton State University(In-State),240000,74400,43,5
+757,762,East Carolina University(In-State),239000,83700,61,5
+758,762,Occidental College(Private),239000,265000,81,4
+759,762,Sam Houston State University(Out-of-State),239000,119000,51,5
+760,762,Seattle Pacific University(Private),239000,204000,71,4
+761,762,Southwestern Oklahoma State University(Out-of-State),239000,100000,28,5
+762,762,University of Nebraska at Omaha(Out-of-State),239000,126000,45,6
+763,762,William Jewell College(Private),239000,181000,63,4
+764,769,St Mary's College of Maryland(Out-of-State),238000,175000,73,4
+765,769,West Texas A & M University(Out-of-State),238000,83500,44,5
+766,771,California State University-Monterey Bay(Out-of-State),237000,125000,55,5
+767,771,New College of Florida(In-State),237000,80900,63,4
+768,771,Pennsylvania State University-Penn State Berks(In-State),237000,127000,56,4
+769,771,Southeastern Oklahoma State University(In-State),237000,63900,25,5
+770,771,University of Maryland Eastern Shore(In-State),237000,87500,36,5
+771,771,University of Memphis(In-State),237000,95800,42,5
+772,771,University of South Carolina-Columbia(In-State),237000,103000,73,4
+773,778,Clayton State University(Out-of-State),236000,116000,32,5
+774,778,Eastern Washington University(In-State),236000,88000,47,5
+775,778,Northwood University-Michigan(Private),236000,148000,57,4
+776,778,Rhode Island School of Design(Private),236000,255000,90,4
+777,778,Stockton University(In-State),236000,115000,70,4
+778,778,Truman State University(Out-of-State),236000,106000,72,4
+779,784,Loyola University Chicago(Private),235000,220000,75,4
+780,784,Portland State University(Out-of-State),235000,158000,48,5
+781,784,South Dakota State University(In-State),235000,96900,53,5
+782,787,Boise State University(Out-of-State),234000,134000,39,5
+783,787,Indiana Wesleyan University-Marion(Private),234000,143000,65,4
+784,787,Kalamazoo College(Private),234000,215000,81,4
+785,787,University of New Mexico-Main Campus(Out-of-State),234000,139000,44,5
+786,791,CUNY Lehman College(In-State),233000,104000,44,5
+787,791,Southern Illinois University-Carbondale(Out-of-State),233000,158000,44,5
+788,791,Troy University(In-State),233000,75000,37,5
+789,794,Marietta College(Private),232000,187000,61,4
+790,794,Rhode Island College(In-State),232000,83300,47,5
+791,794,University of Indianapolis(Private),232000,159000,55,4
+792,794,Winona State University(Out-of-State),232000,107000,59,6
+793,798,Skidmore College(Private),231000,256000,89,4
+794,798,University of Wisconsin-Whitewater(Out-of-State),231000,102000,57,5
+795,800,Calvin College(Private),230000,173000,77,4
+796,800,Holy Names University(Private),230000,208000,45,4
+797,800,Houston Baptist University(Private),230000,167000,44,5
+798,800,Scripps College(Private),230000,260000,84,4
+799,800,The University of Texas at Tyler(Out-of-State),230000,130000,39,5
+800,805,Southwestern Adventist University(Private),229000,124000,47,5
+801,805,St Mary's University(Private),229000,160000,59,4
+802,805,University of Wisconsin-La Crosse(Out-of-State),229000,103000,68,5
+803,805,University of Wisconsin-Oshkosh(In-State),229000,73000,53,5
+804,809,Central Michigan University(In-State),228000,90900,57,5
+805,809,Indiana University-Purdue University-Indianapolis(Out-of-State),228000,172000,46,5
+806,809,Pennsylvania State University-Penn State Altoona(In-State),228000,127000,67,4
+807,809,University of North Florida(Out-of-State),228000,142000,54,5
+808,813,Abilene Christian University(Private),227000,176000,62,4
+809,813,Alfred University(Private),227000,165000,61,4
+810,813,Florida Agricultural and Mechanical University(In-State),227000,81900,41,5
+811,813,Georgia Southern University(In-State),227000,90900,51,5
+812,813,SUNY Oneonta(In-State),227000,90600,72,4
+813,813,Suffolk University(Private),227000,207000,59,4
+814,819,Bowling Green State University-Main Campus(In-State),226000,96200,55,5
+815,819,Colorado State University-Pueblo(In-State),226000,90300,32,5
+816,819,Salem State University(In-State),226000,95000,52,5
+817,819,St John's College(Private),226000,245000,76,4
+818,819,Tennessee State University(In-State),226000,76400,34,5
+819,824,Augusta University(Out-of-State),225000,132000,26,5
+820,824,Southwestern University(Private),225000,201000,72,4
+821,826,Columbia College (Missouri)(Private),224000,96300,31,4
+822,826,South Dakota State University(Out-of-State),224000,108000,53,5
+823,828,Pennsylvania College of Technology(Out-of-State),223000,150000,46,5
+824,828,Saginaw Valley State University(In-State),223000,80100,38,5
+825,828,University of Detroit Mercy(Private),223000,210000,68,4
+826,831,Georgia State University(Out-of-State),222000,162000,53,5
+827,831,Millersville University of Pennsylvania(In-State),222000,101000,61,5
+828,831,Western Kentucky University(In-State),222000,78200,45,4
+829,831,Westfield State University(In-State),222000,88500,66,4
+830,835,College for Creative Studies(Private),221000,212000,58,4
+831,835,Indiana State University(In-State),221000,84500,37,5
+832,835,Radford University(In-State),221000,86600,58,4
+833,835,University of Alabama at Birmingham(In-State),221000,97400,53,5
+834,839,Davidson College(Private),220000,246000,95,4
+835,839,Lipscomb University(Private),220000,173000,58,4
+836,839,Pittsburg State University(In-State),220000,72900,49,5
+837,839,Southern University and A & M College(Out-of-State),220000,104000,29,5
+838,839,Union College (Nebraska)(Private),220000,132000,43,5
+839,839,University of Michigan-Flint(In-State),220000,94000,37,5
+840,845,Biola University(Private),219000,197000,72,4
+841,845,Humboldt State University(In-State),219000,92700,46,5
+842,845,Lewis University(Private),219000,166000,62,4
+843,845,Marian University (Wisconsin)(Private),219000,150000,45,4
+844,845,University of North Georgia(In-State),219000,73600,28,4
+845,845,University of Northern Iowa(In-State),219000,80900,65,5
+846,851,Pine Manor College(Private),218000,171000,29,4
+847,853,Angelo State University(In-State),217000,77300,36,5
+848,853,Oklahoma Wesleyan University(Private),217000,145000,44,4
+849,853,Queens University of Charlotte(Private),217000,187000,53,4
+850,853,Southern Nazarene University(Private),217000,138000,33,4
+851,857,Bridgewater State University(Out-of-State),216000,120000,59,5
+852,857,St. Thomas Aquinas College(Private),216000,174000,62,4
+853,859,Azusa Pacific University(Private),215000,192000,70,4
+854,859,Morgan State University(Out-of-State),215000,132000,32,5
+855,859,Washburn University(In-State),215000,73500,34,5
+856,859,West Chester University of Pennsylvania(Out-of-State),215000,146000,70,4
+857,863,Doane University-Arts & Sciences(Private),214000,166000,59,4
+858,863,Keene State College(In-State),214000,103000,63,4
+859,863,Southern Utah University(Out-of-State),214000,129000,49,5
+860,863,University of Great Falls(Private),214000,138000,31,5
+861,863,University of Pittsburgh-Johnstown(In-State),214000,106000,53,5
+862,868,Alabama A & M University(Out-of-State),213000,118000,27,5
+863,868,Colorado Mesa University(In-State),213000,85000,32,5
+864,868,Indiana University-Purdue University-Fort Wayne(In-State),213000,88500,22,5
+865,868,Linfield College-McMinnville Campus(Private),213000,206000,70,4
+866,868,Southern New Hampshire University(Private),213000,186000,58,4
+867,868,University of Minnesota-Crookston(In-State),213000,91300,54,4
+868,868,University of Minnesota-Crookston(Out-of-State),213000,91300,54,4
+869,868,University of Northern Colorado(In-State),213000,88400,48,5
+870,868,Wofford College(Private),213000,210000,80,4
+871,877,DeSales University(Private),212000,197000,68,4
+872,877,Shawnee State University(In-State),212000,87500,30,4
+873,877,Susquehanna University(Private),212000,218000,74,4
+874,877,University of Minnesota-Morris(In-State),212000,93200,64,4
+875,881,St Lawrence University(Private),211000,251000,84,4
+876,881,University of Louisiana at Lafayette(Out-of-State),211000,134000,45,5
+877,881,University of Maine(Out-of-State),211000,167000,59,5
+878,884,Shippensburg University of Pennsylvania(Out-of-State),210000,136000,56,4
+879,884,Sierra Nevada College(Private),210000,186000,35,4
+880,884,Stockton University(Out-of-State),210000,142000,70,4
+881,884,University of Minnesota-Morris(Out-of-State),210000,95200,64,4
+882,884,University of the Virgin Islands(In-State),210000,78600,22,5
+883,889,Augsburg College(Private),209000,191000,57,4
+884,889,Concordia College-New York(Private),209000,172000,54,4
+885,889,Concordia University-Irvine(Private),209000,182000,54,4
+886,889,Fresno Pacific University(Private),209000,156000,62,4
+887,889,McKendree University(Private),209000,160000,52,4
+888,889,SUNY College of Environmental Science and Forestry(Out-of-State),209000,140000,75,4
+889,889,Texas A & M International University(Out-of-State),209000,110000,41,5
+890,889,University of Oregon(Out-of-State),209000,185000,72,4
+891,897,Eastern Illinois University(In-State),208000,95600,57,5
+892,897,SUNY at Purchase College(In-State),208000,100000,62,4
+893,897,Saint Michael's College(Private),208000,212000,79,4
+894,897,State University of New York at New Paltz(In-State),208000,89800,72,4
+895,897,Texas A & M University-Commerce(Out-of-State),208000,114000,43,5
+896,897,University of South Dakota(In-State),208000,82800,55,5
+897,904,Daemen College(Private),207000,159000,55,5
+898,904,Pennsylvania State University-Penn State Berks(Out-of-State),207000,157000,56,4
+899,904,University of Mary(Private),207000,104000,54,4
+900,907,Dickinson College(Private),206000,254000,84,4
+901,907,Olivet Nazarene University(Private),206000,174000,57,4
+902,907,Texas Southern University(In-State),206000,99700,17,5
+903,907,Troy University(Out-of-State),206000,102000,37,5
+904,907,Wilkes University(Private),206000,197000,62,4
+905,907,Woodbury University(Private),206000,205000,44,5
+906,907,Xavier University(Private),206000,194000,72,4
+907,914,Bloomsburg University of Pennsylvania(Out-of-State),205000,133000,62,5
+908,914,CUNY Lehman College(Out-of-State),205000,132000,44,5
+909,916,Missouri State University-Springfield(In-State),204000,79900,55,5
+910,916,Tarleton State University(Out-of-State),204000,110000,43,5
+911,916,The University of Tennessee-Knoxville(Out-of-State),204000,191000,69,5
+912,916,University of Saint Mary(Private),204000,147000,34,4
+913,916,Wittenberg University(Private),204000,203000,68,4
+914,921,Caldwell University(Private),203000,185000,58,4
+915,921,Northern Arizona University(Out-of-State),203000,151000,53,4
+916,921,Southeastern Oklahoma State University(Out-of-State),203000,98200,25,5
+917,921,Wheaton College (Illinois)(Private),203000,178000,91,4
+918,925,Albion College(Private),202000,204000,71,4
+919,925,Dickinson State University(In-State),202000,67500,34,5
+920,925,Neumann University(Private),202000,167000,54,5
+921,925,University of Arkansas at Little Rock(In-State),202000,90800,30,6
+922,925,University of Central Missouri(In-State),202000,75300,53,5
+923,930,John Brown University(Private),201000,145000,65,4
+924,930,Robert Morris University(Private),201000,171000,61,4
+925,930,Salem State University(Out-of-State),201000,120000,52,5
+926,930,Southern Adventist University(Private),201000,127000,61,6
+927,930,University of Maryland Eastern Shore(Out-of-State),201000,123000,36,5
+928,935,Lewis-Clark State College(In-State),200000,73500,30,5
+929,935,University of Saint Francis-Fort Wayne(Private),200000,155000,56,4
+930,935,Vanguard University of Southern California(Private),200000,176000,56,4
+931,938,Christopher Newport University(Out-of-State),199000,152000,75,4
+932,938,University of Wisconsin-Oshkosh(Out-of-State),199000,103000,53,5
+933,938,Winston-Salem State University(In-State),199000,72400,47,5
+934,941,College of Our Lady of the Elms(Private),198000,187000,64,4
+935,941,Edgewood College(Private),198000,156000,63,5
+936,941,Frostburg State University(Out-of-State),198000,128000,47,5
+937,941,George Fox University(Private),198000,182000,64,4
+938,941,Pennsylvania State University-Penn State Altoona(Out-of-State),198000,157000,67,4
+939,941,Southern Connecticut State University(In-State),198000,95600,51,5
+940,941,Westfield State University(Out-of-State),198000,113000,66,4
+941,948,Belmont Abbey College(Private),197000,131000,44,4
+942,948,Bowling Green State University-Main Campus(Out-of-State),197000,126000,55,5
+943,948,Dordt College(Private),197000,163000,69,4
+944,948,Gannon University(Private),197000,175000,65,4
+945,948,The University of Texas Rio Grande Valley(In-State),197000,72200,41,5
+946,948,University of South Dakota(Out-of-State),197000,93800,55,5
+947,954,Eastern Kentucky University(In-State),196000,80200,41,6
+948,954,University of Mississippi(Out-of-State),196000,143000,60,5
+949,956,Aurora University(Private),195000,138000,58,4
+950,956,Eckerd College(Private),195000,218000,66,4
+951,958,Indiana University of Pennsylvania-Main Campus(In-State),194000,99900,54,4
+952,958,Nyack College(Private),194000,153000,35,4
+953,958,Shepherd University(In-State),194000,80200,46,5
+954,958,University of Central Oklahoma(In-State),194000,76600,38,5
+955,958,University of North Carolina School of the Arts(In-State),194000,90400,62,4
+956,958,University of Wisconsin-Parkside(In-State),194000,75400,24,5
+957,964,Elmhurst College(Private),193000,190000,69,4
+958,964,St Bonaventure University(Private),193000,177000,64,4
+959,964,Stephen F Austin State University(In-State),193000,89100,44,5
+960,967,Curry College(Private),192000,212000,47,4
+961,967,Dickinson State University(Out-of-State),192000,77400,34,5
+962,967,Eastern Connecticut State University(Out-of-State),192000,149000,54,4
+963,967,Lakeland College(Private),192000,149000,54,4
+964,967,Le Moyne College(Private),192000,187000,67,4
+965,967,St Thomas University(Private),192000,173000,43,4
+966,967,University of Louisville(Out-of-State),192000,156000,53,5
+967,967,Vassar College(Private),192000,258000,91,4
+968,975,Bethel University (Minnesota)(Private),191000,187000,76,4
+969,975,Fort Hays State University(In-State),191000,67700,37,5
+970,975,University of Arkansas-Fort Smith(In-State),191000,68800,26,5
+971,975,University of Missouri-St Louis(Out-of-State),191000,153000,53,5
+972,979,Saint Josephs College(Private),190000,159000,50,4
+973,979,Southeastern Louisiana University(In-State),190000,76000,40,5
+974,979,Trevecca Nazarene University(Private),190000,144000,49,4
+975,979,Viterbo University(Private),190000,145000,46,4
+976,983,American International College(Private),189000,189000,44,4
+977,983,Kenyon College(Private),189000,253000,90,4
+978,983,Lake Superior State University(In-State),189000,89900,41,5
+979,983,SUNY College at Oswego(In-State),189000,91100,66,4
+980,983,Shawnee State University(Out-of-State),189000,110000,30,4
+981,983,The University of Montana(In-State),189000,75700,45,5
+982,983,The University of Tennessee-Chattanooga(In-State),189000,87400,44,5
+983,983,University of South Carolina-Upstate(In-State),189000,93800,42,5
+984,991,High Point University(Private),188000,189000,64,4
+985,991,SUNY Oneonta(Out-of-State),188000,129000,72,4
+986,991,University of Bridgeport(Private),188000,207000,29,4
+987,991,University of Saint Joseph(Private),188000,205000,63,4
+988,995,Appalachian State University(In-State),187000,75800,72,4
+989,995,Louisiana College(Private),187000,98500,35,5
+990,995,Mercy College(Private),187000,142000,39,5
+991,995,Mount St Mary's University(Private),187000,206000,71,4
+992,995,Rhode Island College(Out-of-State),187000,128000,47,5
+993,995,The College of Saint Scholastica(Private),187000,181000,66,4
+994,995,University of Memphis(Out-of-State),187000,146000,42,5
+995,995,University of South Florida-St Petersburg(In-State),187000,81800,36,5
+996,1003,Georgia Southern University(Out-of-State),186000,132000,51,5
+997,1003,Kent State University at Kent(In-State),186000,101000,55,5
+998,1003,Middle Tennessee State University(In-State),186000,86300,43,5
+999,1003,Misericordia University(Private),186000,176000,74,4
+1000,1003,Philadelphia University(Private),186000,211000,58,4
+1001,1003,The University of Findlay(Private),186000,171000,64,4
+1002,1003,Transylvania University(Private),186000,185000,75,4
+1003,1003,University of Wisconsin-River Falls(In-State),186000,73600,54,5
+1004,1011,California Institute of the Arts(Private),185000,253000,66,4
+1005,1011,Harding University(Private),185000,112000,64,4
+1006,1011,Juniata College(Private),185000,210000,76,4
+1007,1011,Lebanon Valley College(Private),185000,207000,76,4
+1008,1011,Marian University (Indiana)(Private),185000,175000,56,4
+1009,1011,Peru State College(In-State),185000,70100,35,5
+1010,1011,Peru State College(Out-of-State),185000,70100,35,5
+1011,1011,Saint Norbert College(Private),185000,177000,73,4
+1012,1011,Shorter University(Private),185000,135000,37,4
+1013,1011,University of North Georgia(Out-of-State),185000,107000,28,4
+1014,1011,Washington College(Private),185000,227000,73,4
+1015,1022,CUNY John Jay College of Criminal Justice(In-State),184000,129000,44,5
+1016,1022,Keuka College(Private),184000,178000,60,4
+1017,1022,Samford University(Private),184000,172000,73,4
+1018,1022,Virginia Commonwealth University(Out-of-State),184000,191000,62,5
+1019,1026,Arkansas Tech University(In-State),183000,69000,35,5
+1020,1026,Concordia University-Wisconsin(Private),183000,162000,56,4
+1021,1026,East Central University(In-State),183000,57900,34,5
+1022,1026,Texas A & M University-Texarkana(In-State),183000,72700,26,4
+1023,1026,University of Evansville(Private),183000,187000,69,4
+1024,1026,University of Jamestown(Private),183000,121000,50,4
+1025,1026,University of Michigan-Flint(Out-of-State),183000,131000,37,5
+1026,1026,Washburn University(Out-of-State),183000,106000,34,5
+1027,1034,Bemidji State University(In-State),182000,78300,46,6
+1028,1034,Bemidji State University(Out-of-State),182000,78300,46,6
+1029,1034,College of St Joseph(Private),182000,141000,31,6
+1030,1034,Keene State College(Out-of-State),182000,134000,63,4
+1031,1034,University of Alabama at Birmingham(Out-of-State),182000,136000,53,5
+1032,1034,University of Central Arkansas(In-State),182000,80400,42,5
+1033,1034,Upper Iowa University(Private),182000,157000,44,5
+1034,1041,Columbus State University(In-State),181000,81700,30,5
+1035,1041,Eastern Washington University(Out-of-State),181000,144000,47,5
+1036,1041,Indiana State University(Out-of-State),181000,125000,37,5
+1037,1041,Northwest Missouri State University(In-State),181000,72200,50,5
+1038,1041,Whitman College(Private),181000,237000,88,4
+1039,1046,Angelo State University(Out-of-State),180000,114000,36,5
+1040,1046,Arkansas State University-Main Campus(In-State),180000,85200,45,5
+1041,1046,Central Michigan University(Out-of-State),180000,139000,57,5
+1042,1046,Florida Agricultural and Mechanical University(Out-of-State),180000,130000,41,5
+1043,1046,Fontbonne University(Private),180000,147000,52,4
+1044,1046,Graceland University-Lamoni(Private),180000,151000,43,5
+1045,1046,Grand Valley State University(In-State),180000,89300,66,5
+1046,1046,Loras College(Private),180000,162000,71,4
+1047,1046,Minnesota State University Moorhead(In-State),180000,78900,42,6
+1048,1046,Saint Joseph's College of Maine(Private),180000,190000,54,4
+1049,1046,University of Mount Union(Private),180000,161000,59,4
+1050,1057,Florida Gulf Coast University(Out-of-State),179000,156000,46,5
+1051,1057,Friends University(Private),179000,153000,36,4
+1052,1057,Geneva College(Private),179000,148000,66,4
+1053,1057,Millersville University of Pennsylvania(Out-of-State),179000,144000,61,5
+1054,1057,Pittsburg State University(Out-of-State),179000,114000,49,5
+1055,1057,University of New England(Private),179000,206000,58,4
+1056,1057,University of Northern Iowa(Out-of-State),179000,121000,65,5
+1057,1057,Walsh University(Private),179000,163000,58,5
+1058,1065,Coppin State University(In-State),178000,81800,17,5
+1059,1065,East Carolina University(Out-of-State),178000,145000,61,5
+1060,1065,Longwood University(In-State),178000,101000,65,4
+1061,1065,Messiah College(Private),178000,179000,76,4
+1062,1065,Saint Xavier University(Private),178000,177000,51,5
+1063,1065,Thomas College(Private),178000,148000,45,4
+1064,1065,University of Southern Mississippi(In-State),178000,82900,45,5
+1065,1072,Colorado State University-Pueblo(Out-of-State),177000,139000,32,5
+1066,1072,Lindenwood University(Private),177000,124000,49,5
+1067,1072,Missouri State University-Springfield(Out-of-State),177000,107000,55,5
+1068,1072,University of Southern Maine(In-State),177000,91900,34,5
+1069,1072,Western Illinois University(In-State),177000,101000,53,5
+1070,1077,Delaware State University(In-State),176000,87600,43,5
+1071,1077,Eastern Michigan University(Out-of-State),176000,154000,41,5
+1072,1077,Hiram College(Private),176000,178000,61,4
+1073,1077,Tennessee State University(Out-of-State),176000,127000,34,5
+1074,1077,University of Central Missouri(Out-of-State),176000,101000,53,5
+1075,1077,University of Guam(In-State),176000,56400,30,5
+1076,1077,University of Hawaii at Manoa(Out-of-State),176000,186000,58,5
+1077,1077,Whitworth University(Private),176000,207000,73,4
+1078,1085,Centre College(Private),175000,201000,86,4
+1079,1085,Humboldt State University(Out-of-State),175000,137000,46,5
+1080,1085,Montana State University-Northern(In-State),175000,65600,26,5
+1081,1085,Saginaw Valley State University(Out-of-State),175000,128000,38,5
+1082,1085,Spalding University(Private),175000,148000,47,5
+1083,1085,University of the Virgin Islands(Out-of-State),175000,113000,22,5
+1084,1091,Fairleigh Dickinson University-Metropolitan Campus(Private),174000,214000,38,4
+1085,1091,Lake Superior State University(Out-of-State),174000,105000,41,5
+1086,1091,Lincoln University (Pennsylvania)(In-State),174000,97700,43,5
+1087,1091,Salve Regina University(Private),174000,209000,68,4
+1088,1095,Fisher College(Private),173000,194000,34,4
+1089,1095,Massachusetts College of Art and Design(Out-of-State),173000,189000,72,4
+1090,1095,Saint Mary's College(Private),173000,201000,77,4
+1091,1098,Canisius College(Private),172000,198000,71,4
+1092,1098,McDaniel College(Private),172000,205000,68,4
+1093,1098,Radford University(Out-of-State),172000,136000,58,4
+1094,1098,Siena Heights University(Private),172000,142000,47,5
+1095,1098,The Evergreen State College(In-State),172000,88600,56,4
+1096,1098,Washington & Jefferson College(Private),172000,220000,76,4
+1097,1104,Concordia University-Portland(Private),171000,160000,44,4
+1098,1104,University of Pittsburgh-Johnstown(Out-of-State),171000,150000,53,5
+1099,1106,Allegheny College(Private),170000,222000,76,4
+1100,1106,Colorado Mesa University(Out-of-State),170000,127000,32,5
+1101,1106,Eastern Illinois University(Out-of-State),170000,134000,57,5
+1102,1106,Indiana University-Purdue University-Fort Wayne(Out-of-State),170000,132000,22,5
+1103,1106,Roosevelt University(Private),170000,182000,40,5
+1104,1106,SUNY at Purchase College(Out-of-State),170000,139000,62,4
+1105,1106,Saint Edward's University(Private),170000,207000,64,4
+1106,1113,McMurry University(Private),169000,152000,36,4
+1107,1113,State University of New York at New Paltz(Out-of-State),169000,129000,72,4
+1108,1115,Bellarmine University(Private),168000,219000,64,4
+1109,1115,Millsaps College(Private),168000,199000,72,4
+1110,1115,Oakland City University(Private),168000,142000,34,4
+1111,1115,SUNY College at Plattsburgh(In-State),168000,90500,63,4
+1112,1115,The University of West Florida(In-State),168000,78600,49,5
+1113,1115,University of North Carolina Wilmington(In-State),168000,87300,72,4
+1114,1121,Jacksonville State University(In-State),167000,83700,35,5
+1115,1121,Roberts Wesleyan College(Private),167000,169000,59,4
+1116,1121,University of Arkansas-Fort Smith(Out-of-State),167000,93100,26,5
+1117,1121,University of Northern Colorado(Out-of-State),167000,135000,48,5
+1118,1125,Armstrong State University(In-State),166000,95300,33,5
+1119,1125,Inter American University of Puerto Rico-San German(Private),166000,59700,34,5
+1120,1125,Lawrence University(Private),166000,218000,79,4
+1121,1128,Northwestern State University of Louisiana(In-State),165000,79200,35,5
+1122,1128,University of Southern Indiana(In-State),165000,76500,38,5
+1123,1128,Western Kentucky University(Out-of-State),165000,135000,45,4
+1124,1128,Whittier College(Private),165000,227000,64,4
+1125,1132,Eastern New Mexico University-Main Campus(In-State),164000,67400,35,5
+1126,1132,Georgia College and State University(In-State),164000,103000,59,4
+1127,1132,Limestone College(Private),164000,153000,33,5
+1128,1132,Murray State University(In-State),164000,80100,49,5
+1129,1136,Austin Peay State University(In-State),163000,90400,38,5
+1130,1136,Franklin Pierce University(Private),163000,192000,43,4
+1131,1136,Montana State University-Billings(In-State),163000,73200,24,5
+1132,1136,University of South Carolina-Columbia(Out-of-State),163000,177000,73,4
+1133,1136,University of Wisconsin-Parkside(Out-of-State),163000,107000,24,5
+1134,1136,Willamette University(Private),163000,232000,78,4
+1135,1142,Arkansas Tech University(Out-of-State),162000,89200,35,5
+1136,1142,Clarion University of Pennsylvania(In-State),162000,95600,49,4
+1137,1142,Langston University(In-State),162000,73200,9,4
+1138,1142,Lesley University(Private),162000,180000,55,4
+1139,1142,Monmouth College(Private),162000,178000,56,4
+1140,1142,Northeastern State University(In-State),162000,62200,27,5
+1141,1148,Cameron University(In-State),161000,61700,19,5
+1142,1148,Grand Valley State University(Out-of-State),161000,108000,66,5
+1143,1148,Hood College(Private),161000,203000,65,4
+1144,1148,Kentucky State University(In-State),161000,73000,20,6
+1145,1148,LIU Post(Private),161000,210000,46,5
+1146,1148,Missouri Southern State University(In-State),161000,63600,30,5
+1147,1148,Northwest Missouri State University(Out-of-State),161000,92500,50,5
+1148,1148,Principia College(Private),161000,159000,68,4
+1149,1148,Slippery Rock University of Pennsylvania(In-State),161000,92000,68,4
+1150,1148,Texas Southern University(Out-of-State),161000,145000,17,5
+1151,1148,The College of Idaho(Private),161000,150000,57,4
+1152,1148,The University of Texas Rio Grande Valley(Out-of-State),161000,109000,41,5
+1153,1148,Winston-Salem State University(Out-of-State),161000,111000,47,5
+1154,1161,Alma College(Private),160000,190000,67,4
+1155,1161,Augustana University(Private),160000,158000,71,4
+1156,1161,Hastings College(Private),160000,157000,58,4
+1157,1161,Ohio Wesleyan University(Private),160000,231000,67,4
+1158,1161,University of Arkansas at Little Rock(Out-of-State),160000,133000,30,6
+1159,1161,Western Illinois University(Out-of-State),160000,118000,53,5
+1160,1167,Fairmont State University(In-State),159000,74100,28,5
+1161,1167,Spelman College(Private),159000,178000,77,4
+1162,1167,University of Central Oklahoma(Out-of-State),159000,112000,38,5
+1163,1167,University of Wisconsin-Stevens Point(In-State),159000,69600,63,5
+1164,1171,Ball State University(In-State),158000,92600,58,4
+1165,1171,Eastern Kentucky University(Out-of-State),158000,118000,41,6
+1166,1171,Nicholls State University(In-State),158000,82100,47,5
+1167,1171,University of Central Arkansas(Out-of-State),158000,104000,42,5
+1168,1175,Arkansas State University-Main Campus(Out-of-State),157000,109000,45,5
+1169,1175,Augustana College(Private),157000,199000,77,4
+1170,1175,Birmingham Southern College(Private),157000,191000,68,4
+1171,1175,CUNY John Jay College of Criminal Justice(Out-of-State),157000,156000,44,5
+1172,1175,Coppin State University(Out-of-State),157000,103000,17,5
+1173,1175,Eastern University(Private),157000,178000,58,4
+1174,1175,Grand View University(Private),157000,142000,48,5
+1175,1175,Lewis-Clark State College(Out-of-State),157000,117000,30,5
+1176,1175,Minneapolis College of Art and Design(Private),157000,184000,65,4
+1177,1175,SUNY College at Brockport(In-State),157000,88300,68,4
+1178,1185,Becker College(Private),156000,201000,35,4
+1179,1185,Fort Hays State University(Out-of-State),156000,103000,37,5
+1180,1185,Marymount Manhattan College(Private),156000,206000,45,4
+1181,1185,Saint Francis University(Private),156000,189000,67,4
+1182,1185,Western Carolina University(In-State),156000,78500,57,5
+1183,1190,Albright College(Private),155000,211000,54,4
+1184,1190,Grinnell College(Private),155000,241000,86,4
+1185,1190,Macalester College(Private),155000,243000,88,4
+1186,1190,University of Wisconsin-River Falls(Out-of-State),155000,104000,54,5
+1187,1190,University of the Incarnate Word(Private),155000,168000,56,5
+1188,1195,Bloomfield College(Private),154000,171000,31,5
+1189,1195,Eastern Oregon University(In-State),154000,85900,31,5
+1190,1195,Indiana University-South Bend(In-State),154000,77100,30,5
+1191,1195,Kent State University at Kent(Out-of-State),154000,134000,55,5
+1192,1195,MidAmerica Nazarene University(Private),154000,148000,57,4
+1193,1195,Montreat College(Private),154000,144000,36,4
+1194,1195,Oklahoma City University(Private),154000,180000,59,4
+1195,1195,Shepherd University(Out-of-State),154000,120000,46,5
+1196,1195,Thomas University(Private),154000,111000,44,4
+1197,1204,Carthage College(Private),153000,206000,63,4
+1198,1204,Simpson College(Private),153000,183000,63,4
+1199,1204,Trinity Christian College(Private),153000,156000,58,4
+1200,1207,Brenau University(Private),152000,164000,45,4
+1201,1207,Lincoln University (Pennsylvania)(Out-of-State),152000,120000,43,5
+1202,1207,Minnesota State University Moorhead(Out-of-State),152000,107000,42,6
+1203,1207,Stephen F Austin State University(Out-of-State),152000,130000,44,5
+1204,1207,University of Mount Olive(Private),152000,115000,47,4
+1205,1212,Covenant College(Private),151000,170000,67,4
+1206,1212,East Central University(Out-of-State),151000,90700,34,5
+1207,1212,St Olaf College(Private),151000,216000,88,4
+1208,1215,Endicott College(Private),150000,189000,80,4
+1209,1215,King's College(Private),150000,192000,65,4
+1210,1215,SUNY College at Oswego(Out-of-State),150000,130000,66,4
+1211,1215,Saint Ambrose University(Private),150000,167000,63,4
+1212,1215,Southern Connecticut State University(Out-of-State),150000,144000,51,5
+1213,1215,Tabor College(Private),150000,156000,48,4
+1214,1221,Fort Lewis College(In-State),149000,96500,45,5
+1215,1221,Marshall University(In-State),149000,79300,45,5
+1216,1221,Otterbein University(Private),149000,180000,58,4
+1217,1221,Ouachita Baptist University(Private),149000,137000,70,4
+1218,1221,Shenandoah University(Private),149000,178000,57,4
+1219,1226,Campbell University(Private),148000,180000,57,4
+1220,1226,Indiana University of Pennsylvania-Main Campus(Out-of-State),148000,145000,54,4
+1221,1226,Mercer University(Private),148000,197000,66,4
+1222,1226,Rhodes College(Private),148000,227000,79,4
+1223,1226,Warner University(Private),148000,126000,37,5
+1224,1231,Emerson College(Private),147000,232000,80,4
+1225,1231,St Catherine University(Private),147000,192000,59,4
+1226,1231,University of Guam(Out-of-State),147000,85600,30,5
+1227,1231,University of South Carolina-Upstate(Out-of-State),147000,136000,42,5
+1228,1231,University of West Georgia(In-State),147000,88500,41,5
+1229,1231,Utica College(Private),147000,182000,45,4
+1230,1237,Northwest Nazarene University(Private),146000,152000,49,5
+1231,1237,Slippery Rock University of Pennsylvania(Out-of-State),146000,106000,68,4
+1232,1237,The University of Tampa(Private),146000,164000,59,4
+1233,1237,Urbana University(Private),146000,134000,34,4
+1234,1241,Clarion University of Pennsylvania(Out-of-State),145000,112000,49,4
+1235,1241,Davenport University(Private),145000,113000,41,5
+1236,1241,Mills College(Private),145000,240000,67,4
+1237,1241,New College of Florida(Out-of-State),145000,173000,63,4
+1238,1245,Auburn University at Montgomery(In-State),144000,75100,23,6
+1239,1245,Baldwin Wallace University(Private),144000,169000,67,4
+1240,1245,Clark University(Private),144000,204000,75,4
+1241,1245,Drew University(Private),144000,248000,61,4
+1242,1245,Franciscan University of Steubenville(Private),144000,144000,76,4
+1243,1245,Gustavus Adolphus College(Private),144000,209000,81,4
+1244,1245,Pontifical Catholic University of Puerto Rico-Ponce(Private),144000,58900,40,6
+1245,1245,Texas A & M University-Texarkana(Out-of-State),144000,111000,26,4
+1246,1245,Trinity International University-Illinois(Private),144000,165000,58,4
+1247,1245,University of North Alabama(In-State),144000,72300,43,5
+1248,1245,University of South Florida-St Petersburg(Out-of-State),144000,125000,36,5
+1249,1245,University of Southern Mississippi(Out-of-State),144000,117000,45,5
+1250,1257,Our Lady of the Lake University(Private),143000,152000,39,4
+1251,1257,Regis College(Private),143000,215000,54,5
+1252,1259,Concordia University-Chicago(Private),142000,163000,48,5
+1253,1259,Delaware State University(Out-of-State),142000,121000,43,5
+1254,1259,East Stroudsburg University of Pennsylvania(In-State),142000,87000,57,5
+1255,1259,King University(Private),142000,156000,45,4
+1256,1259,Nebraska Wesleyan University(Private),142000,168000,70,4
+1257,1264,Coastal Carolina University(In-State),141000,95700,42,5
+1258,1264,Eastern New Mexico University-Main Campus(Out-of-State),141000,90200,35,5
+1259,1264,Missouri Southern State University(Out-of-State),141000,83500,30,5
+1260,1264,Saint Vincent College(Private),141000,181000,73,4
+1261,1264,Southeastern Louisiana University(Out-of-State),141000,125000,40,5
+1262,1269,Mount Mercy University(Private),140000,164000,58,4
+1263,1269,University of North Carolina at Greensboro(In-State),140000,77600,54,5
+1264,1271,Bryan College-Dayton(Private),139000,133000,58,4
+1265,1271,Central College(Private),139000,189000,65,4
+1266,1271,Columbus State University(Out-of-State),139000,123000,30,5
+1267,1271,Jacksonville State University(Out-of-State),139000,112000,35,5
+1268,1271,Oklahoma Panhandle State University(In-State),139000,66700,24,4
+1269,1271,Plymouth State University(In-State),139000,109000,55,4
+1270,1271,Webster University(Private),139000,171000,59,4
+1271,1278,Missouri Western State University(In-State),138000,75200,31,5
+1272,1278,Mount Holyoke College(Private),138000,232000,84,4
+1273,1278,Oklahoma Panhandle State University(Out-of-State),138000,67600,24,4
+1274,1278,University of South Carolina-Beaufort(In-State),138000,88900,24,5
+1275,1282,Bryn Mawr College(Private),137000,252000,83,4
+1276,1282,California University of Pennsylvania(In-State),137000,101000,50,4
+1277,1282,University of Nebraska at Kearney(In-State),137000,83700,57,5
+1278,1282,University of Puerto Rico-Rio Piedras(In-State),137000,59400,53,5
+1279,1286,Pacific University(Private),136000,212000,58,4
+1280,1286,SUNY College at Cortland(In-State),136000,94400,74,4
+1281,1286,The College of Wooster(Private),136000,226000,76,4
+1282,1289,Carroll College(Private),135000,175000,66,4
+1283,1289,Langston University(Out-of-State),135000,100000,9,4
+1284,1289,Smith College(Private),135000,254000,89,4
+1285,1289,University of North Carolina School of the Arts(Out-of-State),135000,150000,62,4
+1286,1293,Champlain College(Private),134000,205000,62,4
+1287,1293,Southeast Missouri State University(In-State),134000,79700,49,5
+1288,1293,Southern Oregon University(In-State),134000,94400,39,5
+1289,1296,Appalachian State University(Out-of-State),133000,130000,72,4
+1290,1296,Chicago State University(In-State),133000,96500,16,6
+1291,1296,Northeastern State University(Out-of-State),133000,91400,27,5
+1292,1296,Universidad del Sagrado Corazon(Private),133000,80300,35,5
+1293,1296,University of Wisconsin-Superior(In-State),133000,75100,43,5
+1294,1296,Western Oregon University(In-State),133000,92100,39,5
+1295,1296,William Penn University(Private),133000,141000,33,5
+1296,1296,Winthrop University(In-State),133000,106000,58,4
+1297,1304,Emporia State University(In-State),132000,71900,44,5
+1298,1304,Georgia Southwestern State University(In-State),132000,79200,32,5
+1299,1304,Lycoming College(Private),132000,196000,72,4
+1300,1304,Mississippi College(Private),132000,117000,59,4
+1301,1304,Mount Saint Joseph University(Private),132000,151000,52,4
+1302,1304,University of Southern Maine(Out-of-State),132000,136000,34,5
+1303,1310,Paul Quinn College(Private),131000,88100,8,5
+1304,1310,University of Arkansas at Monticello(In-State),131000,69000,22,5
+1305,1310,William Carey University(Private),131000,104000,46,4
+1306,1313,Fairmont State University(Out-of-State),130000,103000,28,5
+1307,1313,Maryville University of Saint Louis(Private),130000,179000,75,4
+1308,1313,Southern Wesleyan University(Private),130000,141000,60,4
+1309,1316,New Mexico Highlands University(In-State),129000,67900,22,5
+1310,1316,Ohio Dominican University(Private),129000,174000,37,4
+1311,1316,SUNY College at Plattsburgh(Out-of-State),129000,129000,63,4
+1312,1316,Wheeling Jesuit University(Private),129000,150000,58,4
+1313,1320,Benedictine College(Private),128000,160000,63,4
+1314,1320,Colorado College(Private),128000,248000,87,4
+1315,1320,Minot State University(In-State),128000,66800,43,5
+1316,1320,Minot State University(Out-of-State),128000,66800,43,5
+1317,1320,University of Mary Hardin-Baylor(Private),128000,149000,48,4
+1318,1320,University of Puerto Rico-Rio Piedras(Out-of-State),128000,68500,53,5
+1319,1326,Cameron University(Out-of-State),127000,95000,19,5
+1320,1326,College of Charleston(In-State),127000,111000,69,4
+1321,1326,Kutztown University of Pennsylvania(In-State),127000,95100,55,5
+1322,1326,Madonna University(Private),127000,122000,58,5
+1323,1326,Montana State University-Northern(Out-of-State),127000,114000,26,5
+1324,1326,University of Southern Indiana(Out-of-State),127000,115000,38,5
+1325,1326,University of Wisconsin-Stevens Point(Out-of-State),127000,101000,63,5
+1326,1333,Armstrong State University(Out-of-State),126000,136000,33,5
+1327,1333,Northern Michigan University(In-State),126000,84600,46,5
+1328,1333,Reed College(Private),126000,253000,78,4
+1329,1333,University of Illinois at Springfield(In-State),126000,97100,50,4
+1330,1337,The University of Tennessee-Chattanooga(Out-of-State),125000,151000,44,5
+1331,1337,University of Dallas(Private),125000,204000,67,4
+1332,1337,Virginia State University(In-State),125000,85300,44,5
+1333,1340,Cornell College(Private),124000,206000,68,4
+1334,1340,Rockford University(Private),124000,162000,49,4
+1335,1342,Longwood University(Out-of-State),123000,156000,65,4
+1336,1342,Mount Vernon Nazarene University(Private),123000,148000,58,4
+1337,1342,New England College(Private),123000,202000,38,4
+1338,1342,Northwestern State University of Louisiana(Out-of-State),123000,122000,35,5
+1339,1342,The University of Montana(Out-of-State),123000,142000,45,5
+1340,1347,Avila University(Private),122000,151000,45,5
+1341,1347,Cleveland Institute of Art(Private),122000,221000,63,4
+1342,1347,Kentucky State University(Out-of-State),122000,112000,20,6
+1343,1347,Texas Lutheran University(Private),122000,159000,52,5
+1344,1347,Valdosta State University(In-State),122000,81800,36,5
+1345,1347,Westminster College (Pennsylvania)(Private),122000,184000,71,4
+1346,1353,Northwestern Oklahoma State University(In-State),121000,60700,26,5
+1347,1353,Ursuline College(Private),121000,162000,52,5
+1348,1355,Alverno College(Private),120000,147000,42,5
+1349,1355,California University of Pennsylvania(Out-of-State),120000,117000,50,4
+1350,1355,Francis Marion University(In-State),120000,87300,40,5
+1351,1355,Goucher College(Private),120000,225000,62,4
+1352,1355,Middle Tennessee State University(Out-of-State),120000,152000,43,5
+1353,1355,Texas Wesleyan University(Private),120000,153000,30,5
+1354,1355,University of North Alabama(Out-of-State),120000,96100,43,5
+1355,1355,University of Pittsburgh-Greensburg(In-State),120000,108000,58,5
+1356,1355,Wheaton College (Massachusetts)(Private),120000,244000,79,4
+1357,1364,Brescia University(Private),119000,126000,27,5
+1358,1364,California Baptist University(Private),119000,173000,60,4
+1359,1364,Cornerstone University(Private),119000,151000,54,4
+1360,1364,Johnson & Wales University-Denver(Private),119000,175000,64,4
+1361,1364,Morningside College(Private),119000,162000,54,4
+1362,1364,SUNY College at Brockport(Out-of-State),119000,127000,68,4
+1363,1364,University of Wisconsin-Green Bay(In-State),119000,74200,49,5
+1364,1371,Eureka College(Private),118000,125000,52,4
+1365,1371,Franklin College(Private),118000,166000,66,4
+1366,1371,Hardin-Simmons University(Private),118000,142000,52,4
+1367,1371,Heidelberg University(Private),118000,161000,49,4
+1368,1371,Mayville State University(In-State),118000,68500,31,5
+1369,1371,New Mexico Highlands University(Out-of-State),118000,78700,22,5
+1370,1371,Piedmont College(Private),118000,141000,50,4
+1371,1371,The University of Tennessee-Martin(In-State),118000,77500,50,5
+1372,1371,University of Maine at Fort Kent(In-State),118000,75600,35,5
+1373,1380,Johnson & Wales University-Providence(Private),117000,177000,62,4
+1374,1380,Luther College(Private),117000,202000,79,4
+1375,1380,Nicholls State University(Out-of-State),117000,124000,47,5
+1376,1380,North Park University(Private),117000,149000,53,4
+1377,1384,North Carolina Central University(In-State),116000,78900,43,5
+1378,1384,Palm Beach Atlantic University(Private),116000,165000,51,4
+1379,1384,Tennessee Wesleyan College(Private),116000,130000,46,4
+1380,1384,The Evergreen State College(Out-of-State),116000,145000,56,4
+1381,1384,The University of West Florida(Out-of-State),116000,130000,49,5
+1382,1389,Missouri Western State University(Out-of-State),115000,98000,31,5
+1383,1389,Montana State University-Billings(Out-of-State),115000,121000,24,5
+1384,1389,SUNY College of Agriculture and Technology at Cobleskill(In-State),115000,94300,41,4
+1385,1389,Western Carolina University(Out-of-State),115000,119000,57,5
+1386,1393,Centenary College of Louisiana(Private),114000,196000,47,4
+1387,1393,Central Methodist University-College of Liberal Arts and Sciences(Private),114000,139000,46,4
+1388,1393,College of Saint Benedict(Private),114000,210000,84,4
+1389,1393,Eastern Oregon University(Out-of-State),114000,126000,31,5
+1390,1393,MacMurray College(Private),114000,138000,23,5
+1391,1393,Marshall University(Out-of-State),114000,114000,45,5
+1392,1393,University of North Carolina Wilmington(Out-of-State),114000,141000,72,4
+1393,1393,Xavier University of Louisiana(Private),114000,135000,42,5
+1394,1402,Averett University(Private),113000,167000,42,4
+1395,1402,Southeast Missouri State University(Out-of-State),113000,101000,49,5
+1396,1402,Southwest Minnesota State University(Out-of-State),113000,80000,50,6
+1397,1402,Southwest Minnesota State University(In-State),113000,80000,50,6
+1398,1402,Tiffin University(Private),113000,144000,34,4
+1399,1402,University of Nebraska at Kearney(Out-of-State),113000,107000,57,5
+1400,1408,Hope College(Private),112000,168000,79,4
+1401,1408,Lubbock Christian University(Private),112000,130000,39,4
+1402,1408,Oklahoma Baptist University(Private),112000,142000,57,4
+1403,1408,Presbyterian College(Private),112000,195000,63,4
+1404,1412,Capital University(Private),111000,183000,59,4
+1405,1412,Huntingdon College(Private),111000,141000,39,4
+1406,1412,Murray State University(Out-of-State),111000,132000,49,5
+1407,1412,Saint John Fisher College(Private),111000,175000,73,4
+1408,1416,Mansfield University of Pennsylvania(In-State),110000,100000,51,5
+1409,1416,Rollins College(Private),110000,254000,72,4
+1410,1416,Wartburg College(Private),110000,192000,69,4
+1411,1416,Webber International University(Private),110000,155000,29,4
+1412,1420,Alvernia University(Private),109000,181000,53,4
+1413,1420,Belmont University(Private),109000,184000,70,4
+1414,1420,Centenary College(Private),109000,182000,60,4
+1415,1420,Indiana University-South Bend(Out-of-State),109000,122000,30,5
+1416,1424,Andrews University(Private),108000,149000,63,5
+1417,1424,Fort Lewis College(Out-of-State),108000,138000,45,5
+1418,1424,Mayville State University(Out-of-State),108000,78500,31,5
+1419,1424,Pfeiffer University(Private),108000,160000,38,4
+1420,1424,Sewanee-The University of the South(Private),108000,207000,82,4
+1421,1424,University of Arkansas at Monticello(Out-of-State),108000,92500,22,5
+1422,1424,Western State Colorado University(In-State),108000,85300,45,5
+1423,1424,Wisconsin Lutheran College(Private),108000,154000,61,4
+1424,1432,Chaminade University of Honolulu(Private),107000,149000,57,5
+1425,1432,Plymouth State University(Out-of-State),107000,141000,55,4
+1426,1432,William Jessup University(Private),107000,164000,65,4
+1427,1435,Chicago State University(Out-of-State),106000,124000,16,6
+1428,1435,Hanover College(Private),106000,187000,71,4
+1429,1435,University of West Georgia(Out-of-State),106000,130000,41,5
+1430,1438,Gordon College(Private),105000,188000,70,4
+1431,1438,Liberty University(Private),105000,141000,51,5
+1432,1438,Northern Michigan University(Out-of-State),105000,106000,46,5
+1433,1438,Wilmington College(Private),105000,159000,56,4
+1434,1442,Austin Peay State University(Out-of-State),104000,149000,38,5
+1435,1442,Erskine College(Private),104000,196000,63,4
+1436,1442,South Carolina State University(In-State),104000,113000,38,5
+1437,1445,Lourdes University(Private),103000,131000,28,5
+1438,1445,West Virginia Wesleyan College(Private),103000,169000,50,4
+1439,1447,Point Park University(Private),102000,167000,58,4
+1440,1447,Silver Lake College of the Holy Family(Private),102000,154000,44,4
+1441,1447,University of Maine at Fort Kent(Out-of-State),102000,92400,35,5
+1442,1447,University of Wisconsin-Superior(Out-of-State),102000,105000,43,5
+1443,1447,Wingate University(Private),102000,165000,54,4
+1444,1452,Lincoln Christian University(Private),101000,107000,61,4
+1445,1452,St. John's College(Private),101000,246000,49,4
+1446,1454,East Tennessee State University(In-State),100000,93500,40,5
+1447,1454,Wayne State College(In-State),100000,65400,48,5
+1448,1456,East Stroudsburg University of Pennsylvania(Out-of-State),99900,129000,57,5
+1449,1456,Valley City State University(In-State),99900,70400,35,5
+1450,1458,Columbia College-Chicago(Private),99800,167000,45,4
+1451,1459,SUNY Buffalo State(In-State),99700,92000,50,5
+1452,1460,Bethel College-North Newton(Private),99200,150000,53,4
+1453,1461,Belhaven University(Private),99000,135000,36,4
+1454,1462,Lynchburg College(Private),98500,188000,56,4
+1455,1462,SUNY at Fredonia(In-State),98500,91000,62,4
+1456,1462,Southern Arkansas University Main Campus(In-State),98500,82800,35,5
+1457,1465,Oberlin College(Private),98400,262000,85,4
+1458,1466,University of South Carolina-Beaufort(Out-of-State),97900,129000,24,5
+1459,1467,Massachusetts College of Liberal Arts(In-State),97800,90300,53,4
+1460,1468,Tusculum College(Private),97700,145000,41,5
+1461,1469,Lander University(In-State),97000,90700,43,4
+1462,1470,SUNY College at Cortland(Out-of-State),96900,133000,74,4
+1463,1470,Waynesburg University(Private),96900,133000,60,4
+1464,1472,Wilberforce University(Private),96400,102000,21,5
+1465,1473,Ball State University(Out-of-State),96300,154000,58,4
+1466,1474,Bethany College (West Virginia)(Private),96100,160000,41,4
+1467,1475,Pitzer College(Private),95800,259000,88,4
+1468,1476,Union University(Private),95600,188000,68,4
+1469,1477,San Francisco Art Institute(Private),95300,251000,40,4
+1470,1478,Methodist University(Private),95200,201000,39,5
+1471,1479,Auburn University at Montgomery(Out-of-State),95000,124000,23,6
+1472,1479,College of Saint Mary(Private),95000,155000,40,4
+1473,1481,Hendrix College(Private),94800,221000,69,4
+1474,1482,Northwestern Oklahoma State University(Out-of-State),94700,86500,26,5
+1475,1483,Bethel University (Tennessee)(Private),94500,122000,35,5
+1476,1484,Lewis & Clark College(Private),94400,234000,79,4
+1477,1485,Cumberland University(Private),94200,139000,55,5
+1478,1485,Knox College(Private),94200,208000,77,4
+1479,1487,The College of New Rochelle(Private),93900,200000,35,5
+1480,1488,Concord University(In-State),93700,75000,34,5
+1481,1489,Crown College(Private),93600,146000,48,4
+1482,1490,Henderson State University(In-State),93400,79900,34,5
+1483,1491,Eastern Mennonite University(Private),93300,178000,62,4
+1484,1492,Judson University(Private),92800,163000,64,4
+1485,1492,Lee University(Private),92800,113000,50,4
+1486,1494,Georgia Southwestern State University(Out-of-State),91500,120000,32,5
+1487,1495,Georgia College and State University(Out-of-State),91000,176000,59,4
+1488,1496,Coe College(Private),90800,201000,67,4
+1489,1497,Georgetown College(Private),90600,184000,57,4
+1490,1498,LaGrange College(Private),90400,169000,47,4
+1491,1498,Randolph-Macon College(Private),90400,200000,59,4
+1492,1500,University of Illinois at Springfield(Out-of-State),90200,133000,50,4
+1493,1501,Randolph College(Private),89800,196000,60,4
+1494,1502,Ringling College of Art and Design(Private),89600,240000,69,4
+1495,1503,Concordia College at Moorhead(Private),88900,181000,73,4
+1496,1504,University of Wisconsin-Green Bay(Out-of-State),88700,105000,49,5
+1497,1505,Spring Arbor University(Private),88500,145000,54,5
+1498,1506,Rocky Mountain College(Private),88100,150000,48,4
+1499,1507,Corban University(Private),87900,169000,59,4
+1500,1507,Thiel College(Private),87900,173000,42,4
+1501,1509,Adams State University(In-State),87200,84200,25,5
+1502,1509,Arcadia University(Private),87200,218000,61,4
+1503,1511,Coastal Carolina University(Out-of-State),86700,150000,42,5
+1504,1512,Catawba College(Private),86500,170000,53,4
+1505,1512,Drury University(Private),86500,147000,58,4
+1506,1512,Florida Southern College(Private),86500,176000,59,4
+1507,1515,West Virginia State University(In-State),86300,81400,29,5
+1508,1516,Indiana University-Southeast(In-State),86000,79300,32,5
+1509,1517,Virginia State University(Out-of-State),85500,125000,44,5
+1510,1518,Kutztown University of Pennsylvania(Out-of-State),84900,138000,55,5
+1511,1518,Milwaukee Institute of Art & Design(Private),84900,180000,60,4
+1512,1520,Greenville College(Private),84700,145000,47,4
+1513,1520,Southern Arkansas University Main Campus(Out-of-State),84700,96700,35,5
+1514,1522,Loyola University New Orleans(Private),84600,212000,55,4
+1515,1523,Midland University(Private),84400,160000,46,4
+1516,1524,Roanoke College(Private),84300,218000,63,4
+1517,1525,Carlow University(Private),83900,160000,57,4
+1518,1526,Northern State University(In-State),83700,79100,46,5
+1519,1527,Wesley College(Private),83500,159000,22,5
+1520,1528,Defiance College(Private),83000,175000,42,5
+1521,1529,Wayne State College(Out-of-State),82900,83000,48,5
+1522,1530,Emporia State University(Out-of-State),82400,122000,44,5
+1523,1531,Southwest Baptist University(Private),82200,128000,48,4
+1524,1532,Francis Marion University(Out-of-State),82000,125000,40,5
+1525,1533,Delta State University(In-State),81700,75100,35,5
+1526,1533,Delta State University(Out-of-State),81700,75100,35,5
+1527,1535,Fisk University(Private),81600,151000,32,4
+1528,1536,University of North Carolina at Greensboro(Out-of-State),81400,136000,54,5
+1529,1537,Chadron State College(In-State),80900,72500,43,5
+1530,1537,University of Mobile(Private),80900,139000,48,5
+1531,1537,Winthrop University(Out-of-State),80900,159000,58,4
+1532,1540,Chadron State College(Out-of-State),80800,72600,43,5
+1533,1541,Sul Ross State University(In-State),80500,76700,16,4
+1534,1542,Bluffton University(Private),80100,174000,49,4
+1535,1542,Mount Aloysius College(Private),80100,144000,38,5
+1536,1544,Muskingum University(Private),79700,152000,54,4
+1537,1545,Norfolk State University(In-State),79500,91700,35,4
+1538,1546,Southern Oregon University(Out-of-State),79400,149000,39,5
+1539,1546,Sweet Briar College(Private),79400,204000,61,4
+1540,1548,Valdosta State University(Out-of-State),79200,124000,36,5
+1541,1548,Western Oregon University(Out-of-State),79200,146000,39,5
+1542,1550,Sarah Lawrence College(Private),79000,266000,82,4
+1543,1551,Springfield College(Private),78700,194000,70,4
+1544,1552,Bard College(Private),78100,263000,78,4
+1545,1553,University of Arkansas at Pine Bluff(In-State),77700,69800,24,5
+1546,1554,Lock Haven University(In-State),77500,94100,48,4
+1547,1555,Lenoir-Rhyne University(Private),77400,185000,48,4
+1548,1556,University of Pittsburgh-Greensburg(Out-of-State),76600,152000,58,5
+1549,1557,SUNY College of Agriculture and Technology at Cobleskill(Out-of-State),76500,133000,41,4
+1550,1558,University of the Ozarks(Private),76100,146000,42,4
+1551,1559,Freed-Hardeman University(Private),75900,134000,57,4
+1552,1560,Georgian Court University(Private),75800,185000,42,5
+1553,1561,Houghton College(Private),75600,165000,72,4
+1554,1562,Grace College and Theological Seminary(Private),75100,135000,61,4
+1555,1563,Clark Atlanta University(Private),75000,147000,38,5
+1556,1564,Lincoln University (Missouri)(In-State),74900,68200,22,5
+1557,1565,Edinboro University of Pennsylvania(In-State),74100,89000,44,5
+1558,1566,Northern State University(Out-of-State),73800,89100,46,5
+1559,1566,Quincy University(Private),73800,160000,51,4
+1560,1568,Illinois College(Private),73600,164000,68,4
+1561,1569,Carroll University(Private),73500,168000,63,4
+1562,1570,University of North Carolina at Asheville(In-State),73200,78300,62,5
+1563,1571,Simpson University(Private),73100,148000,47,4
+1564,1572,Bridgewater College(Private),72800,183000,66,4
+1565,1573,Lasell College(Private),71900,193000,51,4
+1566,1574,Anna Maria College(Private),71700,205000,39,4
+1567,1575,Mount Mary University(Private),71300,163000,43,5
+1568,1576,Gallaudet University(Private),70500,138000,43,5
+1569,1577,Elmira College(Private),70100,210000,60,4
+1570,1578,The University of Tennessee-Martin(Out-of-State),70000,125000,50,5
+1571,1579,Moody Bible Institute(Private),69800,105000,61,4
+1572,1580,North Carolina Central University(Out-of-State),69600,125000,43,5
+1573,1581,Stetson University(Private),69400,227000,64,4
+1574,1582,Mansfield University of Pennsylvania(Out-of-State),69200,141000,51,5
+1575,1583,Malone University(Private),69100,161000,53,4
+1576,1583,West Liberty University(In-State),69100,84100,43,5
+1577,1585,Earlham College(Private),68700,222000,71,4
+1578,1585,University of Hawaii at Hilo(In-State),68700,80500,35,5
+1579,1587,Le Moyne-Owen College(Private),68000,74600,14,6
+1580,1588,Henderson State University(Out-of-State),67500,106000,34,5
+1581,1589,Millikin University(Private),66600,173000,60,4
+1582,1590,Ashland University(Private),66500,143000,63,4
+1583,1590,Midway University(Private),66500,153000,65,4
+1584,1592,Newbury College(Private),66200,190000,42,4
+1585,1593,Valley City State University(Out-of-State),66000,104000,35,5
+1586,1594,Western State Colorado University(Out-of-State),65800,128000,45,5
+1587,1595,Flagler College-St Augustine(Private),65600,123000,60,4
+1588,1596,South Carolina State University(Out-of-State),65500,152000,38,5
+1589,1597,Barton College(Private),65400,168000,52,4
+1590,1598,Bethel College-Indiana(Private),65300,150000,65,4
+1591,1599,Edinboro University of Pennsylvania(Out-of-State),65000,98100,44,5
+1592,1600,Maryland Institute College of Art(Private),64700,232000,73,4
+1593,1601,Bethune-Cookman University(Private),64100,110000,33,5
+1594,1602,Cedar Crest College(Private),63800,191000,56,4
+1595,1603,The Sage Colleges(Private),63000,174000,58,4
+1596,1604,Southwestern Assemblies of God University(Private),62800,131000,41,5
+1597,1605,Lyon College(Private),62500,143000,39,4
+1598,1606,Chestnut Hill College(Private),62200,188000,48,4
+1599,1607,Concord University(Out-of-State),62100,107000,34,5
+1600,1608,Massachusetts College of Liberal Arts(Out-of-State),62000,126000,53,4
+1601,1609,Glenville State College(In-State),61800,88700,35,5
+1602,1610,Grambling State University(In-State),61100,98000,34,4
+1603,1610,Reinhardt University(Private),61100,138000,32,4
+1604,1612,SUNY Buffalo State(Out-of-State),60900,131000,50,5
+1605,1613,Castleton University(In-State),60700,91500,48,4
+1606,1614,Southern University at New Orleans(In-State),60500,70000,16,5
+1607,1615,Missouri Baptist University(Private),60000,142000,36,4
+1608,1616,Northwest Christian University(Private),59800,155000,51,4
+1609,1616,Rochester College(Private),59800,120000,26,5
+1610,1618,SUNY at Fredonia(Out-of-State),59700,130000,62,4
+1611,1619,Judson College(Private),59600,121000,33,4
+1612,1620,Lander University(Out-of-State),59500,128000,43,4
+1613,1621,Delaware Valley University(Private),59400,200000,57,4
+1614,1622,Olivet College(Private),59100,145000,48,4
+1615,1623,Johnson & Wales University-Charlotte(Private),58800,178000,57,5
+1616,1624,Medaille College(Private),58700,160000,43,4
+1617,1625,Lyndon State College(In-State),58500,91600,38,5
+1618,1626,Kansas Wesleyan University(Private),58300,156000,36,5
+1619,1627,Berry College(Private),57800,183000,66,4
+1620,1628,College of Charleston(Out-of-State),57700,180000,69,4
+1621,1629,Cornish College of the Arts(Private),57500,207000,48,4
+1622,1630,University of Maine at Farmington(In-State),57200,86300,56,4
+1623,1631,The College of Saint Rose(Private),57000,177000,60,4
+1624,1632,Niagara University(Private),55900,177000,67,4
+1625,1633,The University of Virginia's College at Wise(In-State),55800,91600,44,5
+1626,1634,San Diego Christian College(Private),55300,172000,52,4
+1627,1635,University of Arkansas at Pine Bluff(Out-of-State),54400,93100,24,5
+1628,1636,Ohio Christian University(Private),54300,134000,34,4
+1629,1637,Gardner-Webb University(Private),53800,161000,45,4
+1630,1638,William Peace University(Private),53700,162000,42,4
+1631,1639,West Virginia State University(Out-of-State),52600,115000,29,5
+1632,1640,Clarke University(Private),52400,171000,61,4
+1633,1641,University of Sioux Falls(Private),52200,149000,53,4
+1634,1642,University of Charleston(Private),51900,153000,40,4
+1635,1643,Finlandia University(Private),51800,136000,29,5
+1636,1644,Hope International University(Private),51600,168000,43,4
+1637,1644,University of North Carolina at Pembroke(In-State),51600,73700,36,5
+1638,1646,SUNY College at Potsdam(In-State),51400,89400,52,4
+1639,1647,Union College (Kentucky)(Private),50400,143000,27,4
+1640,1648,Southern University at New Orleans(Out-of-State),50300,80200,16,5
+1641,1649,Mississippi University for Women(In-State),49900,70800,46,5
+1642,1649,Stephens College(Private),49900,172000,48,4
+1643,1651,University of West Alabama(In-State),49700,76000,31,5
+1644,1652,Bluefield College(Private),49400,146000,32,4
+1645,1652,Lincoln University (Missouri)(Out-of-State),49400,93800,22,5
+1646,1654,University of Dubuque(Private),48900,151000,45,4
+1647,1655,Columbus College of Art and Design(Private),48300,179000,61,4
+1648,1656,Cincinnati Christian University(Private),48000,117000,41,5
+1649,1657,Greensboro College(Private),47900,160000,44,4
+1650,1657,Mary Baldwin College(Private),47900,167000,46,4
+1651,1659,Iowa Wesleyan University(Private),47800,158000,28,4
+1652,1660,Spring Hill College(Private),47700,198000,53,4
+1653,1661,Oral Roberts University(Private),47300,153000,57,4
+1654,1662,Anderson University (Indiana)(Private),46900,163000,58,4
+1655,1663,Savannah College of Art and Design(Private),45200,212000,67,4
+1656,1664,School of the Art Institute of Chicago(Private),45100,241000,66,5
+1657,1665,Morehead State University(In-State),44800,79800,45,5
+1658,1666,Adams State University(Out-of-State),44200,127000,25,5
+1659,1666,Sul Ross State University(Out-of-State),44200,113000,16,4
+1660,1668,Grace University(Private),43800,125000,66,4
+1661,1669,Lock Haven University(Out-of-State),43200,128000,48,4
+1662,1670,Goshen College(Private),43000,173000,68,4
+1663,1671,Calvary Bible College and Theological Seminary(Private),42400,74100,68,5
+1664,1672,Faulkner University(Private),41600,128000,33,5
+1665,1673,Evangel University(Private),41300,133000,55,4
+1666,1674,Southern Vermont College(Private),41200,146000,29,5
+1667,1675,Concordia University-Nebraska(Private),41000,148000,67,4
+1668,1676,Indiana University-Southeast(Out-of-State),40700,125000,32,5
+1669,1677,Lynn University(Private),40200,207000,45,4
+1670,1678,West Liberty University(Out-of-State),39900,113000,43,5
+1671,1679,University of Northwestern-St Paul(Private),39700,164000,63,4
+1672,1680,Maryville College(Private),39600,185000,55,4
+1673,1681,Johnson State College(In-State),39300,91600,35,5
+1674,1682,La Roche College(Private),38600,160000,55,4
+1675,1683,Savannah State University(In-State),37800,66900,27,5
+1676,1684,Hamline University(Private),37300,194000,59,4
+1677,1685,Alabama State University(In-State),36900,75300,22,5
+1678,1686,Guilford College(Private),36700,189000,61,4
+1679,1687,Sterling College(Private),36100,132000,45,4
+1680,1688,Virginia Wesleyan College(Private),35700,188000,44,4
+1681,1689,Kentucky Wesleyan College(Private),35500,139000,38,4
+1682,1690,Lincoln Memorial University(Private),35200,144000,64,4
+1683,1691,Point University(Private),34900,114000,34,4
+1684,1692,Berklee College of Music(Private),34800,241000,61,4
+1685,1693,East Tennessee State University(Out-of-State),34300,159000,40,5
+1686,1694,Dillard University(Private),34100,124000,39,4
+1687,1695,Howard Payne University(Private),33500,145000,41,4
+1688,1696,Charleston Southern University(Private),33400,149000,36,4
+1689,1697,Mount Marty College(Private),33300,145000,48,4
+1690,1698,Robert Morris University Illinois(Private),32800,166000,41,4
+1691,1699,Western New Mexico University(In-State),32600,85200,20,5
+1692,1700,Southeastern Bible College(Private),31300,81100,36,5
+1693,1701,Lake Erie College(Private),30500,168000,45,4
+1694,1702,Norfolk State University(Out-of-State),30000,141000,35,4
+1695,1703,Fayetteville State University(In-State),29500,59800,32,5
+1696,1704,Virginia Union University(Private),28200,115000,33,5
+1697,1705,Glenville State College(Out-of-State),27300,123000,35,5
+1698,1706,Jackson State University(In-State),26800,87200,38,5
+1699,1707,Elizabeth City State University(In-State),26000,53900,37,5
+1700,1708,Albany State University(In-State),25800,75500,31,5
+1701,1708,Johnson & Wales University-North Miami(Private),25800,177000,42,5
+1702,1710,Beloit College(Private),25700,215000,73,4
+1703,1710,Multnomah University(Private),25700,147000,48,4
+1704,1712,Grambling State University(Out-of-State),24500,135000,34,4
+1705,1713,Black Hills State University(In-State),23600,77500,39,5
+1706,1714,Northwestern College(Private),22500,165000,64,4
+1707,1715,Notre Dame College(Private),22300,163000,35,4
+1708,1716,University of West Alabama(Out-of-State),21900,104000,31,5
+1709,1717,University of Maine at Farmington(Out-of-State),21400,122000,56,4
+1710,1718,Culver-Stockton College(Private),21300,146000,47,4
+1711,1719,Edward Waters College(Private),21200,98100,26,5
+1712,1720,University of Hawaii at Hilo(Out-of-State),19500,130000,35,5
+1713,1721,Carson-Newman University(Private),19300,150000,49,4
+1714,1722,Southeastern University(Private),18500,141000,41,4
+1715,1723,Alcorn State University(In-State),16000,87100,31,5
+1716,1723,Alcorn State University(Out-of-State),16000,87100,31,5
+1717,1725,Life Pacific College(Private),15900,102000,50,4
+1718,1726,Mercyhurst University(Private),14800,189000,67,4
+1719,1727,Cheyney University of Pennsylvania(In-State),14300,100000,16,5
+1720,1728,Lyndon State College(Out-of-State),13700,136000,38,5
+1721,1729,Black Hills State University(Out-of-State),13600,87400,39,5
+1722,1730,Lancaster Bible College(Private),13000,126000,62,4
+1723,1731,Marygrove College(Private),12600,124000,24,5
+1724,1731,SUNY College at Potsdam(Out-of-State),12600,128000,52,4
+1725,1733,University of North Carolina at Asheville(Out-of-State),12500,139000,62,5
+1726,1734,Art Academy of Cincinnati(Private),11700,158000,52,4
+1727,1734,Colby-Sawyer College(Private),11700,217000,59,4
+1728,1736,University of North Carolina at Pembroke(Out-of-State),11000,114000,36,5
+1729,1737,Newberry College(Private),10900,161000,44,5
+1730,1738,New Orleans Baptist Theological Seminary(Private),10800,59500,65,5
+1731,1739,Mississippi University for Women(Out-of-State),9800,111000,46,5
+1732,1740,East Texas Baptist University(Private),9500,140000,38,4
+1733,1741,Alabama State University(Out-of-State),9100,103000,22,5
+1734,1742,Marywood University(Private),8900,193000,66,4
+1735,1743,Hampshire College(Private),8300,251000,65,4
+1736,1744,Central State University(In-State),7900,73500,26,5
+1737,1745,Ripon College(Private),7500,183000,68,4
+1738,1746,Morehead State University(Out-of-State),5300,119000,45,5
+1739,1747,Johnson C Smith University(Private),3100,129000,51,4
+1740,1748,Wiley College(Private),2700,89000,19,6
+1741,1749,Kentucky Christian University(Private),2300,124000,29,4
+1742,1750,Castleton University(Out-of-State),1500,151000,48,4
+1743,1751,Western New Mexico University(Out-of-State),1200,117000,20,5
+1744,1752,Chatham University(Private),-200,192000,52,4
+1745,1754,Hannibal-LaGrange University(Private),-1000,126000,51,5
+1746,1754,Manchester University(Private),-1000,166000,57,4
+1747,1756,University of the Cumberlands(Private),-1200,141000,43,4
+1748,1757,Philander Smith College(Private),-2100,102000,40,5
+1749,1758,Savannah State University(Out-of-State),-2500,107000,27,5
+1750,1759,Ferrum College(Private),-3400,172000,30,5
+1751,1760,Bay Path University(Private),-4300,186000,61,4
+1752,1761,Asbury University(Private),-4400,150000,64,4
+1753,1762,Nazareth College(Private),-5200,185000,69,4
+1754,1763,Maranatha Baptist University(Private),-5400,101000,52,5
+1755,1764,Cheyney University of Pennsylvania(Out-of-State),-5700,120000,16,5
+1756,1765,Buena Vista University(Private),-6300,171000,53,4
+1757,1766,Schreiner University(Private),-7600,146000,45,4
+1758,1766,The University of Virginia's College at Wise(Out-of-State),-7600,155000,44,5
+1759,1768,William Woods University(Private),-7900,147000,54,4
+1760,1769,Wells College(Private),-9300,207000,53,4
+1761,1770,Johnson State College(Out-of-State),-9500,140000,35,5
+1762,1771,University of Maine at Presque Isle(In-State),-11400,74300,38,5
+1763,1772,Prescott College(Private),-11900,161000,31,4
+1764,1773,Jackson State University(Out-of-State),-12300,126000,38,5
+1765,1774,University of Pittsburgh-Bradford(In-State),-14000,104000,50,5
+1766,1775,Kansas City Art Institute(Private),-15300,207000,58,4
+1767,1776,Warren Wilson College(Private),-15400,184000,51,4
+1768,1777,The University of the Arts(Private),-15500,237000,62,4
+1769,1778,Fayetteville State University(Out-of-State),-16100,105000,32,5
+1770,1779,Anderson University (South Carolina)(Private),-16600,155000,53,4
+1771,1780,Huntington University(Private),-16700,146000,65,4
+1772,1781,Central State University(Out-of-State),-16800,98200,26,5
+1773,1782,Albany State University(Out-of-State),-16900,118000,31,5
+1774,1783,Seton Hill University(Private),-17400,185000,56,4
+1775,1784,Fort Valley State University(In-State),-17600,81500,25,5
+1776,1785,Concordia University-Ann Arbor(Private),-17800,156000,40,5
+1777,1786,Briar Cliff University(Private),-19800,161000,44,4
+1778,1787,University of Montevallo(In-State),-20200,99200,50,5
+1779,1788,College of the Ozarks(Private),-20600,113000,69,4
+1780,1789,Agnes Scott College(Private),-21600,199000,70,4
+1781,1790,Elizabeth City State University(Out-of-State),-21900,102000,37,5
+1782,1790,Meredith College(Private),-21900,181000,61,4
+1783,1792,Wesleyan College(Private),-22700,132000,58,4
+1784,1793,University of Maine at Machias(In-State),-23300,76500,29,5
+1785,1794,Bennett College(Private),-23400,128000,42,5
+1786,1795,Mars Hill University(Private),-24400,160000,34,4
+1787,1796,Oakwood University(Private),-25000,144000,47,5
+1788,1797,Blackburn College(Private),-25600,114000,42,4
+1789,1798,Hilbert College(Private),-27000,125000,43,4
+1790,1799,The University of Montana-Western(In-State),-27200,64800,46,5
+1791,1800,Mount Ida College(Private),-27400,189000,43,4
+1792,1801,University of South Carolina-Aiken(In-State),-28100,92000,42,5
+1793,1802,Hollins University(Private),-28800,201000,53,4
+1794,1803,University of Science and Arts of Oklahoma(In-State),-30900,65000,39,4
+1795,1804,Bennington College(Private),-31000,260000,70,4
+1796,1805,Dakota Wesleyan University(Private),-31500,141000,48,5
+1797,1806,University of Maine at Presque Isle(Out-of-State),-31600,94400,38,5
+1798,1807,Harris-Stowe State University(In-State),-33100,77400,6,6
+1799,1808,Missouri Valley College(Private),-36300,123000,28,5
+1800,1809,Adrian College(Private),-37600,187000,53,4
+1801,1810,Trinity Bible College(Private),-40100,105000,36,5
+1802,1811,Northland College(Private),-41200,174000,50,4
+1803,1812,Alice Lloyd College(Private),-42500,92900,31,4
+1804,1813,Green Mountain College(Private),-42900,190000,49,4
+1805,1814,The Southern Baptist Theological Seminary(Private),-43300,103000,33,5
+1806,1815,Moore College of Art and Design(Private),-43800,216000,57,4
+1807,1816,Keystone College(Private),-44000,152000,42,4
+1808,1817,Columbia College (South Carolina)(Private),-44300,163000,50,4
+1809,1818,North Central University(Private),-46200,127000,48,4
+1810,1819,Texas College(Private),-46900,84000,18,5
+1811,1820,Aquinas College (Michigan)(Private),-49500,158000,53,5
+1812,1821,Chowan University(Private),-51500,136000,23,5
+1813,1822,Harris-Stowe State University(Out-of-State),-51700,95900,6,6
+1814,1822,Salem College(Private),-51700,173000,57,4
+1815,1824,Lane College(Private),-51900,79800,20,4
+1816,1825,Fort Valley State University(Out-of-State),-52600,116000,25,5
+1817,1826,Berea College(Private),-53600,135000,63,4
+1818,1827,Coker College(Private),-54400,147000,48,4
+1819,1828,Summit University of Pennsylvania(Private),-54500,121000,55,4
+1820,1829,Tougaloo College(Private),-54900,83900,42,5
+1821,1830,Lees-McRae College(Private),-56400,163000,38,4
+1822,1831,University of Pittsburgh-Bradford(Out-of-State),-57300,147000,50,5
+1823,1832,University of Pikeville(Private),-57600,141000,27,5
+1824,1833,Livingstone College(Private),-58300,107000,25,5
+1825,1834,Saint Mary-of-the-Woods College(Private),-58500,174000,45,4
+1826,1835,Baptist Bible College(Private),-59200,78400,27,4
+1827,1836,Converse College(Private),-61200,137000,55,4
+1828,1837,Toccoa Falls College(Private),-61300,134000,49,4
+1829,1838,Bethany College (Kansas)(Private),-61800,154000,42,4
+1830,1839,North Greenville University(Private),-62100,127000,57,4
+1831,1840,University of Valley Forge(Private),-62400,129000,39,4
+1832,1841,The Baptist College of Florida(Private),-63400,68500,53,5
+1833,1842,Florida Memorial University(Private),-64000,109000,38,6
+1834,1843,University of Montevallo(Out-of-State),-64100,143000,50,5
+1835,1844,University of Science and Arts of Oklahoma(Out-of-State),-65500,99700,39,4
+1836,1845,Davis & Elkins College(Private),-66000,160000,44,4
+1837,1845,University of South Carolina-Aiken(Out-of-State),-66000,130000,42,5
+1838,1847,Emmanuel College (Georgia)(Private),-70600,112000,28,5
+1839,1848,University of Maine at Machias(Out-of-State),-70700,124000,29,5
+1840,1849,The University of Montana-Western(Out-of-State),-71400,109000,46,5
+1841,1850,Campbellsville University(Private),-76800,143000,36,4
+1842,1851,Saint Augustine's University(Private),-77700,129000,23,4
+1843,1852,Stillman College(Private),-80400,98700,18,5
+1844,1853,Ozark Christian College(Private),-81100,80400,40,5
+1845,1854,Unity College(Private),-82100,151000,58,4
+1846,1855,Paul Smiths College of Arts and Science(Private),-84900,169000,45,4
+1847,1856,Wilson College(Private),-86700,156000,59,5
+1848,1857,Faith Baptist Bible College and Theological Seminary(Private),-87300,109000,63,5
+1849,1858,Emory & Henry College(Private),-91300,179000,51,4
+1850,1859,Brewton-Parker College(Private),-92200,113000,23,4
+1851,1860,Shaw University(Private),-93600,118000,19,5
+1852,1861,Paine College(Private),-94700,97500,20,5
+1853,1862,Rust College(Private),-97100,63400,33,4
+1854,1863,Johnson University(Private),-97900,89800,56,4
+1855,1864,Cazenovia College(Private),-98600,184000,43,4
+1856,1865,St Andrews University(Private),-98800,167000,36,4
+1857,1866,Benedict College(Private),-105600,124000,22,5
+1858,1867,Morris College(Private),-106800,92200,22,5
+1859,1868,Montserrat College of Art(Private),-107400,169000,56,4
+1860,1869,Columbia International University(Private),-115700,133000,74,4
+1861,1870,Martin Luther College(Private),-123200,93300,73,5
+1862,1871,Claflin University(Private),-133900,128000,56,4
+1863,1872,Wheelock College(Private),-140700,201000,61,4
+1864,1873,Voorhees College(Private),-153400,97000,26,5
+1865,1874,Talladega College(Private),-156900,88200,43,4
+1866,1875,Lindsey Wilson College(Private),-160800,152000,34,5
+1867,1876,Maine College of Art(Private),-163600,184000,57,4
+1868,1877,Miles College(Private),-164600,90200,17,4
+1869,1878,Mississippi Valley State University(In-State),-174800,75700,31,5
+1870,1878,Mississippi Valley State University(Out-of-State),-174800,75700,31,5
