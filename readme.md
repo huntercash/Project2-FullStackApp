@@ -37,6 +37,10 @@ Our project is to create an online application for people to perform their own d
 ### Data Sources:
 - https://catalog.data.gov/dataset/national-student-loan-data-system
 - http://tuitiontracker.org/
+- https://www.newyorkfed.org/
+- https://www.bls.gov/
+- https://www.payscale.com/
+- https://www.experian.com/blogs/ask-experian/state-of-student-loan-debt/
 
 ### Respository:
 - https://github.com/huntercash/Project2-FullStackApp
