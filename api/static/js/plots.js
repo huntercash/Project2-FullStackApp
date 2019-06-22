@@ -324,7 +324,7 @@ d3.csv("/static/csv/serious_deliquency.csv").then(function(serious_deliquency) {
   var data = [trace1, trace2, trace3, trace4, trace5];
   
   var layout = {
-    title: 'Loans By Age Group',
+    title: 'Serious Delinquency Loans (90+ Days) By Age Group',
     xaxis: {
       title: 'Year'
     },
